@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/stepcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/frontraise_count"
+                android:textColor="@color/abc_search_url_text_selected"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/valstepcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:text="0 Steps"
+                android:textColor="@color/wallet_holo_blue_light"
+                android:textSize="15dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/steptime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fronttime"
+                android:textColor="@color/abc_search_url_text_selected"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/valsteptime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:text="@string/date"
+                android:textColor="@color/wallet_holo_blue_light"
+                android:textSize="15dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date"
+                android:textColor="@color/abc_search_url_text_selected"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/valdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:text="@string/date"
+                android:textColor="@color/wallet_holo_blue_light"
+                android:textSize="15dp" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

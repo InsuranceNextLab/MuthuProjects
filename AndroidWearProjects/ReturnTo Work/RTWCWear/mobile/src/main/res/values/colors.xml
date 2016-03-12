@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cardtitle">#366078</color>
+    <color name="cardborder">#7E7E7E</color>
+    <color name="cardsfont">#798188</color>
+    <color name="cardsaction">#4A82A2</color>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cognizant.workactivate"  android:versionCode="1">
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BODY_SENSORS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launchericon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.DeviceDefault">
+        <activity
+            android:name="com.insurancenext.rtwcwear.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="vnd.google.fitness.TRACK" />
+
+                <data android:mimeType="vnd.google.fitness.activity/other" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.insurancenext.rtwcwear.StepcountActivity"
+            android:label="@string/title_activity_stepcount"
+            android:launchMode="singleTask" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <service
+            android:name="com.insurancenext.rtwcwear.services.StepCounter"
+            android:enabled="true" />
+        <service android:name="com.insurancenext.rtwcwear.services.ListenerService">
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.insurancenext.rtwcwear.Rotatewrist"
+            android:label="@string/title_activity_rotatewrist"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.insurancenext.rtwcwear.Elbow"
+            android:label="@string/title_activity_elbow"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.insurancenext.rtwcwear.SideRaise"
+            android:label="@string/title_activity_side_raise"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.insurancenext.rtwcwear.FrontRaise"
+            android:label="@string/title_activity_front_raise"
+            android:launchMode="singleTask"></activity>
+    </application>
+
+</manifest>

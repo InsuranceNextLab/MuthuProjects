@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Work Activate</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_stepcountdown_view">StepcountdownView</string>
+    <string name="stepcount">Step You Walked:</string>
+    <string name="bicepscount">Biceps Count:</string>
+    <string name="frontraise_count">FrontRaise Count:</string>
+    <string name="sideraise_count">SideRaise Count:</string>
+    <string name="steptime"> Time You Walked:</string>
+    <string name="bicepstime"> Biceps Time:</string>
+    <string name="fronttime"> FrontRaise Time:</string>
+    <string name="sidetime"> SideRaise Time:</string>
+    <string name="date">Date:</string>
+    <string name="title_activity_front_raise_view">FrontRaiseView</string>
+    <string name="title_activity_side_raise_view">SideRaiseView</string>
+    <string name="title_activity_biceps_view">BicepsView</string>
+</resources>
