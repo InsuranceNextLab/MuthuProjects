@@ -133,7 +133,7 @@ public class FrontRaise extends Activity implements SensorEventListener, Stopwat
         float x = event.values[0];
         float y = event.values[1];
         float z = event.values[2];
-        Log.d("XYZ Values", x + " == " + y + " == " + z);
+        //Log.d("XYZ Values", x + " == " + y + " == " + z);
 
         if (source.getType() == Sensor.TYPE_GRAVITY) {
             if (up_flag && z > POSITIVE_GRAVITY_Z_THRESHOLD) {
@@ -178,7 +178,7 @@ public class FrontRaise extends Activity implements SensorEventListener, Stopwat
     }
 
     protected void startWorkout() {
-        senSensorManager.registerListener(this, myGravitySensor, SensorManager.SENSOR_DELAY_NORMAL);
+        senSensorManager.registerListener(this, myGravitySensor, SensorManager.SENSOR_DELAY_FASTEST);
         this.splitTimeView.setTime(0)
                 .refresh();
         this.mTextView.setText(String.valueOf(0));

@@ -104,7 +104,7 @@ public class Elbow extends Activity implements SensorEventListener, Stopwatch.On
         float x = event.values[0];
         float y = event.values[1];
         float z = event.values[2];
-        Log.d("XYZ Values", x + " == " + y + " == " + z);
+       // Log.d("XYZ Values", x + " == " + y + " == " + z);
         if (source.getType() == Sensor.TYPE_GRAVITY) {
             detectBiceps(event.values[0], event.timestamp);
 
@@ -147,7 +147,7 @@ public class Elbow extends Activity implements SensorEventListener, Stopwatch.On
     @Override
     protected void onResume() {
         super.onResume();
-        senSensorManager.registerListener(this, myGravitySensor, SensorManager.SENSOR_DELAY_NORMAL);
+        senSensorManager.registerListener(this, myGravitySensor, SensorManager.SENSOR_DELAY_FASTEST);
     }
 
     @Override

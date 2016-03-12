@@ -176,7 +176,7 @@ public class SideRaise extends Activity implements SensorEventListener, Stopwatc
     }
 
     protected void startWorkout() {
-        senSensorManager.registerListener(this, myGravitySensor, SensorManager.SENSOR_DELAY_NORMAL);
+        senSensorManager.registerListener(this, myGravitySensor, SensorManager.SENSOR_DELAY_FASTEST);
         this.splitTimeView.setTime(0)
                 .refresh();
         this.mTextView.setText(String.valueOf(0));
