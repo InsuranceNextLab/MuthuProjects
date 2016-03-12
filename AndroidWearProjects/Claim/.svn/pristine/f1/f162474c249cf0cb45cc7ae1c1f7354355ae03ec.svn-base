@@ -1,0 +1,51 @@
+package com.cognizant.claim;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.TextView;
+
+public class ViewClaim extends Activity {
+
+	TextView txt_policy_no, txt_survey_no, txt_cause_loss, txt_address,
+			txt_reported_by, claim_number;
+	Bundle data;
+	String Claimno;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_view_claim);
+		txt_policy_no = (TextView) findViewById(R.id.policy_no);
+		txt_survey_no = (TextView) findViewById(R.id.survey_no);
+		txt_reported_by = (TextView) findViewById(R.id.reported_by);
+		txt_cause_loss = (TextView) findViewById(R.id.cause_loss);
+		txt_address = (TextView) findViewById(R.id.address);
+		claim_number = (TextView) findViewById(R.id.claim_no);
+		data = getIntent().getExtras();
+		Claimno = getResources().getString(R.string.risk_assno);
+		claim_number.setText(String.format(Claimno,
+				data.getString("claim_number")));
+
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.view_claim, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// Handle action bar item clicks here. The action bar will
+		// automatically handle clicks on the Home/Up button, so long
+		// as you specify a parent activity in AndroidManifest.xml.
+		int id = item.getItemId();
+		if (id == R.id.action_settings) {
+			return true;
+		}
+		return super.onOptionsItemSelected(item);
+	}
+}

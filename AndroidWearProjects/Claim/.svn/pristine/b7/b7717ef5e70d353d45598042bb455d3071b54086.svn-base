@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:keepScreenOn="true" >
+
+    <ListView
+        android:id="@+id/menus_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@android:color/holo_green_light"
+        android:divider="#7E7E7E"
+        android:dividerHeight="1dp"
+        android:listSelector="@android:color/holo_blue_light" >
+    </ListView>
+
+</FrameLayout>

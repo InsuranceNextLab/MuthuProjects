@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/header_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="13dp"
+        android:orientation="horizontal" >
+
+        <!-- <TextView -->
+        <!-- android:id="@+id/claim_number" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_alignParentRight="true" -->
+        <!-- android:layout_alignParentTop="true" -->
+        <!-- android:layout_marginRight="15dp" -->
+        <!-- android:text="@string/claim_number" -->
+        <!-- android:textColor="@color/title" -->
+        <!-- android:textSize="18sp" /> -->
+
+        <TextView
+            android:id="@+id/lbltxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/survey_date"
+            android:textColor="@color/title"
+            android:textSize="22sp" />
+
+        <ViewSwitcher
+            android:id="@+id/separator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lbltxt"
+            android:background="@drawable/separator" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_view"
+        android:layout_marginLeft="13dp"
+        android:text="@string/sample_date"
+        android:textColor="@color/survey_date"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/header_view"
+        android:layout_marginBottom="15dp"
+        android:text="@string/swipe_forward_capture"
+        android:textColor="@color/swipe_option"
+        android:textSize="18sp" />
+
+</RelativeLayout>

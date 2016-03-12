@@ -1,0 +1,59 @@
+package com.cognizant.claim;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.MotionEvent;
+import com.google.android.glass.touchpad.Gesture;
+import com.google.android.glass.touchpad.GestureDetector;
+
+public class PolicyInfo extends Activity {
+
+	private GestureDetector mGestureDetector;
+	Context con;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_policy_info);
+		mGestureDetector = createGestureDetector(this);
+		con = this;
+
+	}
+
+	private GestureDetector createGestureDetector(Context policy_context) {
+		GestureDetector gestureDetector = new GestureDetector(policy_context);
+		// TODO Auto-generated method stub
+		gestureDetector.setBaseListener(new GestureDetector.BaseListener() {
+
+			@Override
+			public boolean onGesture(Gesture gesture) {
+				// TODO Auto-generated method stub
+				if (gesture == Gesture.SWIPE_RIGHT) {
+
+					return true;
+				} else if (gesture == Gesture.SWIPE_LEFT) {
+
+					startActivity(new Intent(con, ClaimInfo.class));
+					return true;
+				} else if (gesture == Gesture.SWIPE_DOWN) {
+					finish();
+					return true;
+				}
+				return false;
+			}
+		});
+
+		return gestureDetector;
+	}
+
+	@Override
+	public boolean onGenericMotionEvent(MotionEvent event) {
+		// TODO Auto-generated method stub
+		if (mGestureDetector != null) {
+			return mGestureDetector.onMotionEvent(event);
+		}
+		return super.onGenericMotionEvent(event);
+	}
+}

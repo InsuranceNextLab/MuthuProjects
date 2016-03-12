@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="firstpagecolour">#41627F</color>
+    <color name="historydes">#6FA0C2</color>
+    <color name="cardtitle">#366078</color>
+    <color name="cardborder">#7E7E7E</color>
+    <color name="cardsfont">#798188</color>
+    <color name="cardsaction">#4A82A2</color>
+    <color name="chatfontcolour">#4b4a4a </color>
+    <color name="labelvalue">#4e94c5 </color>
+    <color name="labelname">#898786 </color>
+
+</resources>

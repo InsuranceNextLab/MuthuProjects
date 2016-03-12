@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black" >
+
+    <ImageView
+        android:id="@+id/bgPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:src="@drawable/black_bg" /><!-- <ProgressBar -->
+    <!-- android:id="@+id/my_progressBar" -->
+    <!-- style="?android:attr/progressBarStyleHorizontal" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_gravity="bottom" -->
+    <!-- android:layout_margin="10dp" /> -->
+
+
+    <TextView
+        android:id="@+id/tap_instruction"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="2dp"
+        android:gravity="center"
+        android:text="Tap For Options"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</FrameLayout>

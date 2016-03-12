@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="loginerror">There was a problem during login. Try again after sometime.</string>
+    <string name="serviceconnectionerror">Service Connection Error! Please check your Internet Connectivity</string>
+    <string name="invalidusererror">Invalid User ID or Password, Please try again</string>
+    <string name="error_common">Unknown Error! Please try after sometime</string>
+    <string name="claim_search_not_found">This Claim is not available for survey</string>
+
+</resources>

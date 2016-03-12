@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="authentication_service">/HomeSurveyorServices/services/AuthenticationService </string>
+    <string name="assigned_claims_service">/HomeSurveyorServices/services/GetGlassClaimList</string>
+    <string name="upload_claim_service">/CICSurveyorServices/services/UpdateClaimService</string>
+    <string name="search_claims_service">/CICSurveyorServices/services/GetClaimSearchMiniListService</string>
+</resources>

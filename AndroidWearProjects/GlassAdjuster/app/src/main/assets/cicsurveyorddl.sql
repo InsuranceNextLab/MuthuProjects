@@ -1,0 +1,11 @@
+BEGIN TRANSACTION;
+CREATE TABLE LossHistoryInfo (PolicyNumber TEXT, LossHistoryId TEXT, LossHistoryNumber TEXT, ClaimNumber TEXT, StatusCd TEXT, SourceCd TEXT, LossDt TEXT, LossCauseCd TEXT, LossAmount TEXT, LossDescription TEXT, PaidAmount TEXT, Comment TEXT, CarrierName TEXT);
+CREATE TABLE addressinfo (PolicyNumber TEXT, VehicleId TEXT, AddressId TEXT, AddressTypeCd TEXT, AddressLine1 TEXT, AddressLine2 TEXT, City TEXT, State TEXT, Zip NUMERIC, Lat TEXT, Long TEXT);
+CREATE TABLE claim (Status TEXT, InsuredDamageEstimateDays NUMERIC, InsuredDamageEstimateAmount TEXT, DriverId TEXT, VehicleId TEXT, PolicyNumber TEXT, ClaimNumber TEXT, _id INTEGER PRIMARY KEY, SurveyorId TEXT, LossDate TEXT, ReportedDate TEXT, ReportedBy TEXT, LossLocationDirection TEXT, Comments TEXT, AtFault TEXT);
+CREATE TABLE coverageinfo (PolicyNumber TEXT, CoverageId TEXT, CoverageDescription TEXT, CoverageType TEXT, CoverageName TEXT, CoverageLimit NUMERIC, Status TEXT);
+CREATE TABLE driverinfo (ClaimNumber TEXT, PolicyNumber TEXT, DriverId TEXT, DriverName TEXT, DriverLicenseNo TEXT, RelationShipToInsured TEXT, SafeDriverDiscount TEXT, Occupation TEXT, BirthDate TEXT, Age NUMERIC, Gender TEXT, Operator TEXT, Status TEXT, LicenseState TEXT);
+CREATE TABLE insuredinfo (PolicyNumber TEXT, InsuredId TEXT, InsuredTypeCd TEXT, FirstName TEXT, LastName TEXT, HomePhone TEXT, CellPhone TEXT, Email TEXT);
+CREATE TABLE policy (ExpiryDate TEXT, EffectiveDate TEXT, PolicyNumber TEXT, AgentNumber TEXT, PolicyType TEXT, PaymentPlan TEXT, Status TEXT);
+CREATE TABLE surveyattachments (attach_tag TEXT, ClaimId NUMERIC, attach_path TEXT);
+CREATE TABLE vehicleinfo (ClaimNumber TEXT, PolicyNumber TEXT, VehicleId TEXT, Make TEXT, ModelYear NUMERIC, Model TEXT, VIN TEXT, VehicleLicenseNo TEXT, BodyStyle TEXT, PerformanceCode TEXT, EngineType TEXT, EngineSize TEXT, EngineHorsePower NUMERIC, Restraints TEXT, HasAntiTheftDevice TEXT, VehicleUse TEXT, OwnedBy TEXT, EstimatedMileage TEXT, RegistrationStartDt TEXT, RegistrationEndDt TEXT);
+COMMIT;

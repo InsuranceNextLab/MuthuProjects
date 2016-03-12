@@ -1,0 +1,30 @@
+package com.cognizant.claim;
+
+import java.io.Serializable;
+
+public class ClaimData implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	String menu_name;
+	int menu_image;
+
+	public String getMenuName() {
+		return menu_name;
+	}
+
+	public void setMenuName(String name) {
+		this.menu_name = name;
+	}
+
+	public int getMenuImage() {
+		return menu_image;
+	}
+
+	public void setMenuImage(int menu_icon) {
+		this.menu_image = menu_icon;
+	}
+
+}

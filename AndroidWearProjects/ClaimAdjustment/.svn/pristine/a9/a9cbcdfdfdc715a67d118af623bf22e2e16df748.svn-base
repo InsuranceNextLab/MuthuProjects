@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cognizant.claimadjustment.SurveyActivity" >
+
+    <item
+        android:id="@+id/capturevideo"
+        android:icon="@drawable/record_video"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/record_video"/>
+    <item
+        android:id="@+id/captureimage"
+        android:icon="@drawable/take_photograph_of_damage"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/take_photo"/>
+<!--     <item -->
+<!--         android:id="@+id/livestreaming" -->
+<!--         android:icon="@drawable/take_photograph_of_damage" -->
+<!--         android:orderInCategory="100" -->
+<!--         android:showAsAction="never" -->
+<!--         android:title="Live Streaming"/> -->
+
+    <item
+        android:id="@+id/weatherreport"
+        android:icon="@drawable/request_weather_report"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/weather_report"/>
+    <item
+        android:id="@+id/recordmemo"
+        android:icon="@drawable/record_memo1"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/record_memo"/>
+    <item
+        android:id="@+id/submitsurvey"
+        android:icon="@drawable/submit_survey"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/submit_survey"/>
+
+</menu>

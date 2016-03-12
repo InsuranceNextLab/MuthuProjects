@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/openclaim_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/open_claim"
+            android:textColor="@color/title"
+            android:textSize="23sp" />
+
+        <ViewSwitcher
+            android:id="@+id/separator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/openclaim_title"
+            android:background="@drawable/separator" />
+
+        <LinearLayout
+            android:id="@+id/first_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/separator"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/sample_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/open_claim_txt"
+                android:textColor="@color/openclaim_txt"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/samplle_claimno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:text="@string/sample_claimnumber"
+                android:textColor="@color/claim_no"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sample_txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sample_remaning_txt"
+                android:textColor="@color/openclaim_txt"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/second_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/first_view"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/sample_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sample_name"
+                android:textColor="@color/claim_no"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sample_txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:text="@string/sample_remaning_txt1"
+                android:textColor="@color/openclaim_txt"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sample_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sample_place"
+                android:textColor="@color/claim_no"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="@string/tap_open"
+            android:textColor="@color/title"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="@string/swipe_forward_claim"
+            android:textColor="@color/swipe_option"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

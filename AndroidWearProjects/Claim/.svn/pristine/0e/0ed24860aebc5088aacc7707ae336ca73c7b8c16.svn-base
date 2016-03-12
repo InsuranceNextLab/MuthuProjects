@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Use the constants defined in the ContextualMenus.Command enum -->
+    <item
+        android:id="@+id/menu_item1"
+        android:title="@string/menu1">
+    </item>
+    <item
+        android:id="@+id/menu_item2"
+        android:title="@string/menu2">
+    </item>
+    <item
+        android:id="@+id/menu_item3"
+        android:title="@string/menu3">
+    </item>
+    <item
+        android:id="@+id/menu_item4"
+        android:title="@string/menu4">
+    </item>
+    <item
+        android:id="@+id/menu_item5"
+        android:title="@string/menu5">
+    </item>
+    <item
+        android:id="@+id/menu_item6"
+        android:title="@string/menu6">
+        <menu>
+            <item
+                android:id="@+id/create_note"
+                android:title="@string/create_note"/>
+            <item
+                android:id="@+id/view_note"
+                android:title="@string/view_note"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_item7"
+        android:title="@string/menu7">
+    </item>
+    <item
+        android:id="@+id/menu_item8"
+        android:title="@string/menu8">
+    </item>
+
+</menu>

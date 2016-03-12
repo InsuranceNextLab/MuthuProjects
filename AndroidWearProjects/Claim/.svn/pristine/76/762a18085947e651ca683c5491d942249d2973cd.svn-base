@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Claim Adjuster</string>
+    <string name="start_record">Start Record</string>
+    <string name="stop_record">Stop Record</string>
+    <string name="decibel_format">%1$.1f dB</string>
+    <string name="view_memos">View notes</string>
+    <string name="claim_dashboard">Claim Dashboard</string>
+    <string name="queue_count">Queue Count:  %1$d</string>
+    <string name="risk_assno">Risk Assessment:  %1$s</string>
+    <string name="claim_no">Assessment#</string>
+    <string name="claim_name">Account Name#</string>
+    <string name="claim_status">Status#</string>
+    <string name="title_info">Submission Information</string>
+    <string name="policy_no">Policy Number:</string>
+    <string name="survey_no">Survey Number:</string>
+    <string name="cause_loss">Cause Of Loss:</string>
+    <string name="address">Address:</string>
+    <string name="reported_by">Reported By:</string>
+    <!-- Used in the menus -->
+    <string name="close">Close</string>
+    <!-- Used in the menu for the cards in the CardScrollView -->
+    <string name="delete_memo">Delete note</string>
+    <string name="read_aloud">Read aloud</string>
+    <string name="shared_memo_key">notes</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!-- Used as the voice trigger to launch the app -->
+    <string name="claims">Claim Adjuster</string>
+    <string name="claims_sub">Claims Adjuster</string>
+    <string name="menu1">Policy information</string>
+    <string name="menu2">Claim information</string>
+    <string name="menu3">Past claim information</string>
+    <string name="menu4">Photographs of damage</string>
+    <string name="menu5">Record replacement values</string>
+    <string name="menu6">Take a notes</string>
+    <string name="menu7">Record interview</string>
+    <string name="menu8">Add witness report</string>
+    <string name="create_note">Create note</string>
+    <string name="view_note">View note</string>
+    <string name="title_activity_detailsview1">Detailsview1</string>
+    <string name="title_activity_detailsview2">Detailsview2</string>
+    <string name="title_activity_detailsview3">Detailsview3</string>
+    <string name="demo_progress_bar">show progress bar</string>
+    <string name="demo_message_dialog">show dialog</string>
+    <string name="dlg_message">success</string>
+    <string name="dlg_secondary_message">new world conquered</string>
+    <string name="dlg_temp_message">conquering</string>
+    <string name="dlg_temp_secondary_message">another world</string>
+    <string name="sample_txt">
+<![CDATA["
+        
+        <p>Google's project program for developing a line of hands-free, head-mounted intelligent devices that can be worn by users as "wearable computing" eyewear. The first product release from Project Glass, Google Glass, is expected to become available for purchase in 2013, and should retail for less than $1500.</p>
+         <p>Google's project program for developing a line of hands-free, head-mounted intelligent devices that can be worn by users as "wearable computing" eyewear. The first product release from Project Glass, Google Glass, is expected to become available for purchase in 2013, and should retail for less than $1500.</p>
+          <p>Google's project program for developing a line of hands-free, head-mounted intelligent devices that can be worn by users as "wearable computing" eyewear. The first product release from Project Glass, Google Glass, is expected to become available for purchase in 2013, and should retail for less than $1500.</p>
+       " ]]>
+    </string>
+    <string name="title_activity_policy_info">PolicyInfo</string>
+    <string name="title_activity_claim_info">ClaimInfo</string>
+    <string name="title_activity_claim_details__info">ClaimDetails_Info</string>
+    <string name="title_activity_view_claim">ViewClaim</string>
+    <string name="call">Call</string>
+    <string name="startsurvey">Start Survey</string>
+    <string name="captureimage">Capture Image</string>
+    <string name="capturevideo">Capture Video</string>
+    <string name="livestream">Live Stream</string>
+    <string name="exit">Exit</string>
+
+</resources>

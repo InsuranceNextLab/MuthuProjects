@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cognizant.claim.ViewClaim" >
+
+    <item
+        android:id="@+id/call"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/call"/>
+    <item
+        android:id="@+id/startsurvey"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/startsurvey"/>
+    <item
+        android:id="@+id/captureimage"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/captureimage"/>
+    <item
+        android:id="@+id/capturevideo"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/capturevideo"/>
+    <item
+        android:id="@+id/livestream"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/livestream"/>
+    <item
+        android:id="@+id/exit"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/exit"/>
+
+</menu>

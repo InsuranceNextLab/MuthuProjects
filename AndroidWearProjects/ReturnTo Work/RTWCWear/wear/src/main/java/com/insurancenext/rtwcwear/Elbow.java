@@ -26,6 +26,7 @@ import com.insurancenext.rtwcwear.services.WearSendToDataLayerThread;
 import com.insurancenext.rtwcwear.view.BicepsView;
 import com.insurancenext.rtwcwear.view.SplitTimeView;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class Elbow extends Activity implements SensorEventListener, Stopwatch.OnTickListener, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, UserInputManager.UserInputListener {
@@ -75,8 +76,13 @@ public class Elbow extends Activity implements SensorEventListener, Stopwatch.On
 
         senSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         myGravitySensor = senSensorManager.getDefaultSensor(Sensor.TYPE_GRAVITY);
-        standardGravity = SensorManager.STANDARD_GRAVITY;
+        /*final List<Sensor> deviceSensors = senSensorManager.getSensorList(Sensor.TYPE_ALL);
+        for(Sensor type : deviceSensors){
+            Log.e("sensors",type.getStringType());
+        }*/
+        standardGravity = SensorManager.GRAVITY_EARTH;
         thresholdGraqvity = standardGravity / 2;
+        Log.d("thresholdGraqvity = ",thresholdGraqvity+"");
         if (this.myGravitySensor == null) {
             Toast.makeText(this, "GravitySensor Not Available", Toast.LENGTH_SHORT).show();
             return;
@@ -104,11 +110,11 @@ public class Elbow extends Activity implements SensorEventListener, Stopwatch.On
         float x = event.values[0];
         float y = event.values[1];
         float z = event.values[2];
-       // Log.d("XYZ Values", x + " == " + y + " == " + z);
-        if (source.getType() == Sensor.TYPE_GRAVITY) {
+        Log.d("XYZ Values", x + " == " + y + " == " + z);
+       /* if (source.getType() == Sensor.TYPE_GRAVITY) {
             detectBiceps(event.values[0], event.timestamp);
 
-        }
+        }*/
     }
 
     private void detectBiceps(float xValue, long timestamp) {
@@ -147,7 +153,7 @@ public class Elbow extends Activity implements SensorEventListener, Stopwatch.On
     @Override
     protected void onResume() {
         super.onResume();
-        senSensorManager.registerListener(this, myGravitySensor, SensorManager.SENSOR_DELAY_FASTEST);
+        senSensorManager.registerListener(this, myGravitySensor, SensorManager.SENSOR_DELAY_NORMAL);
     }
 
     @Override

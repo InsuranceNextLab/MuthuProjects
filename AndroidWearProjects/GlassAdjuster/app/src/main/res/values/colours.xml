@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- View Claims -->
+    <color name="title">#FFFFFF</color>
+    <color name="name">#E98F25</color>
+    <color name="loss_date">#acacac</color>
+    <color name="status">#14af59</color>
+    <color name="openclaim_txt">#cfcfcf</color>
+    <color name="claim_no">#ddbb11</color>
+    <color name="open_name">#0c9c9a</color>
+    <color name="swipe_option">#939292</color>
+    <color name="survey_date">#c9aa1c</color>
+    <color name="tap_see">#a0a0a0</color>
+    <color name="weather_color1">#3ecafe</color>
+    <color name="weather_color2">#bdbdbd</color>
+    <color name="viewstatus">#34a7ff</color>
+    <color name="viewans">#808080</color>
+    <color name="nohail">#cc3333</color>
+
+</resources>

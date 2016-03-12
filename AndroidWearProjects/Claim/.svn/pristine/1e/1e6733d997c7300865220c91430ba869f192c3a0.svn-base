@@ -1,0 +1,16 @@
+package com.cognizant.claim;
+
+public class Appsettings {
+
+	/************** Local Details *****************/
+	public static final String STREAM_URL = "rtsp://10.251.52.17:1935/live/claimadjuster";
+	public static final String PUBLISHER_USERNAME = "claimadjuster";
+	public static final String PUBLISHER_PASSWORD = "user1234";
+
+	/**** Live Details **********/
+
+	// public static final String STREAM_URL =
+	// "rtsp://174.129.3.17:1935/live/claimadjuster";
+	// public static final String PUBLISHER_USERNAME = "insurancenxt";
+	// public static final String PUBLISHER_PASSWORD = "welcome123";
+}

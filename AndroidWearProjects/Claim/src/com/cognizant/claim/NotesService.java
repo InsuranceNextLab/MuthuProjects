@@ -1,0 +1,110 @@
+package com.cognizant.claim;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import android.app.PendingIntent;
+import android.app.Service;
+import android.content.Intent;
+import android.os.IBinder;
+import android.widget.RemoteViews;
+
+import com.cognizant.utils.Utils;
+import com.google.android.glass.timeline.LiveCard;
+
+public class NotesService extends Service {
+	private LiveCard mLiveCard;
+	private String cardID = "NotesGlassLiveCard";
+	private String cardText = "";
+	private List<String> memoList;
+	private boolean update;
+
+	@Override
+	public void onCreate() {
+		super.onCreate();
+
+		if (Utils.checkForObjectInSharedPrefs(this,
+				getString(R.string.shared_memo_key)))
+			memoList = new ArrayList<String>(Utils.getStringArrayPref(this,
+					getString(R.string.shared_memo_key)));
+		else
+			memoList = new ArrayList<String>();
+
+	}
+
+	// Sets what happens when the service is launced, here we push the card to
+	// the Timeline
+	@Override
+	public int onStartCommand(Intent intent, int flags, int startId) {
+		// get the update boolean from the intent
+		update = intent.getBooleanExtra("update", false);
+		// the live card is not created and published yet
+		if (mLiveCard == null) {
+			// create live card *New in XE12 createLiveCard replaced getLiveCard
+			// from XE11*
+			// XE16 UPDATE TimelineMAnager class has been removed. In orde
+			mLiveCard = new LiveCard(this, cardID); // =
+													// mTimelineManager.createLiveCard(cardID);
+			RemoteViews remoteViews = new RemoteViews(this.getPackageName(),
+					R.layout.card_layout);
+
+			// if there are memos
+			if (memoList.size() > 0) {
+				// build string with list
+				for (int i = 0; i < memoList.size() && i < 5; i++)
+					cardText += "" + (i + 1) + ") " + memoList.get(i) + "\n";
+				// set the text views
+				remoteViews.setTextViewText(R.id.memo_list_text_view, cardText);
+				remoteViews.setTextViewText(R.id.no_memos_text_view, "");
+			}
+			// if there are no memos
+			else {
+				// set the text views
+				remoteViews.setTextViewText(R.id.memo_list_text_view, "");
+				remoteViews.setTextViewText(R.id.no_memos_text_view,
+						"No Notes!");
+			}
+			// set the views of the card
+			mLiveCard.setViews(remoteViews);
+
+			// sets the menu of the card
+			Intent menu;
+			// if there are no memos
+			if (memoList.size() == 0)
+				menu = new Intent(this, ViewMemoMenuActivityNoMemos.class);
+			// if there are memos
+			else
+				menu = new Intent(this, ViewMemoMenuActivity.class);
+			mLiveCard.setAction(PendingIntent.getActivity(this, 0, menu, 0));
+
+			// publish the card to the timeline
+			// Set publish mode to reveal *New in XE12 replaced setNonSilent
+			// method from XE11*
+			if (update)
+				mLiveCard.publish(LiveCard.PublishMode.SILENT);
+			else
+				mLiveCard.publish(LiveCard.PublishMode.REVEAL);
+		}
+		// Live card is already published
+		else {
+			// Jump to the live card. Implemented in XE16
+			mLiveCard.navigate();
+		}
+		return START_STICKY;
+	}
+
+	@Override
+	public void onDestroy() {
+		// remove the card from timeline
+		if (mLiveCard != null && mLiveCard.isPublished()) {
+			mLiveCard.unpublish();
+			mLiveCard = null;
+		}
+		super.onDestroy();
+	}
+
+	@Override
+	public IBinder onBind(Intent intent) {
+		return null;
+	}
+}

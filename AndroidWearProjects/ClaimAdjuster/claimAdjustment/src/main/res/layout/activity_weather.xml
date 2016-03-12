@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/map_view"
+        android:layout_width="240px"
+        android:layout_height="360px"
+        android:src="@drawable/map_slide8" />
+
+    <RelativeLayout
+        android:id="@+id/content_view"
+        android:layout_width="400px"
+        android:layout_height="360px"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="30px"
+        android:layout_toRightOf="@+id/map_view" >
+
+        <TextView
+            android:id="@+id/hail_falldate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4pt"
+            android:text="@string/sample_olddate"
+            android:textColor="@color/title"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/hail_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hail_falldate"
+            android:text="@string/sample_address"
+            android:textColor="@color/title"
+            android:textSize="18sp" />
+
+        <TableLayout
+            android:id="@+id/table_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hail_address"
+            android:layout_marginRight="40px"
+            android:layout_marginTop="10px"
+            android:orientation="horizontal" >
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15px" >
+
+                <ImageView
+                    android:id="@+id/img_lossdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:src="@drawable/hail_fall_detected" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10px"
+                    android:text="@string/hail_fall"
+                    android:textColor="@color/weather_color1"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <ViewSwitcher
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/map_separator" />
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15px"
+                android:layout_marginTop="15px" >
+
+                <ImageView
+                    android:id="@+id/img_causeloss"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:contentDescription="@string/sample_imgtxt"
+                    android:src="@drawable/hail_diameter" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10px"
+                    android:text="@string/hail_degree"
+                    android:textColor="@color/title"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <ViewSwitcher
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/map_separator" />
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                android:layout_marginTop="15px" >
+
+                <ImageView
+                    android:id="@+id/img_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:contentDescription="@string/sample_imgtxt"
+                    android:src="@drawable/hail_duration" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10px"
+                    android:text="@string/hail_hour"
+                    android:textColor="@color/title"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <ViewSwitcher
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/map_separator" />
+        </TableLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/content_view"
+        android:layout_marginBottom="5px"
+        android:layout_marginRight="40px"
+        android:layout_marginTop="10px"
+        android:text="@string/swipe_go_back"
+        android:textColor="@color/swipe_option"
+        android:textSize="18sp" />
+
+</RelativeLayout>

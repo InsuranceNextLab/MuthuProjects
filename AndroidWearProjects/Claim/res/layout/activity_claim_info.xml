@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#D7DDE0" >
+
+    <TextView
+        android:id="@+id/detailsview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Policy Information"
+        android:textColor="@color/cardtitle"
+        android:textSize="25dp" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/detailsview" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="horizontal" >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp" >
+
+                <TextView
+                    android:id="@+id/lablename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Holder Name:"
+                    android:textColor="@color/labelname"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/txtname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sheldon Cooper"
+                    android:textColor="@color/labelvalue"
+                    android:textSize="25dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp" >
+
+                <TextView
+                    android:id="@+id/lablepolicy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Policy Number:"
+                    android:textColor="@color/labelname"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/txtpolicy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="P213214345QR"
+                    android:textColor="@color/labelvalue"
+                    android:textSize="25dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp" >
+
+                <TextView
+                    android:id="@+id/labletiv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TIV:"
+                    android:textColor="@color/labelname"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/txttiv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="$1,213,324.00"
+                    android:textColor="@color/labelvalue"
+                    android:textSize="25dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp" >
+
+                <TextView
+                    android:id="@+id/lablecoverage1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Coverage1:"
+                    android:textColor="@color/labelname"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/txtcoverage1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="xxxx"
+                    android:textColor="@color/labelvalue"
+                    android:textSize="25dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp" >
+
+                <TextView
+                    android:id="@+id/lablecoverage2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Coverage2:"
+                    android:textColor="@color/labelname"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/txtcoverage2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="xxxxx"
+                    android:textColor="@color/labelvalue"
+                    android:textSize="25dp" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

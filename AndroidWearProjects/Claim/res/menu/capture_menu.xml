@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- <item -->
+    <!-- android:id="@+id/btncapture" -->
+    <!-- android:title="@string/captureimage"> -->
+    <!-- </item> -->
+
+    <item
+        android:id="@+id/btnsave"
+        android:title="@string/save">
+    </item>
+    <item
+        android:id="@+id/btncancel"
+        android:title="@string/exit">
+    </item>
+
+</menu>

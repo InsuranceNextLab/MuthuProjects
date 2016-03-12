@@ -1,0 +1,172 @@
+package com.cognizant.claim;
+
+import java.util.ArrayList;
+
+import com.cognizant.claim.adapter.ClaimListAdapter;
+import com.google.android.glass.touchpad.Gesture;
+import com.google.android.glass.touchpad.GestureDetector;
+
+import android.app.Activity;
+import android.content.Context;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.SoundEffectConstants;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ListView;
+
+public class Claimdetails_info extends Activity implements OnItemClickListener {
+
+	String[] claim_number = new String[] { "CL-008364144", "CL-00234289",
+			"CL-05345347", "CL-83334334", "CL-0083453334", "CL-00225664" };
+	String[] account_name = new String[] { "Muthu", "Wilson Moore", "Will Yen",
+			"Baker Gonzalez", "Hernandez Wright", "Campbell Evans" };
+	String[] claim_status = new String[] { "Assigned", "Assigned", "Assigned",
+			"Assigned", "Assigned", "Assigned" };
+	ClaimData claim_details1, claim_details2, claim_details3, claim_details4,
+			claim_details5, claim_details6;
+	private GestureDetector mGestureDetector;
+	ListView claimdetails;
+	Context context;
+	ArrayList<ClaimData> claim_list;
+	ClaimListAdapter claimdetails_adapter;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.claim_details__info);
+		context = this;
+		mGestureDetector = createGestureDetector(this);
+		claimdetails = (ListView) findViewById(R.id.claim_details);
+		claim_list = new ArrayList<ClaimData>();
+		buildingArraylist();
+		setadapter();
+	}
+
+	private GestureDetector createGestureDetector(
+			Claimdetails_info claimdetails_info) {
+		GestureDetector gestureDetector = new GestureDetector(context);
+		// Create a base listener for generic gestures
+		gestureDetector.setBaseListener(new GestureDetector.BaseListener() {
+			public boolean onGesture(Gesture gesture) {
+				if (gesture == Gesture.TWO_TAP) {
+					// do something on two finger tap
+					return true;
+				} else if (gesture == Gesture.SWIPE_RIGHT) {
+					if (claimdetails.getSelectedItemPosition() < claimdetails
+							.getCount() - 1) {
+
+						claimdetails.setSelection(claimdetails
+								.getSelectedItemPosition() + 1);
+
+						claimdetails
+								.playSoundEffect(SoundEffectConstants.NAVIGATION_UP);
+						return true;
+					}
+					// do something on right (forward) swipe
+
+				} else if (gesture == Gesture.SWIPE_LEFT) {
+					if (claimdetails.getSelectedItemPosition() > 0) {
+						claimdetails.setSelection(claimdetails
+								.getSelectedItemPosition() - 1);
+						claimdetails
+								.playSoundEffect(SoundEffectConstants.NAVIGATION_DOWN);
+						return true;
+					}
+				} else if (gesture == Gesture.SWIPE_DOWN) {
+					finish();
+				}
+				return false;
+			}
+
+		});
+
+		return gestureDetector;
+
+	}
+
+	private void buildingArraylist() {
+		for (int i = 0; i < claim_number.length; i++) {
+			switch (i) {
+			case 0:
+				claim_details1 = new ClaimData();
+				claim_details1.setClaimNumber(claim_number[i]);
+				claim_details1.setClaimName(account_name[i]);
+				claim_details1.setClaimStatus(claim_status[i]);
+				claim_list.add(claim_details1);
+				break;
+			case 1:
+				claim_details2 = new ClaimData();
+				claim_details2.setClaimNumber(claim_number[i]);
+				claim_details2.setClaimName(account_name[i]);
+				claim_details2.setClaimStatus(claim_status[i]);
+				claim_list.add(claim_details2);
+				break;
+			case 2:
+				claim_details3 = new ClaimData();
+				claim_details3.setClaimNumber(claim_number[i]);
+				claim_details3.setClaimName(account_name[i]);
+				claim_details3.setClaimStatus(claim_status[i]);
+				claim_list.add(claim_details3);
+				break;
+			case 3:
+				claim_details4 = new ClaimData();
+				claim_details4.setClaimNumber(claim_number[i]);
+				claim_details4.setClaimName(account_name[i]);
+				claim_details4.setClaimStatus(claim_status[i]);
+				claim_list.add(claim_details4);
+				break;
+			case 4:
+				claim_details5 = new ClaimData();
+				claim_details5.setClaimNumber(claim_number[i]);
+				claim_details5.setClaimName(account_name[i]);
+				claim_details5.setClaimStatus(claim_status[i]);
+				claim_list.add(claim_details5);
+				break;
+			case 5:
+				claim_details6 = new ClaimData();
+				claim_details6.setClaimNumber(claim_number[i]);
+				claim_details6.setClaimName(account_name[i]);
+				claim_details6.setClaimStatus(claim_status[i]);
+				claim_list.add(claim_details6);
+				break;
+			default:
+				break;
+			}
+		}
+	}
+
+	private void setadapter() {
+		claimdetails_adapter = new ClaimListAdapter(this, claim_list);
+		claimdetails.setAdapter(claimdetails_adapter);
+		claimdetails.setOnItemClickListener(this);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.claim_details__info, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// Handle action bar item clicks here. The action bar will
+		// automatically handle clicks on the Home/Up button, so long
+		// as you specify a parent activity in AndroidManifest.xml.
+		int id = item.getItemId();
+		if (id == R.id.action_settings) {
+			return true;
+		}
+		return super.onOptionsItemSelected(item);
+	}
+
+	@Override
+	public void onItemClick(AdapterView<?> parent, View view, int position,
+			long id) {
+		// TODO Auto-generated method stub
+
+	}
+}

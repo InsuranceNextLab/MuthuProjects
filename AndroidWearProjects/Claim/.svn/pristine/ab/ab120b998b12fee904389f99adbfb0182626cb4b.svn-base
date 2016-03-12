@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Claim</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!-- Used as the voice trigger to launch the app -->
+    <string name="claims">Claim Adjuster</string>
+    <string name="claims_sub">Claims Adjuster</string>
+    <string name="menu1">MENU ONE</string>
+    <string name="menu2">MENU TWO</string>
+    <string name="menu3">MENU THREE</string>
+    <string name="title_activity_detailsview1">Detailsview1</string>
+    <string name="title_activity_detailsview2">Detailsview2</string>
+    <string name="title_activity_detailsview3">Detailsview3</string>
+    <string name="sample_txt">
+<![CDATA["
+        
+        <p>Google's project program for developing a line of hands-free, head-mounted intelligent devices that can be worn by users as "wearable computing" eyewear. The first product release from Project Glass, Google Glass, is expected to become available for purchase in 2013, and should retail for less than $1500.</p>
+         <p>Google's project program for developing a line of hands-free, head-mounted intelligent devices that can be worn by users as "wearable computing" eyewear. The first product release from Project Glass, Google Glass, is expected to become available for purchase in 2013, and should retail for less than $1500.</p>
+          <p>Google's project program for developing a line of hands-free, head-mounted intelligent devices that can be worn by users as "wearable computing" eyewear. The first product release from Project Glass, Google Glass, is expected to become available for purchase in 2013, and should retail for less than $1500.</p>
+       " ]]>
+    </string>
+    <string name="title_activity_policy_info">PolicyInfo</string>
+    <string name="title_activity_claim_info">ClaimInfo</string>
+
+</resources>

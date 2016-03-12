@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cognizant.claimadjustment.ExtentDamageActivity">
+
+    <item
+        android:id="@+id/save"
+        android:orderInCategory="100"
+
+        android:title="@string/btnsave" />
+    <item
+        android:id="@+id/cancel"
+        android:orderInCategory="100"
+
+        android:title="@string/btncancel" />
+
+</menu>

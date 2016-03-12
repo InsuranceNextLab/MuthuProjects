@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/viewprofilepic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="right"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/profile_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/claimant" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@+id/viewprofilepic">
+
+        <TableRow
+            android:id="@+id/account_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/account_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sundaravadivel"
+                android:textColor="@color/claim_no"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/account_view">
+
+            <TextView
+                android:id="@+id/claim_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="CL-053453"
+                android:textColor="@color/title"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/causedemage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Fire Accident"
+                android:textColor="@color/title"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/surveydate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="08-01-2014"
+                android:textColor="@color/title"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/claim_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Assigned"
+                android:textColor="@color/viewstatus"
+                android:textSize="16sp" />
+        </TableRow>
+    </RelativeLayout>
+
+</RelativeLayout>

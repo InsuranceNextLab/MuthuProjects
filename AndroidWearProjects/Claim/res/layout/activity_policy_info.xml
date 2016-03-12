@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#D7DDE0" >
+
+    <TextView
+        android:id="@+id/title_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Claim Information"
+        android:textColor="@color/cardtitle"
+        android:textSize="30dp" />
+
+    <TableLayout
+        android:id="@+id/detailsview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp" >
+
+            <TextView
+                android:id="@+id/lableclaimid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ClaimNumber:"
+                android:textColor="@color/labelname"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/txtclaimid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="CL-008364144"
+                android:textColor="@color/labelvalue"
+                android:textSize="25dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp" >
+
+            <TextView
+                android:id="@+id/lablesurveyid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SurveyorId:"
+                android:textColor="@color/labelname"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/txtsurvey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="123456"
+                android:textColor="@color/labelvalue"
+                android:textSize="25dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp" >
+
+            <TextView
+                android:id="@+id/lablelossdte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loss Date:"
+                android:textColor="@color/labelname"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/txtlossdte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="5/12/2014"
+                android:textColor="@color/labelvalue"
+                android:textSize="25dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp" >
+
+            <TextView
+                android:id="@+id/reportedname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ReportedBy:"
+                android:textColor="@color/labelname"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="Sheldon Cooper"
+                android:textColor="@color/labelvalue"
+                android:textSize="25dp" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

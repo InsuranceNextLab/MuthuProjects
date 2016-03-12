@@ -1,0 +1,8 @@
+package com.cognizant.claim;
+
+public class Appsettings {
+
+	public static final String STREAM_URL = "rtsp://10.251.210.130:1935/live/android_test";
+	public static final String PUBLISHER_USERNAME = "claimadjuster";
+	public static final String PUBLISHER_PASSWORD = "user1234";
+}

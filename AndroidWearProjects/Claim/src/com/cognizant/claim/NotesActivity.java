@@ -1,0 +1,95 @@
+package com.cognizant.claim;
+
+import java.util.ArrayList;
+
+import com.cognizant.utils.Utils;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.speech.RecognizerIntent;
+import android.view.Window;
+import android.view.WindowManager;
+
+public class NotesActivity extends Activity {
+
+	private static final int SPEECH_REQUEST = 0;
+	private String memoResult;
+	private ArrayList<String> memoList;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
+		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+				WindowManager.LayoutParams.FLAG_FULLSCREEN);
+		// setContentView(R.layout.activity_dialog);
+		displaySpeechRecognizer();
+		// showItemAddingDialog(this);
+	}
+
+	private void displaySpeechRecognizer() {
+		Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+		startActivityForResult(intent, SPEECH_REQUEST);
+	}
+
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+		if (requestCode == SPEECH_REQUEST && resultCode == RESULT_OK) {
+			// Get results of speech to text
+			memoResult = data.getStringArrayListExtra(
+					RecognizerIntent.EXTRA_RESULTS).get(0);
+			// get list of memos saved in shared prefs
+			if (Utils.checkForObjectInSharedPrefs(this,
+					getString(R.string.shared_memo_key))) {
+				memoList = new ArrayList<String>(Utils.getStringArrayPref(this,
+						getString(R.string.shared_memo_key)));
+			} else {
+				memoList = new ArrayList<String>();
+			}
+			// add the new memo to the list
+			memoList.add(memoResult);
+			// save the new list
+			Utils.commitNewMemoList(this, getString(R.string.shared_memo_key),
+					memoList);
+			// update the list in the live card
+			stopService(new Intent(this, NotesService.class));
+			Intent serviceIntent = new Intent(this, NotesService.class);
+			serviceIntent.putExtra("update", true);
+			startService(serviceIntent);
+			showItemAddingDialog(this);
+		}
+		super.onActivityResult(requestCode, resultCode, data);
+
+	}
+
+	@Override
+	public void onResume() {
+		super.onResume();
+	}
+
+	private void showItemAddingDialog(final Context ctx) {
+		MessageDialog localDialog = new MessageDialog.Builder(ctx)
+				.setIcon(R.drawable.ic_done_50)
+				.setMessage(R.string.dlg_message).setDismissable(true)
+				.setAutoHide(true)
+				.setListener(new MessageDialog.SimpleListener() {
+					public boolean onConfirmed() {
+						// Log.d("Confirm", "onConfirm");
+						// Toast.makeText(ctx, "onConfirmed", Toast.LENGTH_LONG)
+						// .show();
+						return true;
+					}
+
+					public void onDismissed() {
+
+					}
+
+					public void onDone() {
+						finish();
+					}
+				}).build();
+		localDialog.show();
+	}
+}
