@@ -1,0 +1,13 @@
+{
+	"name":"Fastability-service",
+	"version":"0.0.1",
+	"private":"true",
+	"dependencies":{
+		"express":"*",
+		"mongodb":"*",
+		"socket.io":"*",
+		"node-fs":"*",
+              "mysql":"*"
+
+	}
+}

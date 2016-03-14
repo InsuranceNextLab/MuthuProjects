@@ -1,0 +1,617 @@
+Failed to load c++ bson extension, using pure JS version
+info: socket.io started
+Listening to port 9080
+
+/usr/share/node-install/bin/routes/Fastability.js:6
+	db=mongoClient.db("Fastability");
+	               ^
+TypeError: Cannot call method 'db' of null
+    at /usr/share/node-install/bin/routes/Fastability.js:6:17
+    at /usr/share/node-install/bin/node_modules/mongodb/lib/mongodb/mongo_client.js:102:20
+    at /usr/share/node-install/bin/node_modules/mongodb/lib/mongodb/db.js:273:18
+    at /usr/share/node-install/bin/node_modules/mongodb/lib/mongodb/db.js:351:18
+    at Server.close (/usr/share/node-install/bin/node_modules/mongodb/lib/mongodb/connection/server.js:210:38)
+    at Db.close (/usr/share/node-install/bin/node_modules/mongodb/lib/mongodb/db.js:347:21)
+    at /usr/share/node-install/bin/node_modules/mongodb/lib/mongodb/db.js:271:21
+    at null.<anonymous> (/usr/share/node-install/bin/node_modules/mongodb/lib/mongodb/connection/server.js:563:7)
+    at EventEmitter.emit (events.js:106:17)
+    at null.<anonymous> (/usr/share/node-install/bin/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:140:15)
+Failed to load c++ bson extension, using pure JS version
+info: socket.io started
+Listening to port 9080
+
+/usr/share/node-install/bin/routes/Fastability.js:6
+	db=mongoClient.db("Fastability");
+	               ^
+TypeError: Cannot call method 'db' of null
+    at /usr/share/node-install/bin/routes/Fastability.js:6:17
+    at /usr/share/node-install/bin/node_modules/mongodb/lib/mongodb/mongo_client.js:102:20
+    at /usr/share/node-install/bin/node_modules/mongodb/lib/mongodb/db.js:273:18
+    at /usr/share/node-install/bin/node_modules/mongodb/lib/mongodb/db.js:351:18
+    at Server.close (/usr/share/node-install/bin/node_modules/mongodb/lib/mongodb/connection/server.js:210:38)
+    at Db.close (/usr/share/node-install/bin/node_modules/mongodb/lib/mongodb/db.js:347:21)
+    at /usr/share/node-install/bin/node_modules/mongodb/lib/mongodb/db.js:271:21
+    at null.<anonymous> (/usr/share/node-install/bin/node_modules/mongodb/lib/mongodb/connection/server.js:563:7)
+    at EventEmitter.emit (events.js:106:17)
+    at null.<anonymous> (/usr/share/node-install/bin/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:140:15)
+Failed to load c++ bson extension, using pure JS version
+info: socket.io started
+Listening to port 9080
+events.js:85
+      throw er; // Unhandled 'error' event
+            ^
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/var/lib/node/bin/node_modules/mysql/lib/protocol/Protocol.js:103:13)
+    at Socket.<anonymous> (/var/lib/node/bin/node_modules/mysql/lib/Connection.js:102:28)
+    at Socket.emit (events.js:129:20)
+    at _stream_readable.js:908:16
+    at process._tickCallback (node.js:355:11)
+module.js:338
+    throw err;
+          ^
+Error: Cannot find module '/var/lib/node/bin/server'
+    at Function.Module._resolveFilename (module.js:336:15)
+    at Function.Module._load (module.js:278:25)
+    at Function.Module.runMain (module.js:501:10)
+    at startup (node.js:129:16)
+    at node.js:814:3
+Failed to load c++ bson extension, using pure JS version
+info: socket.io started
+Listening to port 9080
+/var/lib/node/bin/routes/Fastability.js:6
+	db=mongoClient.db("Fastability");
+	              ^
+TypeError: Cannot read property 'db' of null
+    at /var/lib/node/bin/routes/Fastability.js:6:16
+    at /var/lib/node/bin/node_modules/mongodb/lib/mongodb/mongo_client.js:102:20
+    at /var/lib/node/bin/node_modules/mongodb/lib/mongodb/db.js:273:18
+    at /var/lib/node/bin/node_modules/mongodb/lib/mongodb/db.js:351:18
+    at Server.close (/var/lib/node/bin/node_modules/mongodb/lib/mongodb/connection/server.js:210:38)
+    at Db.close (/var/lib/node/bin/node_modules/mongodb/lib/mongodb/db.js:347:21)
+    at /var/lib/node/bin/node_modules/mongodb/lib/mongodb/db.js:271:21
+    at null.<anonymous> (/var/lib/node/bin/node_modules/mongodb/lib/mongodb/connection/server.js:563:7)
+    at emit (events.js:118:17)
+    at null.<anonymous> (/var/lib/node/bin/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:140:15)
+Failed to load c++ bson extension, using pure JS version
+info: socket.io started
+Listening to port 9080
+Failed to load c++ bson extension, using pure JS version
+info: socket.io started
+Listening to port 9080
+Failed to load c++ bson extension, using pure JS version
+info: socket.io started
+Listening to port 9080
+warn: error raised: Error: listen EADDRINUSE
+/var/lib/node/bin/routes/Fastability.js:6
+	db=mongoClient.db("Fastability");
+	              ^
+TypeError: Cannot read property 'db' of null
+    at /var/lib/node/bin/routes/Fastability.js:6:16
+    at /var/lib/node/bin/node_modules/mongodb/lib/mongodb/mongo_client.js:102:20
+    at /var/lib/node/bin/node_modules/mongodb/lib/mongodb/db.js:273:18
+    at /var/lib/node/bin/node_modules/mongodb/lib/mongodb/db.js:351:18
+    at Server.close (/var/lib/node/bin/node_modules/mongodb/lib/mongodb/connection/server.js:210:38)
+    at Db.close (/var/lib/node/bin/node_modules/mongodb/lib/mongodb/db.js:347:21)
+    at /var/lib/node/bin/node_modules/mongodb/lib/mongodb/db.js:271:21
+    at null.<anonymous> (/var/lib/node/bin/node_modules/mongodb/lib/mongodb/connection/server.js:563:7)
+    at emit (events.js:118:17)
+    at null.<anonymous> (/var/lib/node/bin/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:140:15)
+Failed to load c++ bson extension, using pure JS version
+info: socket.io started
+Listening to port 9080
+/var/lib/node/bin/routes/Fastability.js:6
+	db=mongoClient.db("Fastability");
+	              ^
+TypeError: Cannot read property 'db' of null
+    at /var/lib/node/bin/routes/Fastability.js:6:16
+    at /var/lib/node/bin/node_modules/mongodb/lib/mongodb/mongo_client.js:102:20
+    at /var/lib/node/bin/node_modules/mongodb/lib/mongodb/db.js:273:18
+    at /var/lib/node/bin/node_modules/mongodb/lib/mongodb/db.js:351:18
+    at Server.close (/var/lib/node/bin/node_modules/mongodb/lib/mongodb/connection/server.js:210:38)
+    at Db.close (/var/lib/node/bin/node_modules/mongodb/lib/mongodb/db.js:347:21)
+    at /var/lib/node/bin/node_modules/mongodb/lib/mongodb/db.js:271:21
+    at null.<anonymous> (/var/lib/node/bin/node_modules/mongodb/lib/mongodb/connection/server.js:563:7)
+    at emit (events.js:118:17)
+    at null.<anonymous> (/var/lib/node/bin/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:140:15)
+2015-10-07T07:32:11.217+0000 I JOURNAL  [initandlisten] journal dir=/var/lib/mongodb/journal
+2015-10-07T07:32:11.217+0000 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-10-07T07:32:11.228+0000 I JOURNAL  [durability] Durability thread started
+2015-10-07T07:32:11.228+0000 I JOURNAL  [journal writer] Journal writer thread started
+2015-10-07T07:32:11.236+0000 I CONTROL  [initandlisten] MongoDB starting : pid=10118 port=27017 dbpath=/var/lib/mongodb 64-bit host=tomcat-28fn
+2015-10-07T07:32:11.236+0000 I CONTROL  [initandlisten] ** WARNING: You are running this process as the root user, which is not recommended.
+2015-10-07T07:32:11.236+0000 I CONTROL  [initandlisten] 
+2015-10-07T07:32:11.236+0000 I CONTROL  [initandlisten] 
+2015-10-07T07:32:11.236+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2015-10-07T07:32:11.236+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2015-10-07T07:32:11.236+0000 I CONTROL  [initandlisten] 
+2015-10-07T07:32:11.236+0000 I CONTROL  [initandlisten] db version v3.0.6
+2015-10-07T07:32:11.236+0000 I CONTROL  [initandlisten] git version: 1ef45a23a4c5e3480ac919b28afcba3c615488f2
+2015-10-07T07:32:11.236+0000 I CONTROL  [initandlisten] build info: Linux ip-10-233-162-213 3.2.0-4-amd64 #1 SMP Debian 3.2.46-1 x86_64 BOOST_LIB_VERSION=1_49
+2015-10-07T07:32:11.236+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-10-07T07:32:11.236+0000 I CONTROL  [initandlisten] options: { storage: { dbPath: "/var/lib/mongodb" } }
+2015-10-07T07:32:11.248+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+Failed to load c++ bson extension, using pure JS version
+info: socket.io started
+Listening to port 9080
+2015-10-07T07:33:05.912+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58032 #1 (1 connection now open)
+2015-10-07T07:33:05.912+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58033 #2 (2 connections now open)
+2015-10-07T07:33:05.919+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58034 #3 (3 connections now open)
+2015-10-07T07:33:05.919+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58035 #4 (4 connections now open)
+2015-10-07T07:33:05.921+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58036 #5 (5 connections now open)
+2015-10-07T07:33:05.921+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58037 #6 (6 connections now open)
+2015-10-07T07:33:05.922+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58038 #7 (7 connections now open)
+2015-10-07T07:33:05.922+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58039 #8 (8 connections now open)
+2015-10-07T07:33:05.923+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58040 #9 (9 connections now open)
+2015-10-07T07:33:05.923+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58041 #10 (10 connections now open)
+2015-10-07T07:33:10.082+0000 I COMMAND  [conn7] CMD: drop Fastability.tmp.mr.employees_0
+2015-10-07T07:33:10.083+0000 I COMMAND  [conn7] CMD: drop Fastability.EmployeeDetails
+2015-10-07T07:33:10.084+0000 I COMMAND  [conn7] CMD: drop Fastability.tmp.mr.employees_0
+2015-10-07T07:33:10.084+0000 I COMMAND  [conn7] CMD: drop Fastability.tmp.mr.employees_0
+2015-10-07T07:33:10.084+0000 I COMMAND  [conn7] CMD: drop Fastability.tmp.mr.employees_0
+2015-10-07T07:33:10.086+0000 I COMMAND  [conn9] CMD: drop Fastability.tmp.mr.rtswEmp_1
+2015-10-07T07:33:10.090+0000 I COMMAND  [conn9] CMD: drop Fastability.tmp.mr.rtswEmp_1
+2015-10-07T07:33:10.090+0000 I COMMAND  [conn9] CMD: drop Fastability.tmp.mr.rtswEmp_1
+2015-10-07T07:33:10.092+0000 I COMMAND  [conn1] CMD: drop Fastability.tmp.mr.mpEmp_2
+2015-10-07T07:33:10.094+0000 I COMMAND  [conn1] CMD: drop Fastability.tmp.mr.mpEmp_2
+2015-10-07T07:33:10.094+0000 I COMMAND  [conn1] CMD: drop Fastability.tmp.mr.mpEmp_2
+2015-10-07T07:33:10.095+0000 I COMMAND  [conn3] CMD: drop Fastability.tmp.mr.aeEmp_3
+2015-10-07T07:33:10.097+0000 I COMMAND  [conn3] CMD: drop Fastability.tmp.mr.aeEmp_3
+2015-10-07T07:33:10.098+0000 I COMMAND  [conn3] CMD: drop Fastability.tmp.mr.aeEmp_3
+2015-10-07T07:33:18.061+0000 I COMMAND  [conn1] CMD: drop Fastability.tmp.mr.employees_4
+2015-10-07T07:33:18.063+0000 I COMMAND  [conn1] CMD: drop Fastability.EmployeeDetails
+2015-10-07T07:33:18.063+0000 I COMMAND  [conn1] CMD: drop Fastability.tmp.mr.employees_4
+2015-10-07T07:33:18.063+0000 I COMMAND  [conn1] CMD: drop Fastability.tmp.mr.employees_4
+2015-10-07T07:33:18.063+0000 I COMMAND  [conn1] CMD: drop Fastability.tmp.mr.employees_4
+2015-10-07T07:33:18.064+0000 I COMMAND  [conn3] CMD: drop Fastability.tmp.mr.rtswEmp_5
+2015-10-07T07:33:18.067+0000 I COMMAND  [conn3] CMD: drop Fastability.tmp.mr.rtswEmp_5
+2015-10-07T07:33:18.067+0000 I COMMAND  [conn3] CMD: drop Fastability.tmp.mr.rtswEmp_5
+2015-10-07T07:33:18.068+0000 I COMMAND  [conn5] CMD: drop Fastability.tmp.mr.mpEmp_6
+2015-10-07T07:33:18.070+0000 I COMMAND  [conn5] CMD: drop Fastability.tmp.mr.mpEmp_6
+2015-10-07T07:33:18.070+0000 I COMMAND  [conn5] CMD: drop Fastability.tmp.mr.mpEmp_6
+2015-10-07T07:33:18.071+0000 I COMMAND  [conn7] CMD: drop Fastability.tmp.mr.aeEmp_7
+2015-10-07T07:33:18.072+0000 I COMMAND  [conn7] CMD: drop Fastability.tmp.mr.aeEmp_7
+2015-10-07T07:33:18.073+0000 I COMMAND  [conn7] CMD: drop Fastability.tmp.mr.aeEmp_7
+2015-10-07T07:33:19.413+0000 I COMMAND  [conn5] CMD: drop Fastability.tmp.mr.employees_8
+2015-10-07T07:33:19.414+0000 I COMMAND  [conn5] CMD: drop Fastability.EmployeeDetails
+2015-10-07T07:33:19.415+0000 I COMMAND  [conn5] CMD: drop Fastability.tmp.mr.employees_8
+2015-10-07T07:33:19.415+0000 I COMMAND  [conn5] CMD: drop Fastability.tmp.mr.employees_8
+2015-10-07T07:33:19.415+0000 I COMMAND  [conn5] CMD: drop Fastability.tmp.mr.employees_8
+2015-10-07T07:33:19.416+0000 I COMMAND  [conn7] CMD: drop Fastability.tmp.mr.rtswEmp_9
+2015-10-07T07:33:19.419+0000 I COMMAND  [conn7] CMD: drop Fastability.tmp.mr.rtswEmp_9
+2015-10-07T07:33:19.419+0000 I COMMAND  [conn7] CMD: drop Fastability.tmp.mr.rtswEmp_9
+2015-10-07T07:33:19.420+0000 I COMMAND  [conn9] CMD: drop Fastability.tmp.mr.mpEmp_10
+2015-10-07T07:33:19.423+0000 I COMMAND  [conn9] CMD: drop Fastability.tmp.mr.mpEmp_10
+2015-10-07T07:33:19.423+0000 I COMMAND  [conn9] CMD: drop Fastability.tmp.mr.mpEmp_10
+2015-10-07T07:33:19.423+0000 I COMMAND  [conn1] CMD: drop Fastability.tmp.mr.aeEmp_11
+2015-10-07T07:33:19.426+0000 I COMMAND  [conn1] CMD: drop Fastability.tmp.mr.aeEmp_11
+2015-10-07T07:33:19.426+0000 I COMMAND  [conn1] CMD: drop Fastability.tmp.mr.aeEmp_11
+2015-10-07T07:33:21.492+0000 I COMMAND  [conn9] CMD: drop Fastability.tmp.mr.employees_12
+2015-10-07T07:33:21.494+0000 I COMMAND  [conn9] CMD: drop Fastability.EmployeeDetails
+2015-10-07T07:33:21.494+0000 I COMMAND  [conn9] CMD: drop Fastability.tmp.mr.employees_12
+2015-10-07T07:33:21.494+0000 I COMMAND  [conn9] CMD: drop Fastability.tmp.mr.employees_12
+2015-10-07T07:33:21.494+0000 I COMMAND  [conn9] CMD: drop Fastability.tmp.mr.employees_12
+2015-10-07T07:33:21.496+0000 I COMMAND  [conn1] CMD: drop Fastability.tmp.mr.rtswEmp_13
+2015-10-07T07:33:21.499+0000 I COMMAND  [conn1] CMD: drop Fastability.tmp.mr.rtswEmp_13
+2015-10-07T07:33:21.500+0000 I COMMAND  [conn1] CMD: drop Fastability.tmp.mr.rtswEmp_13
+2015-10-07T07:33:21.501+0000 I COMMAND  [conn3] CMD: drop Fastability.tmp.mr.mpEmp_14
+2015-10-07T07:33:21.502+0000 I COMMAND  [conn3] CMD: drop Fastability.tmp.mr.mpEmp_14
+2015-10-07T07:33:21.503+0000 I COMMAND  [conn3] CMD: drop Fastability.tmp.mr.mpEmp_14
+2015-10-07T07:33:21.504+0000 I COMMAND  [conn5] CMD: drop Fastability.tmp.mr.aeEmp_15
+2015-10-07T07:33:21.506+0000 I COMMAND  [conn5] CMD: drop Fastability.tmp.mr.aeEmp_15
+2015-10-07T07:33:21.506+0000 I COMMAND  [conn5] CMD: drop Fastability.tmp.mr.aeEmp_15
+2015-10-07T07:33:26.419+0000 I CONTROL  [signalProcessingThread] got signal 1 (Hangup), will terminate after current cmd ends
+2015-10-07T07:33:26.419+0000 I CONTROL  [signalProcessingThread] now exiting
+2015-10-07T07:33:26.419+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2015-10-07T07:33:26.419+0000 I NETWORK  [signalProcessingThread] closing listening socket: 5
+2015-10-07T07:33:26.419+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2015-10-07T07:33:26.419+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2015-10-07T07:33:26.419+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2015-10-07T07:33:26.419+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2015-10-07T07:33:26.419+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2015-10-07T07:33:26.420+0000 I STORAGE  [signalProcessingThread] shutdown: final commit...
+2015-10-07T07:33:26.422+0000 I NETWORK  [conn1] end connection 127.0.0.1:58032 (9 connections now open)
+2015-10-07T07:33:26.422+0000 I NETWORK  [conn3] end connection 127.0.0.1:58034 (9 connections now open)
+2015-10-07T07:33:26.422+0000 I NETWORK  [conn5] end connection 127.0.0.1:58036 (9 connections now open)
+2015-10-07T07:33:26.422+0000 I NETWORK  [conn4] end connection 127.0.0.1:58035 (9 connections now open)
+2015-10-07T07:33:26.422+0000 I NETWORK  [conn2] end connection 127.0.0.1:58033 (9 connections now open)
+2015-10-07T07:33:26.422+0000 I NETWORK  [conn6] end connection 127.0.0.1:58037 (9 connections now open)
+2015-10-07T07:33:26.422+0000 I NETWORK  [conn7] end connection 127.0.0.1:58038 (9 connections now open)
+2015-10-07T07:33:26.422+0000 I NETWORK  [conn9] end connection 127.0.0.1:58040 (9 connections now open)
+2015-10-07T07:33:26.422+0000 I NETWORK  [conn8] end connection 127.0.0.1:58039 (9 connections now open)
+2015-10-07T07:33:26.423+0000 I NETWORK  [conn10] end connection 127.0.0.1:58041 (8 connections now open)
+2015-10-07T07:33:26.438+0000 I JOURNAL  [signalProcessingThread] journalCleanup...
+2015-10-07T07:33:26.438+0000 I JOURNAL  [signalProcessingThread] removeJournalFiles
+2015-10-07T07:33:26.454+0000 I JOURNAL  [signalProcessingThread] Terminating durability thread ...
+2015-10-07T07:33:26.522+0000 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-10-07T07:33:26.523+0000 I JOURNAL  [durability] Durability thread stopped
+2015-10-07T07:33:26.523+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2015-10-07T07:33:26.524+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2015-10-07T07:33:26.524+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2015-10-07T07:33:26.524+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+Failed to load c++ bson extension, using pure JS version
+info: socket.io started
+Listening to port 9080
+warn: error raised: Error: listen EADDRINUSE
+events.js:85
+      throw er; // Unhandled 'error' event
+            ^
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/var/lib/node/bin/node_modules/mysql/lib/protocol/Protocol.js:103:13)
+    at Socket.<anonymous> (/var/lib/node/bin/node_modules/mysql/lib/Connection.js:102:28)
+    at Socket.emit (events.js:129:20)
+    at _stream_readable.js:908:16
+    at process._tickCallback (node.js:355:11)
+events.js:85
+      throw er; // Unhandled 'error' event
+            ^
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/var/lib/node/bin/node_modules/mysql/lib/protocol/Protocol.js:103:13)
+    at Socket.<anonymous> (/var/lib/node/bin/node_modules/mysql/lib/Connection.js:102:28)
+    at Socket.emit (events.js:129:20)
+    at _stream_readable.js:908:16
+    at process._tickCallback (node.js:355:11)
+Failed to load c++ bson extension, using pure JS version
+info: socket.io started
+Listening to port 9080
+Failed to load c++ bson extension, using pure JS version
+info: socket.io started
+Listening to port 9080
+debug: client authorized
+info: handshake authorized cJbfYWwYnSe6HYl4s0V_
+debug: setting request GET /socket.io/1/websocket/cJbfYWwYnSe6HYl4s0V_
+debug: set heartbeat interval for client cJbfYWwYnSe6HYl4s0V_
+debug: client authorized for 
+debug: websocket writing 1::
+debug: emitting heartbeat for client cJbfYWwYnSe6HYl4s0V_
+debug: websocket writing 2::
+debug: set heartbeat timeout for client cJbfYWwYnSe6HYl4s0V_
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client cJbfYWwYnSe6HYl4s0V_
+debug: set heartbeat interval for client cJbfYWwYnSe6HYl4s0V_
+debug: emitting heartbeat for client cJbfYWwYnSe6HYl4s0V_
+debug: websocket writing 2::
+debug: set heartbeat timeout for client cJbfYWwYnSe6HYl4s0V_
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client cJbfYWwYnSe6HYl4s0V_
+debug: set heartbeat interval for client cJbfYWwYnSe6HYl4s0V_
+info: transport end (socket end)
+debug: set close timeout for client cJbfYWwYnSe6HYl4s0V_
+debug: cleared close timeout for client cJbfYWwYnSe6HYl4s0V_
+debug: cleared heartbeat interval for client cJbfYWwYnSe6HYl4s0V_
+debug: discarding transport
+debug: client authorized
+info: handshake authorized g843BUn0zYAdKj3Ns0WA
+debug: setting request GET /socket.io/1/websocket/g843BUn0zYAdKj3Ns0WA
+debug: set heartbeat interval for client g843BUn0zYAdKj3Ns0WA
+debug: client authorized for 
+debug: websocket writing 1::
+debug: emitting heartbeat for client g843BUn0zYAdKj3Ns0WA
+debug: websocket writing 2::
+debug: set heartbeat timeout for client g843BUn0zYAdKj3Ns0WA
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client g843BUn0zYAdKj3Ns0WA
+debug: set heartbeat interval for client g843BUn0zYAdKj3Ns0WA
+info: transport end (socket end)
+debug: set close timeout for client g843BUn0zYAdKj3Ns0WA
+debug: cleared close timeout for client g843BUn0zYAdKj3Ns0WA
+debug: cleared heartbeat interval for client g843BUn0zYAdKj3Ns0WA
+debug: discarding transport
+debug: client authorized
+info: handshake authorized 93edZRkJZiRwjhHKs0WB
+debug: setting request GET /socket.io/1/websocket/93edZRkJZiRwjhHKs0WB
+debug: set heartbeat interval for client 93edZRkJZiRwjhHKs0WB
+debug: client authorized for 
+debug: websocket writing 1::
+debug: emitting heartbeat for client 93edZRkJZiRwjhHKs0WB
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 93edZRkJZiRwjhHKs0WB
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 93edZRkJZiRwjhHKs0WB
+debug: set heartbeat interval for client 93edZRkJZiRwjhHKs0WB
+debug: emitting heartbeat for client 93edZRkJZiRwjhHKs0WB
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 93edZRkJZiRwjhHKs0WB
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 93edZRkJZiRwjhHKs0WB
+debug: set heartbeat interval for client 93edZRkJZiRwjhHKs0WB
+debug: emitting heartbeat for client 93edZRkJZiRwjhHKs0WB
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 93edZRkJZiRwjhHKs0WB
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 93edZRkJZiRwjhHKs0WB
+debug: set heartbeat interval for client 93edZRkJZiRwjhHKs0WB
+debug: emitting heartbeat for client 93edZRkJZiRwjhHKs0WB
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 93edZRkJZiRwjhHKs0WB
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 93edZRkJZiRwjhHKs0WB
+debug: set heartbeat interval for client 93edZRkJZiRwjhHKs0WB
+debug: emitting heartbeat for client 93edZRkJZiRwjhHKs0WB
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 93edZRkJZiRwjhHKs0WB
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 93edZRkJZiRwjhHKs0WB
+debug: set heartbeat interval for client 93edZRkJZiRwjhHKs0WB
+info: transport end (socket end)
+debug: set close timeout for client 93edZRkJZiRwjhHKs0WB
+debug: cleared close timeout for client 93edZRkJZiRwjhHKs0WB
+debug: cleared heartbeat interval for client 93edZRkJZiRwjhHKs0WB
+debug: discarding transport
+debug: client authorized
+info: handshake authorized _foiKgmej5frhZ4as0WC
+debug: setting request GET /socket.io/1/websocket/_foiKgmej5frhZ4as0WC
+debug: set heartbeat interval for client _foiKgmej5frhZ4as0WC
+debug: client authorized for 
+debug: websocket writing 1::
+debug: emitting heartbeat for client _foiKgmej5frhZ4as0WC
+debug: websocket writing 2::
+debug: set heartbeat timeout for client _foiKgmej5frhZ4as0WC
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client _foiKgmej5frhZ4as0WC
+debug: set heartbeat interval for client _foiKgmej5frhZ4as0WC
+debug: emitting heartbeat for client _foiKgmej5frhZ4as0WC
+debug: websocket writing 2::
+debug: set heartbeat timeout for client _foiKgmej5frhZ4as0WC
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client _foiKgmej5frhZ4as0WC
+debug: set heartbeat interval for client _foiKgmej5frhZ4as0WC
+debug: emitting heartbeat for client _foiKgmej5frhZ4as0WC
+debug: websocket writing 2::
+debug: set heartbeat timeout for client _foiKgmej5frhZ4as0WC
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client _foiKgmej5frhZ4as0WC
+debug: set heartbeat interval for client _foiKgmej5frhZ4as0WC
+debug: emitting heartbeat for client _foiKgmej5frhZ4as0WC
+debug: websocket writing 2::
+debug: set heartbeat timeout for client _foiKgmej5frhZ4as0WC
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client _foiKgmej5frhZ4as0WC
+debug: set heartbeat interval for client _foiKgmej5frhZ4as0WC
+debug: emitting heartbeat for client _foiKgmej5frhZ4as0WC
+debug: websocket writing 2::
+debug: set heartbeat timeout for client _foiKgmej5frhZ4as0WC
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client _foiKgmej5frhZ4as0WC
+debug: set heartbeat interval for client _foiKgmej5frhZ4as0WC
+debug: emitting heartbeat for client _foiKgmej5frhZ4as0WC
+debug: websocket writing 2::
+debug: set heartbeat timeout for client _foiKgmej5frhZ4as0WC
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client _foiKgmej5frhZ4as0WC
+debug: set heartbeat interval for client _foiKgmej5frhZ4as0WC
+debug: emitting heartbeat for client _foiKgmej5frhZ4as0WC
+debug: websocket writing 2::
+debug: set heartbeat timeout for client _foiKgmej5frhZ4as0WC
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client _foiKgmej5frhZ4as0WC
+debug: set heartbeat interval for client _foiKgmej5frhZ4as0WC
+debug: emitting heartbeat for client _foiKgmej5frhZ4as0WC
+debug: websocket writing 2::
+debug: set heartbeat timeout for client _foiKgmej5frhZ4as0WC
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client _foiKgmej5frhZ4as0WC
+debug: set heartbeat interval for client _foiKgmej5frhZ4as0WC
+debug: emitting heartbeat for client _foiKgmej5frhZ4as0WC
+debug: websocket writing 2::
+debug: set heartbeat timeout for client _foiKgmej5frhZ4as0WC
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client _foiKgmej5frhZ4as0WC
+debug: set heartbeat interval for client _foiKgmej5frhZ4as0WC
+debug: emitting heartbeat for client _foiKgmej5frhZ4as0WC
+debug: websocket writing 2::
+debug: set heartbeat timeout for client _foiKgmej5frhZ4as0WC
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client _foiKgmej5frhZ4as0WC
+debug: set heartbeat interval for client _foiKgmej5frhZ4as0WC
+debug: emitting heartbeat for client _foiKgmej5frhZ4as0WC
+debug: websocket writing 2::
+debug: set heartbeat timeout for client _foiKgmej5frhZ4as0WC
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client _foiKgmej5frhZ4as0WC
+debug: set heartbeat interval for client _foiKgmej5frhZ4as0WC
+debug: emitting heartbeat for client _foiKgmej5frhZ4as0WC
+debug: websocket writing 2::
+debug: set heartbeat timeout for client _foiKgmej5frhZ4as0WC
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client _foiKgmej5frhZ4as0WC
+debug: set heartbeat interval for client _foiKgmej5frhZ4as0WC
+/var/lib/node/bin/node_modules/express/lib/router/route.js:171
+        throw new Error(msg);
+              ^
+Error: Route.get() requires callback functions but got a [object Undefined]
+    at /var/lib/node/bin/node_modules/express/lib/router/route.js:171:15
+    at Array.forEach (native)
+    at Route.(anonymous function) [as get] (/var/lib/node/bin/node_modules/express/lib/router/route.js:167:15)
+    at Function.app.(anonymous function) (/var/lib/node/bin/node_modules/express/lib/application.js:423:19)
+    at module.exports (/var/lib/node/bin/controllers/ClaimAdjustmentController.js:7:7)
+    at /var/lib/node/bin/app.js:10:37
+    at Array.forEach (native)
+    at Object.<anonymous> (/var/lib/node/bin/app.js:9:18)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+Failed to load c++ bson extension, using pure JS version
+info: socket.io started
+Listening to port 9080
+/tmp/nWxdBQQAnL8vmqJ9mdPPatEH.JPG
+events.js:85
+      throw er; // Unhandled 'error' event
+            ^
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/var/lib/node/bin/node_modules/mysql/lib/protocol/Protocol.js:103:13)
+    at Socket.<anonymous> (/var/lib/node/bin/node_modules/mysql/lib/Connection.js:102:28)
+    at Socket.emit (events.js:129:20)
+    at _stream_readable.js:908:16
+    at process._tickCallback (node.js:355:11)
+Failed to load c++ bson extension, using pure JS version
+info: socket.io started
+Listening to port 9080
+/tmp/voPQO7dZXLIkooeL3e_e0LDY.jpg
+CL-187654PODA
+IsCheck = true
+Post Titles:  CL-008364
+Rows Affected = 1
+Inserted Rows Affected = 1
+events.js:85
+      throw er; // Unhandled 'error' event
+            ^
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/var/lib/node/bin/node_modules/mysql/lib/protocol/Protocol.js:103:13)
+    at Socket.<anonymous> (/var/lib/node/bin/node_modules/mysql/lib/Connection.js:102:28)
+    at Socket.emit (events.js:129:20)
+    at _stream_readable.js:908:16
+    at process._tickCallback (node.js:355:11)
+warn:    --minUptime not set. Defaulting to: 1000ms
+warn:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+Failed to load c++ bson extension, using pure JS version
+info: socket.io started
+Listening to port 9080
+events.js:85
+      throw er; // Unhandled 'error' event
+            ^
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/var/lib/node/bin/node_modules/mysql/lib/protocol/Protocol.js:103:13)
+    at Socket.<anonymous> (/var/lib/node/bin/node_modules/mysql/lib/Connection.js:102:28)
+    at Socket.emit (events.js:129:20)
+    at _stream_readable.js:908:16
+    at process._tickCallback (node.js:355:11)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #1
+Failed to load c++ bson extension, using pure JS version
+info: socket.io started
+Listening to port 9080
+events.js:85
+      throw er; // Unhandled 'error' event
+            ^
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/var/lib/node/bin/node_modules/mysql/lib/protocol/Protocol.js:103:13)
+    at Socket.<anonymous> (/var/lib/node/bin/node_modules/mysql/lib/Connection.js:102:28)
+    at Socket.emit (events.js:129:20)
+    at _stream_readable.js:908:16
+    at process._tickCallback (node.js:355:11)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #2
+Failed to load c++ bson extension, using pure JS version
+info: socket.io started
+Listening to port 9080
+events.js:85
+      throw er; // Unhandled 'error' event
+            ^
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/var/lib/node/bin/node_modules/mysql/lib/protocol/Protocol.js:103:13)
+    at Socket.<anonymous> (/var/lib/node/bin/node_modules/mysql/lib/Connection.js:102:28)
+    at Socket.emit (events.js:129:20)
+    at _stream_readable.js:908:16
+    at process._tickCallback (node.js:355:11)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #3
+Failed to load c++ bson extension, using pure JS version
+info: socket.io started
+Listening to port 9080
+events.js:85
+      throw er; // Unhandled 'error' event
+            ^
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/var/lib/node/bin/node_modules/mysql/lib/protocol/Protocol.js:103:13)
+    at Socket.<anonymous> (/var/lib/node/bin/node_modules/mysql/lib/Connection.js:102:28)
+    at Socket.emit (events.js:129:20)
+    at _stream_readable.js:908:16
+    at process._tickCallback (node.js:355:11)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #4
+Failed to load c++ bson extension, using pure JS version
+info: socket.io started
+Listening to port 9080
+events.js:85
+      throw er; // Unhandled 'error' event
+            ^
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/var/lib/node/bin/node_modules/mysql/lib/protocol/Protocol.js:103:13)
+    at Socket.<anonymous> (/var/lib/node/bin/node_modules/mysql/lib/Connection.js:102:28)
+    at Socket.emit (events.js:129:20)
+    at _stream_readable.js:908:16
+    at process._tickCallback (node.js:355:11)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #5
+Failed to load c++ bson extension, using pure JS version
+info: socket.io started
+Listening to port 9080
+events.js:85
+      throw er; // Unhandled 'error' event
+            ^
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/var/lib/node/bin/node_modules/mysql/lib/protocol/Protocol.js:103:13)
+    at Socket.<anonymous> (/var/lib/node/bin/node_modules/mysql/lib/Connection.js:102:28)
+    at Socket.emit (events.js:129:20)
+    at _stream_readable.js:908:16
+    at process._tickCallback (node.js:355:11)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #6
+Failed to load c++ bson extension, using pure JS version
+info: socket.io started
+Listening to port 9080
+events.js:85
+      throw er; // Unhandled 'error' event
+            ^
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/var/lib/node/bin/node_modules/mysql/lib/protocol/Protocol.js:103:13)
+    at Socket.<anonymous> (/var/lib/node/bin/node_modules/mysql/lib/Connection.js:102:28)
+    at Socket.emit (events.js:129:20)
+    at _stream_readable.js:908:16
+    at process._tickCallback (node.js:355:11)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #7
+Failed to load c++ bson extension, using pure JS version
+info: socket.io started
+Listening to port 9080
+events.js:85
+      throw er; // Unhandled 'error' event
+            ^
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/var/lib/node/bin/node_modules/mysql/lib/protocol/Protocol.js:103:13)
+    at Socket.<anonymous> (/var/lib/node/bin/node_modules/mysql/lib/Connection.js:102:28)
+    at Socket.emit (events.js:129:20)
+    at _stream_readable.js:908:16
+    at process._tickCallback (node.js:355:11)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #8
+Failed to load c++ bson extension, using pure JS version
+info: socket.io started
+Listening to port 9080
+Response:
+{ errors: [ '  Notifications may not be scheduled in the past.' ] }
+Response:
+{ errors: [ '  Notifications may not be scheduled in the past.' ] }
+Response:
+{ errors: [ '  Notifications may not be scheduled in the past.' ] }
+Response:
+{ errors: [ '  Notifications may not be scheduled in the past.' ] }
+Response:
+{ errors: [ '  Notifications may not be scheduled in the past.' ] }
+Response:
+{ errors: [ '  Notifications may not be scheduled in the past.' ] }
+Response:
+{ errors: [ '  Notifications may not be scheduled in the past.' ] }
+Response:
+{ errors: [ '  Notifications may not be scheduled in the past.' ] }
+Response:
+{ errors: [ '  Notifications may not be scheduled in the past.' ] }
+debug: client authorized
+info: handshake authorized -jlzKsI3ETJ_pFi6UcHp
+debug: setting request GET /socket.io/1/websocket/-jlzKsI3ETJ_pFi6UcHp
+debug: set heartbeat interval for client -jlzKsI3ETJ_pFi6UcHp
+debug: client authorized for 
+debug: websocket writing 1::
+debug: emitting heartbeat for client -jlzKsI3ETJ_pFi6UcHp
+debug: websocket writing 2::
+debug: set heartbeat timeout for client -jlzKsI3ETJ_pFi6UcHp
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client -jlzKsI3ETJ_pFi6UcHp
+debug: set heartbeat interval for client -jlzKsI3ETJ_pFi6UcHp
+info: transport end (socket end)
+debug: set close timeout for client -jlzKsI3ETJ_pFi6UcHp
+debug: cleared close timeout for client -jlzKsI3ETJ_pFi6UcHp
+debug: cleared heartbeat interval for client -jlzKsI3ETJ_pFi6UcHp
+debug: discarding transport
+Response:
+{ errors: [ '  Notifications may not be scheduled in the past.' ] }
+error: Forever detected script was killed by signal: SIGKILL
