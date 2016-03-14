@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/HomeSurveyorServices">
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" factory="org.apache.commons.dbcp.BasicDataSourceFactory" maxActive="50" maxIdle="30" maxWait="10000" name="jdbc/mobile_adjustor" password="inextpwd" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/mobile_adjustor" username="inextusr"/>
+</Context>

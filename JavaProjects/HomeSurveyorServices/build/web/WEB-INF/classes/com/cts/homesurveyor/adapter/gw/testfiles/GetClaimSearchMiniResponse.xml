@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<GetClaimsListResponse>
+	<Error />
+	<Claim>
+		<ClaimId>101</ClaimId>
+		<ClaimNumber>CL-000000124</ClaimNumber>
+		<AtFault>true</AtFault>
+		<LossDt>01/22/2011</LossDt>
+		<ReportedDt>01/21/2011</ReportedDt>
+		<ReportedBy>Jeya Balaji</ReportedBy>
+		<LossLocationDescription>Near the Trichy Bypass road in chennai
+		</LossLocationDescription>
+		<Comments>This Claim was reported last year, Please work on this ASAP
+		</Comments>
+		<SurveyorId>SID-56735</SurveyorId>
+		<Policy>
+			<PolicyNumber>DW-0002221</PolicyNumber>
+			<AgentNumber>ANDREA-001</AgentNumber>
+			<EffectiveDate>01/02/2010</EffectiveDate>
+			<ExpiryDate>01/02/2011</ExpiryDate>
+		</Policy>
+	</Claim>
+	<Claim>
+		<ClaimId>102</ClaimId>
+		<ClaimNumber>CL-000000125</ClaimNumber>
+		<AtFault>true</AtFault>
+		<LossDt>01/22/2011</LossDt>
+		<ReportedDt>01/21/2011</ReportedDt>
+		<ReportedBy>Bala Ganga</ReportedBy>
+		<LossLocationDescription>Near the Bypass road in Bangalore
+		</LossLocationDescription>
+		<Comments>This Claim was reported last year, Please work on this ASAP
+		</Comments>
+		<SurveyorId>SID-56735</SurveyorId>
+		<Policy>
+			<PolicyNumber>DW-0002221</PolicyNumber>
+			<AgentNumber>ANDREA-001</AgentNumber>
+			<EffectiveDate>01/05/2012</EffectiveDate>
+			<ExpiryDate>01/05/2013</ExpiryDate>
+		</Policy>
+	</Claim>
+	<Claim>
+		<ClaimId>103</ClaimId>
+		<ClaimNumber>CL-000000126</ClaimNumber>
+		<AtFault>true</AtFault>
+		<LossDt>01/22/2011</LossDt>
+		<ReportedDt>01/21/2011</ReportedDt>
+		<ReportedBy>Britto</ReportedBy>
+		<LossLocationDescription>Near the Service road in Bangalore
+		</LossLocationDescription>
+		<Comments>This claim was reported newly
+		</Comments>
+		<SurveyorId>SID-56735</SurveyorId>
+		<Policy>
+			<PolicyNumber>DW-0002221</PolicyNumber>
+			<AgentNumber>ANDREA-001</AgentNumber>
+			<EffectiveDate>01/08/2009</EffectiveDate>
+			<ExpiryDate>01/08/2010</ExpiryDate>
+		</Policy>
+	</Claim>
+	<Claim>
+		<ClaimId>103</ClaimId>
+		<ClaimNumber>CL-000000127</ClaimNumber>
+		<AtFault>true</AtFault>
+		<LossDt>01/22/2011</LossDt>
+		<ReportedDt>01/21/2011</ReportedDt>
+		<ReportedBy>Uma Palanivel</ReportedBy>
+		<LossLocationDescription>Near the Bypass road in Bangalore
+		</LossLocationDescription>
+		<Comments>This Claim was reported last year, Please work on this ASAP
+		</Comments>
+		<SurveyorId>SID-56735</SurveyorId>
+		<Policy>
+			<PolicyNumber>DW-0002221</PolicyNumber>
+			<AgentNumber>ANDREA-001</AgentNumber>
+			<EffectiveDate>01/04/2007</EffectiveDate>
+			<ExpiryDate>01/04/2008</ExpiryDate>
+		</Policy>
+	</Claim>
+</GetClaimsListResponse>

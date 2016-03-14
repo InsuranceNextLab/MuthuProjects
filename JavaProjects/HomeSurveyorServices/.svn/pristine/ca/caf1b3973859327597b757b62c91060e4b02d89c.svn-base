@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/HomeSurveyorServices">
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" factory="org.apache.commons.dbcp.BasicDataSourceFactory" maxActive="50" maxIdle="30" maxWait="10000" name="jdbc/inextdb" password="" type="javax.sql.DataSource" url="jdbc:mysql://http://localhost:81/inextdb" username="root"/>
+</Context>

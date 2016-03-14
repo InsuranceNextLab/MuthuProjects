@@ -1,0 +1,2003 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<GetClaimsListResponse>
+	<Error />
+	<Claim>
+		<ClaimId>30002</ClaimId>
+		<ClaimNumber>CL-008364144</ClaimNumber>
+		<AtFault>true</AtFault>
+		<LossDt>$Date8</LossDt>
+		<Status>Assigned</Status>
+		<ReportedDt>$Date1</ReportedDt>
+		<ReportedBy>Thomas Young</ReportedBy>
+		<LossLocationDescription>445 Broadway, Room 112, Albany, NY 12207
+		</LossLocationDescription>
+		<Comments>Accident happened near the Albany Express avenue</Comments>
+		<Policy>
+			<PolicyNumber>AU-00010001</PolicyNumber>
+			<AgentNumber>Lorrine-001</AgentNumber>
+			<PolicyType>Auto-1</PolicyType>
+			<PaymentPlan>6 months installment</PaymentPlan>
+			<Status>Active</Status>
+			<EffectiveDate>01/02/2010</EffectiveDate>
+			<ExpiryDate>01/02/2011</ExpiryDate>
+			<InsuredInfo>
+				<InsuredId>Ins-01</InsuredId>
+				<InsuredTypeCd>Primary</InsuredTypeCd>
+				<FirstName>Scott</FirstName>
+				<LastName>Turner</LastName>
+				<HomePhone>201-233-2222</HomePhone>
+				<CellPhone>201-233-2222</CellPhone>
+				<Email>thomas.young@gmail.com</Email>
+				<AddressInfo>
+					<AddressId>Addr-1</AddressId>
+					<AddressTypeCd>MailingAddr</AddressTypeCd>
+					<AddressLine1>Apt 61</AddressLine1>
+					<AddressLine2>1800 Stokes St,</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.961960</Lat>
+					<Long>37.422153</Long>
+				</AddressInfo>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>Billing Address</AddressTypeCd>
+					<AddressLine1>Apt 61</AddressLine1>
+					<AddressLine2>1800 Stokes St,</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.961960</Lat>
+					<Long>37.422153</Long>
+				</AddressInfo>
+			</InsuredInfo>
+			<InsuredInfo>
+				<InsuredId>Ins-02</InsuredId>
+				<InsuredTypeCd>Secondary</InsuredTypeCd>
+				<FirstName>Mary</FirstName>
+				<LastName>Scott</LastName>
+				<HomePhone>201-233-2222</HomePhone>
+				<CellPhone>201-233-2222</CellPhone>
+				<Email>mary.scott@gmail.com</Email>
+				<AddressInfo>
+					<AddressId>Addr-1</AddressId>
+					<AddressTypeCd>MailingAddr</AddressTypeCd>
+					<AddressLine1>Apt 61</AddressLine1>
+					<AddressLine2>1800 Stokes St,</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.961960</Lat>
+					<Long>37.422153</Long>
+				</AddressInfo>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>Billing Address</AddressTypeCd>
+					<AddressLine1>Apt 61</AddressLine1>
+					<AddressLine2>1800 Stokes St,</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.961960</Lat>
+					<Long>37.422153</Long>
+				</AddressInfo>
+			</InsuredInfo>
+			<LossHistoryInfo>
+				<LossHistoryId>LH-1</LossHistoryId>
+				<LossHistoryNumber>LH00345454</LossHistoryNumber>
+				<ClaimNumber>CL-032225653</ClaimNumber>
+				<StatusCd>Closed</StatusCd>
+				<SourceCd>PPLS</SourceCd>
+				<LossDt>01/21/2010</LossDt>
+				<LossCauseCd>Collision</LossCauseCd>
+				<LossAmount>1580</LossAmount>
+				<LossDescription>Back end collision, Rear light Broken during the accident
+				</LossDescription>
+				<PaidAmount>1300</PaidAmount>
+				<Comment>This Claim was raised after 10 days from the Loss date, and it was settled on 03/15/2010.</Comment>
+				<CarrierName>OKFB</CarrierName>
+			</LossHistoryInfo>
+			<LossHistoryInfo>
+				<LossHistoryId>LH-2</LossHistoryId>
+				<LossHistoryNumber>LH034541345</LossHistoryNumber>
+				<ClaimNumber>CL-0345541223</ClaimNumber>
+				<StatusCd>Closed</StatusCd>
+				<SourceCd>MMHC</SourceCd>
+				<LossDt>03/21/2012</LossDt>
+				<LossCauseCd>Collision</LossCauseCd>
+				<LossAmount>16570</LossAmount>
+				<LossDescription>The driver was at fault, Drunk and drove the car.
+				</LossDescription>
+				<PaidAmount>0</PaidAmount>
+				<Comment>This claim was closed and no money was settled as the driver was drunk</Comment>
+				<CarrierName>MMIC</CarrierName>
+			</LossHistoryInfo>
+			<VehicleInfo>
+				<VehicleId>V-001</VehicleId>
+				<Make>Toyota Corolla</Make>
+				<ModelYear>2010</ModelYear>
+				<Model>3.5 SL 4dr Sedan</Model>
+				<VIN>WAUBEAFMCKLOIUYTR</VIN>
+				<VehicleLicenseNo>SSDFSDWSXC</VehicleLicenseNo>
+				<BodyStyle>Wagon Four-Door</BodyStyle>
+				<PerformanceCode>Standard</PerformanceCode>
+				<EngineType>Turbo Engine</EngineType>
+				<EngineSize>2.0</EngineSize>
+				<EngineHorsePower>200</EngineHorsePower>
+				<Restraints>Driver and Front Passenger Front, Side, Head and Rear Head Airbags</Restraints>
+				<HasAntiTheftDevice>Yes</HasAntiTheftDevice>
+				<VehicleUse>Pleasure</VehicleUse>
+				<OwnedBy>Scott Turner</OwnedBy>
+				<EstimatedMileage>6999</EstimatedMileage>
+				<RegistrationStartDt>01/21/2012</RegistrationStartDt>
+				<RegistrationEndDt>01/21/2013</RegistrationEndDt>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>GarrageAddr</AddressTypeCd>
+					<AddressLine1>Apt 120</AddressLine1>
+					<AddressLine2>1200 Southwest Expressway</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.927048</Lat>
+					<Long>37.408188</Long>
+				</AddressInfo>
+			</VehicleInfo>
+			<VehicleInfo>
+				<VehicleId>V-002</VehicleId>
+				<Make>Nissan Altima</Make>
+				<ModelYear>2008</ModelYear>
+				<Model>3.5 SL 4dr Sedan</Model>
+				<VIN>WAUBEAFMCKLOIUYTR</VIN>
+				<VehicleLicenseNo>SSDFSDWSXC</VehicleLicenseNo>
+				<BodyStyle>Wagon Four-Door</BodyStyle>
+				<PerformanceCode>Standard</PerformanceCode>
+				<EngineType>Turbo Engine</EngineType>
+				<EngineSize>2.0</EngineSize>
+				<EngineHorsePower>200</EngineHorsePower>
+				<Restraints>Driver and Front Passenger Front, Side, Head and Rear Head Airbags</Restraints>
+				<HasAntiTheftDevice>Yes</HasAntiTheftDevice>
+				<VehicleUse>Pleasure</VehicleUse>
+				<OwnedBy>Mary Scott</OwnedBy>
+				<EstimatedMileage>6999</EstimatedMileage>
+				<RegistrationStartDt>01/21/2012</RegistrationStartDt>
+				<RegistrationEndDt>01/21/2013</RegistrationEndDt>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>GarrageAddr</AddressTypeCd>
+					<AddressLine1>Apt 130</AddressLine1>
+					<AddressLine2>1200 Southwest Expressway</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.927048</Lat>
+					<Long>37.408188</Long>
+				</AddressInfo>
+			</VehicleInfo>
+			<CoverageInfo>
+				<CoverageId>COV-001</CoverageId>
+				<CoverageDescription>Bodily injury coverage, also called BI, is a type of insurance coverage that pays for bodily injury to people who are not specifically covered on the insurance policy
+				</CoverageDescription>
+				<CoverageType>Auto Liability Coverage</CoverageType>
+				<CoverageName>Bodily Injury Liability</CoverageName>
+				<CoverageLimit>10000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-002</CoverageId>
+				<CoverageDescription>Ccovers damaged property, and may include loss of use
+				</CoverageDescription>
+				<CoverageType>Auto Liability Coverage</CoverageType>
+				<CoverageName>Property Damage Liability</CoverageName>
+				<CoverageLimit>20000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-003</CoverageId>
+				<CoverageDescription>This auto insurance coverage pays the reasonable and necessary medical expenses for covered persons for treatment due to an auto accident.
+				</CoverageDescription>
+				<CoverageType>Personal Injury Protection</CoverageType>
+				<CoverageName>Personal Injury Protection</CoverageName>
+				<CoverageLimit>2000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-004</CoverageId>
+				<CoverageDescription>This auto insurance coverage is available in most states. It pays reasonable and necessary medical and funeral expenses for covered persons when those expenses are related to an auto accident.
+				</CoverageDescription>
+				<CoverageType>Medical Payments</CoverageType>
+				<CoverageName>Medical Payment</CoverageName>
+				<CoverageLimit>5000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-005</CoverageId>
+				<CoverageDescription>This auto insurance coverage helps pay for damage to a covered vehicle caused by.
+				</CoverageDescription>
+				<CoverageType>Collision</CoverageType>
+				<CoverageName>Collision</CoverageName>
+				<CoverageLimit>7500</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-006</CoverageId>
+				<CoverageDescription>This auto insurance coverage helps pay for loss of or damage to an insured vehicle, not caused by a collision or vehicle rollover.
+				</CoverageDescription>
+				<CoverageType>Comprehensive</CoverageType>
+				<CoverageName>Comprehensive</CoverageName>
+				<CoverageLimit>5000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<DriverInfo>
+				<DriverId>DR-0001</DriverId>
+				<DriverName>Scott Turner</DriverName>
+				<DriverLicenseNo>MED3454F</DriverLicenseNo>
+				<RelationShipToInsured>Self</RelationShipToInsured>
+				<SafeDriverDiscount>0</SafeDriverDiscount>
+				<Occupation>Software Engineer</Occupation>
+				<BirthDate>01/01/1968</BirthDate>
+				<Age>33</Age>
+				<Gender>M</Gender>
+				<Operator>Self</Operator>
+				<IsPrimaryInsured>Yes</IsPrimaryInsured>
+				<Vehicles>V-001,V-002</Vehicles>
+				<Status>Active</Status>
+				<LicenseState>CA</LicenseState>
+			</DriverInfo>
+			<DriverInfo>
+				<DriverId>DR-0002</DriverId>
+				<DriverName>Mary Scott</DriverName>
+				<DriverLicenseNo>DE45234534</DriverLicenseNo>
+				<RelationShipToInsured>Wife</RelationShipToInsured>
+				<SafeDriverDiscount>0</SafeDriverDiscount>
+				<Occupation>Software Engineer</Occupation>
+				<BirthDate>01/01/1968</BirthDate>
+				<Age>33</Age>
+				<Gender>M</Gender>
+				<Operator>Self</Operator>
+				<IsPrimaryInsured>No</IsPrimaryInsured>
+				<Vehicles>V-001</Vehicles>				
+				<Status>Active</Status>
+				<LicenseState>CA</LicenseState>
+			</DriverInfo>
+			<DriverInfo>
+				<DriverId>DR-0003</DriverId>
+				<DriverName>Lewis</DriverName>
+				<DriverLicenseNo>WC4R23444</DriverLicenseNo>
+				<RelationShipToInsured>Worker</RelationShipToInsured>
+				<SafeDriverDiscount>0</SafeDriverDiscount>
+				<Occupation>Driver</Occupation>
+				<BirthDate>01/01/1968</BirthDate>
+				<Age>33</Age>
+				<Gender>M</Gender>
+				<Operator>Self</Operator>
+				<IsPrimaryInsured>No</IsPrimaryInsured>
+				<Vehicles>V-002</Vehicles>
+				<Status>Active</Status>
+				<LicenseState>WI</LicenseState>
+			</DriverInfo>
+		</Policy>
+	</Claim>
+	<Claim>
+		<ClaimId>30003</ClaimId>
+		<ClaimNumber>CL-00234289</ClaimNumber>
+		<AtFault>false</AtFault>
+		<LossDt>$Date10</LossDt>
+		<ReportedDt>$Date1</ReportedDt>
+		<Status>Assigned</Status>
+		<ReportedBy>Wilson Moore</ReportedBy>
+		<LossLocationDescription>1200 Southwest Expressway, SanJose CA 95126
+		</LossLocationDescription>
+		<Comments>Accident Happened near the Express avenue and the car was driven to the Insured home</Comments>
+		<Policy>
+			<PolicyNumber>AU-00010004</PolicyNumber>
+			<AgentNumber>Andy-001</AgentNumber>
+			<PolicyType>Auto-1</PolicyType>
+			<PaymentPlan>11 months installment</PaymentPlan>
+			<Status>Active</Status>
+			<EffectiveDate>01/02/2012</EffectiveDate>
+			<ExpiryDate>01/02/2012</ExpiryDate>
+			<InsuredInfo>
+				<InsuredId>Ins-01</InsuredId>
+				<InsuredTypeCd>Primary</InsuredTypeCd>
+				<FirstName>Wilson</FirstName>
+				<LastName>Moore</LastName>
+				<HomePhone>233-265-7782</HomePhone>
+				<CellPhone>341-236-2542</CellPhone>
+				<Email>wilson.moore@yahoo.co.in</Email>
+				<AddressInfo>
+					<AddressId>Addr-1</AddressId>
+					<AddressTypeCd>MailingAddr</AddressTypeCd>
+					<AddressLine1>Apt 61</AddressLine1>
+					<AddressLine2>1800 Stokes St,</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.961960</Lat>
+					<Long>37.422153</Long>
+				</AddressInfo>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>Billing Address</AddressTypeCd>
+					<AddressLine1>Apt 61</AddressLine1>
+					<AddressLine2>1800 Stokes St,</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.961960</Lat>
+					<Long>37.422153</Long>
+				</AddressInfo>
+			</InsuredInfo>
+			<LossHistoryInfo>
+				<LossHistoryId>LH-1</LossHistoryId>
+				<LossHistoryNumber>LH00345454</LossHistoryNumber>
+				<ClaimNumber>CL-032225653</ClaimNumber>
+				<StatusCd>Closed</StatusCd>
+				<SourceCd>PPLS</SourceCd>
+				<LossDt>01/21/2010</LossDt>
+				<LossCauseCd>Collision</LossCauseCd>
+				<LossAmount>1580</LossAmount>
+				<LossDescription>Back end collision, Rear light Broken during the accident
+				</LossDescription>
+				<PaidAmount>1300</PaidAmount>
+				<Comment>This Claim was raised after 10 days from the Loss date, and it was settled on 03/15/2010.</Comment>
+				<CarrierName>OKFB</CarrierName>
+			</LossHistoryInfo>
+			<LossHistoryInfo>
+				<LossHistoryId>LH-2</LossHistoryId>
+				<LossHistoryNumber>LH034541345</LossHistoryNumber>
+				<ClaimNumber>CL-0345541223</ClaimNumber>
+				<StatusCd>Closed</StatusCd>
+				<SourceCd>MMHC</SourceCd>
+				<LossDt>03/21/2012</LossDt>
+				<LossCauseCd>Collision</LossCauseCd>
+				<LossAmount>16570</LossAmount>
+				<LossDescription>The driver was at fault, Drunk and drove the car.
+				</LossDescription>
+				<PaidAmount>0</PaidAmount>
+				<Comment>This claim was closed and no money was settled as the driver was drunk</Comment>
+				<CarrierName>MMIC</CarrierName>
+			</LossHistoryInfo>
+			<VehicleInfo>
+				<VehicleId>V-003</VehicleId>
+				<Make>Toyota Corolla</Make>
+				<ModelYear>2010</ModelYear>
+				<Model>3.5 SL 4dr Sedan</Model>
+				<VIN>WAUBEAFMCKLOIUYTR</VIN>
+				<VehicleLicenseNo>SSDFSDWSXC</VehicleLicenseNo>
+				<BodyStyle>Wagon Four-Door</BodyStyle>
+				<PerformanceCode>Standard</PerformanceCode>
+				<EngineType>Turbo Engine</EngineType>
+				<EngineSize>2.0</EngineSize>
+				<EngineHorsePower>200</EngineHorsePower>
+				<Restraints>Driver and Front Passenger Front, Side, Head and Rear Head Airbags</Restraints>
+				<HasAntiTheftDevice>Yes</HasAntiTheftDevice>
+				<VehicleUse>Pleasure</VehicleUse>
+				<OwnedBy>Scott Turner</OwnedBy>
+				<EstimatedMileage>6999</EstimatedMileage>
+				<RegistrationStartDt>01/21/2012</RegistrationStartDt>
+				<RegistrationEndDt>01/21/2013</RegistrationEndDt>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>GarrageAddr</AddressTypeCd>
+					<AddressLine1>Apt 120</AddressLine1>
+					<AddressLine2>1200 Southwest Expressway</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.927048</Lat>
+					<Long>37.408188</Long>
+				</AddressInfo>
+			</VehicleInfo>
+			<CoverageInfo>
+				<CoverageId>COV-001</CoverageId>
+				<CoverageDescription>Bodily injury coverage, also called BI, is a type of insurance coverage that pays for bodily injury to people who are not specifically covered on the insurance policy
+				</CoverageDescription>
+				<CoverageType>Auto Liability Coverage</CoverageType>
+				<CoverageName>Bodily Injury Liability</CoverageName>
+				<CoverageLimit>10000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-002</CoverageId>
+				<CoverageDescription>Ccovers damaged property, and may include loss of use
+				</CoverageDescription>
+				<CoverageType>Auto Liability Coverage</CoverageType>
+				<CoverageName>Property Damage Liability</CoverageName>
+				<CoverageLimit>20000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-003</CoverageId>
+				<CoverageDescription>This auto insurance coverage pays the reasonable and necessary medical expenses for covered persons for treatment due to an auto accident.
+				</CoverageDescription>
+				<CoverageType>Personal Injury Protection</CoverageType>
+				<CoverageName>Personal Injury Protection</CoverageName>
+				<CoverageLimit>2000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-004</CoverageId>
+				<CoverageDescription>This auto insurance coverage is available in most states. It pays reasonable and necessary medical and funeral expenses for covered persons when those expenses are related to an auto accident.
+				</CoverageDescription>
+				<CoverageType>Medical Payments</CoverageType>
+				<CoverageName>Medical Payment</CoverageName>
+				<CoverageLimit>5000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-005</CoverageId>
+				<CoverageDescription>This auto insurance coverage helps pay for damage to a covered vehicle caused by.
+				</CoverageDescription>
+				<CoverageType>Collision</CoverageType>
+				<CoverageName>Collision</CoverageName>
+				<CoverageLimit>1000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-006</CoverageId>
+				<CoverageDescription>This auto insurance coverage helps pay for loss of or damage to an insured vehicle, not caused by a collision or vehicle rollover.
+				</CoverageDescription>
+				<CoverageType>Comprehensive</CoverageType>
+				<CoverageName>Comprehensive</CoverageName>
+				<CoverageLimit>5000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<DriverInfo>
+				<DriverId>DR-0001</DriverId>
+				<DriverName>Wilson Moore</DriverName>
+				<DriverLicenseNo>MED3454F</DriverLicenseNo>
+				<RelationShipToInsured>Self</RelationShipToInsured>
+				<SafeDriverDiscount>0</SafeDriverDiscount>
+				<Occupation>Software Consultant</Occupation>
+				<BirthDate>01/01/1973</BirthDate>
+				<Age>33</Age>
+				<Gender>M</Gender>
+				<Operator>Self</Operator>
+				<IsPrimaryInsured>Yes</IsPrimaryInsured>
+				<Vehicles>V-003</Vehicles>
+				<Status>Active</Status>
+				<LicenseState>CA</LicenseState>
+			</DriverInfo>
+			<DriverInfo>
+				<DriverId>DR-0002</DriverId>
+				<DriverName>Mary Wilson</DriverName>
+				<DriverLicenseNo>DE45234534</DriverLicenseNo>
+				<RelationShipToInsured>Wife</RelationShipToInsured>
+				<SafeDriverDiscount>0</SafeDriverDiscount>
+				<Occupation>Executive Engineer</Occupation>
+				<BirthDate>01/01/1978</BirthDate>
+				<Age>33</Age>
+				<Gender>M</Gender>
+				<Operator>Self</Operator>
+				<IsPrimaryInsured>No</IsPrimaryInsured>
+				<Vehicles>V-003</Vehicles>
+				<Status>Active</Status>
+				<LicenseState>CA</LicenseState>
+			</DriverInfo>
+		</Policy>
+	</Claim>
+	<Claim>
+		<ClaimId>30004</ClaimId>
+		<ClaimNumber>CL-0345345347</ClaimNumber>
+		<AtFault>true</AtFault>
+		<LossDt>$Date7</LossDt>
+		<Status>Assigned</Status>
+		<ReportedDt>$Date1</ReportedDt>
+		<ReportedBy>Hamilton Woods</ReportedBy>
+		<LossLocationDescription>1800 Stokes St, Apt 61, SanJose, CA 95126
+		</LossLocationDescription>
+		<Comments>Accident Happened near the Albany Express avenue</Comments>
+		<Policy>
+			<PolicyNumber>AU-00010005</PolicyNumber>
+			<AgentNumber>Lorrine-001</AgentNumber>
+			<PolicyType>Auto-1</PolicyType>
+			<PaymentPlan>6 months installment</PaymentPlan>
+			<Status>Active</Status>
+			<EffectiveDate>05/04/2012</EffectiveDate>
+			<ExpiryDate>04/04/2013</ExpiryDate>
+			<InsuredInfo>
+				<InsuredId>Ins-01</InsuredId>
+				<InsuredTypeCd>Primary</InsuredTypeCd>
+				<FirstName>Hamilton</FirstName>
+				<LastName>Woods</LastName>
+				<HomePhone>201-233-2222</HomePhone>
+				<CellPhone>201-233-2222</CellPhone>
+				<Email>hamilton.woods@gmail.com</Email>
+				<AddressInfo>
+					<AddressId>Addr-1</AddressId>
+					<AddressTypeCd>MailingAddr</AddressTypeCd>
+					<AddressLine1>Apt 61</AddressLine1>
+					<AddressLine2>1800 Stokes St,</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.961960</Lat>
+					<Long>37.422153</Long>
+				</AddressInfo>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>Billing Address</AddressTypeCd>
+					<AddressLine1>Apt 61</AddressLine1>
+					<AddressLine2>1800 Stokes St,</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.961960</Lat>
+					<Long>37.422153</Long>
+				</AddressInfo>
+			</InsuredInfo>
+			<InsuredInfo>
+				<InsuredId>Ins-02</InsuredId>
+				<InsuredTypeCd>Secondary</InsuredTypeCd>
+				<FirstName>Dianne</FirstName>
+				<LastName>Hamilton</LastName>
+				<HomePhone>201-233-2222</HomePhone>
+				<CellPhone>201-233-2222</CellPhone>
+				<Email>dianne.hamilton@gmail.com</Email>
+			</InsuredInfo>
+			<LossHistoryInfo>
+				<LossHistoryId>LH-1</LossHistoryId>
+				<LossHistoryNumber>LH00345454</LossHistoryNumber>
+				<ClaimNumber>CL-032225653</ClaimNumber>
+				<StatusCd>Closed</StatusCd>
+				<SourceCd>PPLS</SourceCd>
+				<LossDt>01/21/2010</LossDt>
+				<LossCauseCd>Collision</LossCauseCd>
+				<LossAmount>1580</LossAmount>
+				<LossDescription>Back end collision, Rear light Broken during the accident
+				</LossDescription>
+				<PaidAmount>1300</PaidAmount>
+				<Comment>This Claim was raised after 10 days from the Loss date, and it was settled on 03/15/2010.</Comment>
+				<CarrierName>OKFB</CarrierName>
+			</LossHistoryInfo>
+			<LossHistoryInfo>
+				<LossHistoryId>LH-2</LossHistoryId>
+				<LossHistoryNumber>LH034541345</LossHistoryNumber>
+				<ClaimNumber>CL-0345541223</ClaimNumber>
+				<StatusCd>Closed</StatusCd>
+				<SourceCd>MMHC</SourceCd>
+				<LossDt>03/21/2012</LossDt>
+				<LossCauseCd>Collision</LossCauseCd>
+				<LossAmount>16570</LossAmount>
+				<LossDescription>The driver was at fault, Drunk and drove the car.
+				</LossDescription>
+				<PaidAmount>0</PaidAmount>
+				<Comment>This claim was closed and no money was settled as the driver was drunk</Comment>
+				<CarrierName>MMIC</CarrierName>
+			</LossHistoryInfo>
+			<VehicleInfo>
+				<VehicleId>V-004</VehicleId>
+				<Make>Toyota Corolla</Make>
+				<ModelYear>2010</ModelYear>
+				<Model>3.5 SL 4dr Sedan</Model>
+				<VIN>WAUBEAFMCKLOIUYTR</VIN>
+				<VehicleLicenseNo>SSDFSDWSXC</VehicleLicenseNo>
+				<BodyStyle>Wagon Four-Door</BodyStyle>
+				<PerformanceCode>Standard</PerformanceCode>
+				<EngineType>Turbo Engine</EngineType>
+				<EngineSize>2.0</EngineSize>
+				<EngineHorsePower>200</EngineHorsePower>
+				<Restraints>Driver and Front Passenger Front, Side, Head and Rear Head Airbags</Restraints>
+				<HasAntiTheftDevice>Yes</HasAntiTheftDevice>
+				<VehicleUse>Pleasure</VehicleUse>
+				<OwnedBy>Scott Turner</OwnedBy>
+				<EstimatedMileage>6999</EstimatedMileage>
+				<RegistrationStartDt>01/21/2012</RegistrationStartDt>
+				<RegistrationEndDt>01/21/2013</RegistrationEndDt>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>GarrageAddr</AddressTypeCd>
+					<AddressLine1>Apt 120</AddressLine1>
+					<AddressLine2>1200 Southwest Expressway</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.927048</Lat>
+					<Long>37.408188</Long>
+				</AddressInfo>
+			</VehicleInfo>
+			<VehicleInfo>
+				<VehicleId>V-005</VehicleId>
+				<Make>Nissan Altima</Make>
+				<ModelYear>2008</ModelYear>
+				<Model>3.5 SL 4dr Sedan</Model>
+				<VIN>WAUBEAFMCKLOIUYTR</VIN>
+				<VehicleLicenseNo>SSDFSDWSXC</VehicleLicenseNo>
+				<BodyStyle>Wagon Four-Door</BodyStyle>
+				<PerformanceCode>Standard</PerformanceCode>
+				<EngineType>Turbo Engine</EngineType>
+				<EngineSize>2.0</EngineSize>
+				<EngineHorsePower>200</EngineHorsePower>
+				<Restraints>Driver and Front Passenger Front, Side, Head and Rear Head Airbags</Restraints>
+				<HasAntiTheftDevice>Yes</HasAntiTheftDevice>
+				<VehicleUse>Pleasure</VehicleUse>
+				<OwnedBy>Mary Scott</OwnedBy>
+				<EstimatedMileage>6999</EstimatedMileage>
+				<RegistrationStartDt>01/21/2012</RegistrationStartDt>
+				<RegistrationEndDt>01/21/2013</RegistrationEndDt>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>GarrageAddr</AddressTypeCd>
+					<AddressLine1>Apt 120</AddressLine1>
+					<AddressLine2>1200 Southwest Expressway</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.927048</Lat>
+					<Long>37.408188</Long>
+				</AddressInfo>
+			</VehicleInfo>
+			<CoverageInfo>
+				<CoverageId>COV-001</CoverageId>
+				<CoverageDescription>Bodily injury coverage, also called BI, is a type of insurance coverage that pays for bodily injury to people who are not specifically covered on the insurance policy
+				</CoverageDescription>
+				<CoverageType>Auto Liability Coverage</CoverageType>
+				<CoverageName>Bodily Injury Liability</CoverageName>
+				<CoverageLimit>10000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-002</CoverageId>
+				<CoverageDescription>Ccovers damaged property, and may include loss of use
+				</CoverageDescription>
+				<CoverageType>Auto Liability Coverage</CoverageType>
+				<CoverageName>Property Damage Liability</CoverageName>
+				<CoverageLimit>20000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-003</CoverageId>
+				<CoverageDescription>This auto insurance coverage pays the reasonable and necessary medical expenses for covered persons for treatment due to an auto accident.
+				</CoverageDescription>
+				<CoverageType>Personal Injury Protection</CoverageType>
+				<CoverageName>Personal Injury Protection</CoverageName>
+				<CoverageLimit>2000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-004</CoverageId>
+				<CoverageDescription>This auto insurance coverage is available in most states. It pays reasonable and necessary medical and funeral expenses for covered persons when those expenses are related to an auto accident.
+				</CoverageDescription>
+				<CoverageType>Medical Payments</CoverageType>
+				<CoverageName>Medical Payment</CoverageName>
+				<CoverageLimit>5000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-005</CoverageId>
+				<CoverageDescription>This auto insurance coverage helps pay for damage to a covered vehicle caused by.
+				</CoverageDescription>
+				<CoverageType>Collision</CoverageType>
+				<CoverageName>Collision</CoverageName>
+				<CoverageLimit>7500</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-006</CoverageId>
+				<CoverageDescription>This auto insurance coverage helps pay for loss of or damage to an insured vehicle, not caused by a collision or vehicle rollover.
+				</CoverageDescription>
+				<CoverageType>Comprehensive</CoverageType>
+				<CoverageName>Comprehensive</CoverageName>
+				<CoverageLimit>5000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<DriverInfo>
+				<DriverId>DR-0001</DriverId>
+				<DriverName>Hamilton Woods</DriverName>
+				<DriverLicenseNo>MED3454F</DriverLicenseNo>
+				<RelationShipToInsured>Self</RelationShipToInsured>
+				<SafeDriverDiscount>0</SafeDriverDiscount>
+				<Occupation>Software Engineer</Occupation>
+				<BirthDate>01/01/1968</BirthDate>
+				<Age>33</Age>
+				<Gender>M</Gender>
+				<Operator>Self</Operator>
+				<IsPrimaryInsured>Yes</IsPrimaryInsured>
+				<Vehicles>V-004,V-005</Vehicles>
+				<Status>Active</Status>
+				<LicenseState>CA</LicenseState>
+			</DriverInfo>
+			<DriverInfo>
+				<DriverId>DR-0002</DriverId>
+				<DriverName>Jenny Hamilton</DriverName>
+				<DriverLicenseNo>DE45234534</DriverLicenseNo>
+				<RelationShipToInsured>Wife</RelationShipToInsured>
+				<SafeDriverDiscount>0</SafeDriverDiscount>
+				<Occupation>Software Engineer</Occupation>
+				<BirthDate>01/01/1968</BirthDate>
+				<Age>33</Age>
+				<Gender>M</Gender>
+				<Operator>Self</Operator>
+				<IsPrimaryInsured>No</IsPrimaryInsured>
+				<Vehicles>V-004,V-005</Vehicles>
+				<Status>Active</Status>
+				<LicenseState>CA</LicenseState>
+			</DriverInfo>
+		</Policy>
+	</Claim>
+	<Claim>
+		<ClaimId>30005</ClaimId>
+		<ClaimNumber>CL-0083334334</ClaimNumber>
+		<AtFault>true</AtFault>
+		<LossDt>$Date9</LossDt>
+		<Status>Assigned</Status>
+		<ReportedDt>$Date1</ReportedDt>
+		<ReportedBy>Will Yen</ReportedBy>
+		<LossLocationDescription>30th St. PHL., Philadelphia, PA, United States
+		</LossLocationDescription>
+		<Comments>Accident Happened near the Albany Express avenue</Comments>
+		<Policy>
+			<PolicyNumber>AU-00010006</PolicyNumber>
+			<AgentNumber>Patricia-32</AgentNumber>
+			<PolicyType>Auto-1</PolicyType>
+			<PaymentPlan>Full Pay</PaymentPlan>
+			<Status>Active</Status>
+			<EffectiveDate>01/02/2010</EffectiveDate>
+			<ExpiryDate>01/02/2011</ExpiryDate>
+			<InsuredInfo>
+				<InsuredId>Ins-01</InsuredId>
+				<InsuredTypeCd>Primary</InsuredTypeCd>
+				<FirstName>Lisa</FirstName>
+				<LastName>Anderson</LastName>
+				<HomePhone>201-233-2222</HomePhone>
+				<CellPhone>201-233-2222</CellPhone>
+				<Email>Lisa.Anderson@gmail.com</Email>
+				<AddressInfo>
+					<AddressId>Addr-1</AddressId>
+					<AddressTypeCd>MailingAddr</AddressTypeCd>
+					<AddressLine1>Apt 61</AddressLine1>
+					<AddressLine2>1800 Stokes St,</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.961960</Lat>
+					<Long>37.422153</Long>
+				</AddressInfo>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>Billing Address</AddressTypeCd>
+					<AddressLine1>Apt 61</AddressLine1>
+					<AddressLine2>1800 Stokes St,</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.961960</Lat>
+					<Long>37.422153</Long>
+				</AddressInfo>
+			</InsuredInfo>
+			<LossHistoryInfo>
+				<LossHistoryId>LH-1</LossHistoryId>
+				<LossHistoryNumber>LH00345454</LossHistoryNumber>
+				<ClaimNumber>CL-032225653</ClaimNumber>
+				<StatusCd>Closed</StatusCd>
+				<SourceCd>PPLS</SourceCd>
+				<LossDt>01/21/2010</LossDt>
+				<LossCauseCd>Collision</LossCauseCd>
+				<LossAmount>1580</LossAmount>
+				<LossDescription>Back end collision, Rear light Broken during the accident
+				</LossDescription>
+				<PaidAmount>1300</PaidAmount>
+				<Comment>This Claim was raised after 10 days from the Loss date, and it was settled on 03/15/2010.</Comment>
+				<CarrierName>OKFB</CarrierName>
+			</LossHistoryInfo>
+			<LossHistoryInfo>
+				<LossHistoryId>LH-2</LossHistoryId>
+				<LossHistoryNumber>LH034541345</LossHistoryNumber>
+				<ClaimNumber>CL-0345541223</ClaimNumber>
+				<StatusCd>Closed</StatusCd>
+				<SourceCd>MMHC</SourceCd>
+				<LossDt>03/21/2012</LossDt>
+				<LossCauseCd>Collision</LossCauseCd>
+				<LossAmount>16570</LossAmount>
+				<LossDescription>The driver was at fault, Drunk and drove the car.
+				</LossDescription>
+				<PaidAmount>0</PaidAmount>
+				<Comment>This claim was closed and no money was settled as the driver was drunk</Comment>
+				<CarrierName>MMIC</CarrierName>
+			</LossHistoryInfo>
+			<VehicleInfo>
+				<VehicleId>V-007</VehicleId>
+				<Make>Toyota Corolla</Make>
+				<ModelYear>2010</ModelYear>
+				<Model>3.5 SL 4dr Sedan</Model>
+				<VIN>WAUBEAFMCKLOIUYTR</VIN>
+				<VehicleLicenseNo>SSDFSDWSXC</VehicleLicenseNo>
+				<BodyStyle>Wagon Four-Door</BodyStyle>
+				<PerformanceCode>Standard</PerformanceCode>
+				<EngineType>Turbo Engine</EngineType>
+				<EngineSize>2.0</EngineSize>
+				<EngineHorsePower>200</EngineHorsePower>
+				<Restraints>Driver and Front Passenger Front, Side, Head and Rear Head Airbags</Restraints>
+				<HasAntiTheftDevice>Yes</HasAntiTheftDevice>
+				<VehicleUse>Pleasure</VehicleUse>
+				<OwnedBy>Scott Turner</OwnedBy>
+				<EstimatedMileage>6999</EstimatedMileage>
+				<RegistrationStartDt>01/21/2012</RegistrationStartDt>
+				<RegistrationEndDt>01/21/2013</RegistrationEndDt>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>GarrageAddr</AddressTypeCd>
+					<AddressLine1>Apt 120</AddressLine1>
+					<AddressLine2>1200 Southwest Expressway</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.927048</Lat>
+					<Long>37.408188</Long>
+				</AddressInfo>
+			</VehicleInfo>
+			<VehicleInfo>
+				<VehicleId>V-008</VehicleId>
+				<Make>Nissan Altima</Make>
+				<ModelYear>2008</ModelYear>
+				<Model>3.5 SL 4dr Sedan</Model>
+				<VIN>WAUBEAFMCKLOIUYTR</VIN>
+				<VehicleLicenseNo>SSDFSDWSXC</VehicleLicenseNo>
+				<BodyStyle>Wagon Four-Door</BodyStyle>
+				<PerformanceCode>Standard</PerformanceCode>
+				<EngineType>Turbo Engine</EngineType>
+				<EngineSize>2.0</EngineSize>
+				<EngineHorsePower>200</EngineHorsePower>
+				<Restraints>Driver and Front Passenger Front, Side, Head and Rear Head Airbags</Restraints>
+				<HasAntiTheftDevice>Yes</HasAntiTheftDevice>
+				<VehicleUse>Pleasure</VehicleUse>
+				<OwnedBy>Mary Scott</OwnedBy>
+				<EstimatedMileage>6999</EstimatedMileage>
+				<RegistrationStartDt>01/21/2012</RegistrationStartDt>
+				<RegistrationEndDt>01/21/2013</RegistrationEndDt>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>GarrageAddr</AddressTypeCd>
+					<AddressLine1>Apt 120</AddressLine1>
+					<AddressLine2>1200 Southwest Expressway</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.927048</Lat>
+					<Long>37.408188</Long>
+				</AddressInfo>
+			</VehicleInfo>
+			<CoverageInfo>
+				<CoverageId>COV-001</CoverageId>
+				<CoverageDescription>Bodily injury coverage, also called BI, is a type of insurance coverage that pays for bodily injury to people who are not specifically covered on the insurance policy
+				</CoverageDescription>
+				<CoverageType>Auto Liability Coverage</CoverageType>
+				<CoverageName>Bodily Injury Liability</CoverageName>
+				<CoverageLimit>10000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-002</CoverageId>
+				<CoverageDescription>Ccovers damaged property, and may include loss of use
+				</CoverageDescription>
+				<CoverageType>Auto Liability Coverage</CoverageType>
+				<CoverageName>Property Damage Liability</CoverageName>
+				<CoverageLimit>20000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-003</CoverageId>
+				<CoverageDescription>This auto insurance coverage pays the reasonable and necessary medical expenses for covered persons for treatment due to an auto accident.
+				</CoverageDescription>
+				<CoverageType>Personal Injury Protection</CoverageType>
+				<CoverageName>Personal Injury Protection</CoverageName>
+				<CoverageLimit>2000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-004</CoverageId>
+				<CoverageDescription>This auto insurance coverage is available in most states. It pays reasonable and necessary medical and funeral expenses for covered persons when those expenses are related to an auto accident.
+				</CoverageDescription>
+				<CoverageType>Medical Payments</CoverageType>
+				<CoverageName>Medical Payment</CoverageName>
+				<CoverageLimit>5000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-005</CoverageId>
+				<CoverageDescription>This auto insurance coverage helps pay for damage to a covered vehicle caused by.
+				</CoverageDescription>
+				<CoverageType>Collision</CoverageType>
+				<CoverageName>Collision</CoverageName>
+				<CoverageLimit>7500</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-006</CoverageId>
+				<CoverageDescription>This auto insurance coverage helps pay for loss of or damage to an insured vehicle, not caused by a collision or vehicle rollover.
+				</CoverageDescription>
+				<CoverageType>Comprehensive</CoverageType>
+				<CoverageName>Comprehensive</CoverageName>
+				<CoverageLimit>5000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<DriverInfo>
+				<DriverId>DR-0001</DriverId>
+				<DriverName>Lisa Anderson</DriverName>
+				<DriverLicenseNo>M33D3454F</DriverLicenseNo>
+				<RelationShipToInsured>Self</RelationShipToInsured>
+				<SafeDriverDiscount>0</SafeDriverDiscount>
+				<Occupation>Agricultraist</Occupation>
+				<BirthDate>01/01/1968</BirthDate>
+				<Age>54</Age>
+				<Gender>M</Gender>
+				<Operator>Self</Operator>
+				<IsPrimaryInsured>Yes</IsPrimaryInsured>
+				<Vehicles>V-007,V-008</Vehicles>
+				<Status>Active</Status>
+				<LicenseState>CA</LicenseState>
+			</DriverInfo>
+		</Policy>
+	</Claim>
+	<Claim>
+		<ClaimId>30006</ClaimId>
+		<ClaimNumber>CL-0083453334</ClaimNumber>
+		<AtFault>true</AtFault>
+		<LossDt>$Date6</LossDt>
+		<Status>Assigned</Status>
+		<ReportedDt>$Date2</ReportedDt>
+		<ReportedBy>Baker Gonzalez</ReportedBy>
+		<LossLocationDescription>132nd Street, New York, NY, United States
+		</LossLocationDescription>
+		<Comments>Accident Happened near the Albany Express avenue</Comments>
+		<Policy>
+			<PolicyNumber>AU-00010007</PolicyNumber>
+			<AgentNumber>Andy-23</AgentNumber>
+			<PolicyType>Auto-1</PolicyType>
+			<PaymentPlan>Full Pay</PaymentPlan>
+			<Status>Active</Status>
+			<EffectiveDate>01/02/2010</EffectiveDate>
+			<ExpiryDate>01/02/2011</ExpiryDate>
+			<InsuredInfo>
+				<InsuredId>Ins-01</InsuredId>
+				<InsuredTypeCd>Primary</InsuredTypeCd>
+				<FirstName>Baker</FirstName>
+				<LastName>Gonzalez</LastName>
+				<HomePhone>201-233-2222</HomePhone>
+				<CellPhone>201-233-2222</CellPhone>
+				<Email>Baker.Gonzalez@gmail.com</Email>
+				<AddressInfo>
+					<AddressId>Addr-1</AddressId>
+					<AddressTypeCd>MailingAddr</AddressTypeCd>
+					<AddressLine1>Apt 61</AddressLine1>
+					<AddressLine2>1800 Stokes St,</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.961960</Lat>
+					<Long>37.422153</Long>
+				</AddressInfo>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>Billing Address</AddressTypeCd>
+					<AddressLine1>Apt 61</AddressLine1>
+					<AddressLine2>1800 Stokes St,</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.961960</Lat>
+					<Long>37.422153</Long>
+				</AddressInfo>
+			</InsuredInfo>
+			<LossHistoryInfo>
+				<LossHistoryId>LH-1</LossHistoryId>
+				<LossHistoryNumber>LH00345454</LossHistoryNumber>
+				<ClaimNumber>CL-032225653</ClaimNumber>
+				<StatusCd>Closed</StatusCd>
+				<SourceCd>PPLS</SourceCd>
+				<LossDt>01/21/2010</LossDt>
+				<LossCauseCd>Collision</LossCauseCd>
+				<LossAmount>1580</LossAmount>
+				<LossDescription>Back end collision, Rear light Broken during the accident
+				</LossDescription>
+				<PaidAmount>1300</PaidAmount>
+				<Comment>This Claim was raised after 10 days from the Loss date, and it was settled on 03/15/2010.</Comment>
+				<CarrierName>OKFB</CarrierName>
+			</LossHistoryInfo>
+			<LossHistoryInfo>
+				<LossHistoryId>LH-2</LossHistoryId>
+				<LossHistoryNumber>LH034541345</LossHistoryNumber>
+				<ClaimNumber>CL-0345541223</ClaimNumber>
+				<StatusCd>Closed</StatusCd>
+				<SourceCd>MMHC</SourceCd>
+				<LossDt>03/21/2012</LossDt>
+				<LossCauseCd>Collision</LossCauseCd>
+				<LossAmount>16570</LossAmount>
+				<LossDescription>The driver was at fault, Drunk and drove the car.
+				</LossDescription>
+				<PaidAmount>0</PaidAmount>
+				<Comment>This claim was closed and no money was settled as the driver was drunk</Comment>
+				<CarrierName>MMIC</CarrierName>
+			</LossHistoryInfo>
+			<VehicleInfo>
+				<VehicleId>V-009</VehicleId>
+				<Make>Toyota Corolla</Make>
+				<ModelYear>2010</ModelYear>
+				<Model>3.5 SL 4dr Sedan</Model>
+				<VIN>WAUBEAFMCKLOIUYTR</VIN>
+				<VehicleLicenseNo>SSDFSDWSXC</VehicleLicenseNo>
+				<BodyStyle>Wagon Four-Door</BodyStyle>
+				<PerformanceCode>Standard</PerformanceCode>
+				<EngineType>Turbo Engine</EngineType>
+				<EngineSize>2.0</EngineSize>
+				<EngineHorsePower>200</EngineHorsePower>
+				<Restraints>Driver and Front Passenger Front, Side, Head and Rear Head Airbags</Restraints>
+				<HasAntiTheftDevice>Yes</HasAntiTheftDevice>
+				<VehicleUse>Pleasure</VehicleUse>
+				<OwnedBy>Scott Turner</OwnedBy>
+				<EstimatedMileage>6999</EstimatedMileage>
+				<RegistrationStartDt>01/21/2012</RegistrationStartDt>
+				<RegistrationEndDt>01/21/2013</RegistrationEndDt>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>GarrageAddr</AddressTypeCd>
+					<AddressLine1>Apt 120</AddressLine1>
+					<AddressLine2>1200 Southwest Expressway</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.927048</Lat>
+					<Long>37.408188</Long>
+				</AddressInfo>
+			</VehicleInfo>
+			<VehicleInfo>
+				<VehicleId>V-010</VehicleId>
+				<Make>Nissan Altima</Make>
+				<ModelYear>2008</ModelYear>
+				<Model>3.5 SL 4dr Sedan</Model>
+				<VIN>WAUBEAFMCKLOIUYTR</VIN>
+				<VehicleLicenseNo>SSDFSDWSXC</VehicleLicenseNo>
+				<BodyStyle>Wagon Four-Door</BodyStyle>
+				<PerformanceCode>Standard</PerformanceCode>
+				<EngineType>Turbo Engine</EngineType>
+				<EngineSize>2.0</EngineSize>
+				<EngineHorsePower>200</EngineHorsePower>
+				<Restraints>Driver and Front Passenger Front, Side, Head and Rear Head Airbags</Restraints>
+				<HasAntiTheftDevice>Yes</HasAntiTheftDevice>
+				<VehicleUse>Pleasure</VehicleUse>
+				<OwnedBy>Mary Scott</OwnedBy>
+				<EstimatedMileage>6999</EstimatedMileage>
+				<RegistrationStartDt>01/21/2012</RegistrationStartDt>
+				<RegistrationEndDt>01/21/2013</RegistrationEndDt>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>GarrageAddr</AddressTypeCd>
+					<AddressLine1>Apt 120</AddressLine1>
+					<AddressLine2>1200 Southwest Expressway</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.927048</Lat>
+					<Long>37.408188</Long>
+				</AddressInfo>
+			</VehicleInfo>
+			<CoverageInfo>
+				<CoverageId>COV-001</CoverageId>
+				<CoverageDescription>Bodily injury coverage, also called BI, is a type of insurance coverage that pays for bodily injury to people who are not specifically covered on the insurance policy
+				</CoverageDescription>
+				<CoverageType>Auto Liability Coverage</CoverageType>
+				<CoverageName>Bodily Injury Liability</CoverageName>
+				<CoverageLimit>10000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-002</CoverageId>
+				<CoverageDescription>Ccovers damaged property, and may include loss of use
+				</CoverageDescription>
+				<CoverageType>Auto Liability Coverage</CoverageType>
+				<CoverageName>Property Damage Liability</CoverageName>
+				<CoverageLimit>20000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-003</CoverageId>
+				<CoverageDescription>This auto insurance coverage pays the reasonable and necessary medical expenses for covered persons for treatment due to an auto accident.
+				</CoverageDescription>
+				<CoverageType>Personal Injury Protection</CoverageType>
+				<CoverageName>Personal Injury Protection</CoverageName>
+				<CoverageLimit>2000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-004</CoverageId>
+				<CoverageDescription>This auto insurance coverage is available in most states. It pays reasonable and necessary medical and funeral expenses for covered persons when those expenses are related to an auto accident.
+				</CoverageDescription>
+				<CoverageType>Medical Payments</CoverageType>
+				<CoverageName>Medical Payment</CoverageName>
+				<CoverageLimit>5000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-005</CoverageId>
+				<CoverageDescription>This auto insurance coverage helps pay for damage to a covered vehicle caused by.
+				</CoverageDescription>
+				<CoverageType>Collision</CoverageType>
+				<CoverageName>Collision</CoverageName>
+				<CoverageLimit>7500</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-006</CoverageId>
+				<CoverageDescription>This auto insurance coverage helps pay for loss of or damage to an insured vehicle, not caused by a collision or vehicle rollover.
+				</CoverageDescription>
+				<CoverageType>Comprehensive</CoverageType>
+				<CoverageName>Comprehensive</CoverageName>
+				<CoverageLimit>5000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<DriverInfo>
+				<DriverId>DR-0001</DriverId>
+				<DriverName>Baker Gonzalez</DriverName>
+				<DriverLicenseNo>M3333454F</DriverLicenseNo>
+				<RelationShipToInsured>Self</RelationShipToInsured>
+				<SafeDriverDiscount>0</SafeDriverDiscount>
+				<Occupation>Agricultraist</Occupation>
+				<BirthDate>01/01/1968</BirthDate>
+				<Age>54</Age>
+				<Gender>M</Gender>
+				<Operator>Self</Operator>
+				<IsPrimaryInsured>Yes</IsPrimaryInsured>
+				<Vehicles>V-009,V-010</Vehicles>
+				<Status>Active</Status>
+				<LicenseState>CA</LicenseState>
+			</DriverInfo>
+		</Policy>
+	</Claim>
+	<Claim>
+		<ClaimId>30007</ClaimId>
+		<ClaimNumber>CL-00225664</ClaimNumber>
+		<AtFault>false</AtFault>
+		<LossDt>$Date10</LossDt>
+		<Status>Assigned</Status>
+		<ReportedDt>$Date2</ReportedDt>
+		<ReportedBy>Hernandez Wright</ReportedBy>
+		<LossLocationDescription>156th Avenue Southeast, Bellevue, WA, United States
+		</LossLocationDescription>
+		<Comments>Accident Happened near the Southwest avenue</Comments>
+		<Policy>
+			<PolicyNumber>AU-00010008</PolicyNumber>
+			<AgentNumber>Andy-23</AgentNumber>
+			<PolicyType>Auto-1</PolicyType>
+			<PaymentPlan>Full Pay</PaymentPlan>
+			<Status>Active</Status>
+			<EffectiveDate>01/02/2012</EffectiveDate>
+			<ExpiryDate>01/02/2013</ExpiryDate>
+			<InsuredInfo>
+				<InsuredId>Ins-01</InsuredId>
+				<InsuredTypeCd>Primary</InsuredTypeCd>
+				<FirstName>Hernandez</FirstName>
+				<LastName>Wright</LastName>
+				<HomePhone>201-233-2222</HomePhone>
+				<CellPhone>201-233-2222</CellPhone>
+				<Email>Hernandez.Wright@gmail.com</Email>
+				<AddressInfo>
+					<AddressId>Addr-1</AddressId>
+					<AddressTypeCd>MailingAddr</AddressTypeCd>
+					<AddressLine1>Apt 61</AddressLine1>
+					<AddressLine2>1800 Stokes St,</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.961960</Lat>
+					<Long>37.422153</Long>
+				</AddressInfo>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>Billing Address</AddressTypeCd>
+					<AddressLine1>Apt 61</AddressLine1>
+					<AddressLine2>1800 Stokes St,</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.961960</Lat>
+					<Long>37.422153</Long>
+				</AddressInfo>
+			</InsuredInfo>
+			<LossHistoryInfo>
+				<LossHistoryId>LH-1</LossHistoryId>
+				<LossHistoryNumber>LH00345454</LossHistoryNumber>
+				<ClaimNumber>CL-032225653</ClaimNumber>
+				<StatusCd>Closed</StatusCd>
+				<SourceCd>PPLS</SourceCd>
+				<LossDt>01/21/2010</LossDt>
+				<LossCauseCd>Collision</LossCauseCd>
+				<LossAmount>1580</LossAmount>
+				<LossDescription>Back end collision, Rear light Broken during the accident
+				</LossDescription>
+				<PaidAmount>1300</PaidAmount>
+				<Comment>This Claim was raised after 10 days from the Loss date, and it was settled on 03/15/2010.</Comment>
+				<CarrierName>OKFB</CarrierName>
+			</LossHistoryInfo>
+			<LossHistoryInfo>
+				<LossHistoryId>LH-2</LossHistoryId>
+				<LossHistoryNumber>LH034541345</LossHistoryNumber>
+				<ClaimNumber>CL-0345541223</ClaimNumber>
+				<StatusCd>Closed</StatusCd>
+				<SourceCd>MMHC</SourceCd>
+				<LossDt>03/21/2012</LossDt>
+				<LossCauseCd>Collision</LossCauseCd>
+				<LossAmount>16570</LossAmount>
+				<LossDescription>The driver was at fault, Drunk and drove the car.
+				</LossDescription>
+				<PaidAmount>0</PaidAmount>
+				<Comment>This claim was closed and no money was settled as the driver was drunk</Comment>
+				<CarrierName>MMIC</CarrierName>
+			</LossHistoryInfo>
+			<VehicleInfo>
+				<VehicleId>V-011</VehicleId>
+				<Make>Toyota Corolla</Make>
+				<ModelYear>2010</ModelYear>
+				<Model>3.5 SL 4dr Sedan</Model>
+				<VIN>WAUBEAFMCKLOIUYTR</VIN>
+				<VehicleLicenseNo>SSDFSDWSXC</VehicleLicenseNo>
+				<BodyStyle>Wagon Four-Door</BodyStyle>
+				<PerformanceCode>Standard</PerformanceCode>
+				<EngineType>Turbo Engine</EngineType>
+				<EngineSize>2.0</EngineSize>
+				<EngineHorsePower>200</EngineHorsePower>
+				<Restraints>Driver and Front Passenger Front, Side, Head and Rear Head Airbags</Restraints>
+				<HasAntiTheftDevice>Yes</HasAntiTheftDevice>
+				<VehicleUse>Pleasure</VehicleUse>
+				<OwnedBy>Scott Turner</OwnedBy>
+				<EstimatedMileage>6999</EstimatedMileage>
+				<RegistrationStartDt>01/21/2012</RegistrationStartDt>
+				<RegistrationEndDt>01/21/2013</RegistrationEndDt>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>GarrageAddr</AddressTypeCd>
+					<AddressLine1>Apt 120</AddressLine1>
+					<AddressLine2>1200 Southwest Expressway</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.927048</Lat>
+					<Long>37.408188</Long>
+				</AddressInfo>
+			</VehicleInfo>
+			<VehicleInfo>
+				<VehicleId>V-012</VehicleId>
+				<Make>Nissan Altima</Make>
+				<ModelYear>2008</ModelYear>
+				<Model>3.5 SL 4dr Sedan</Model>
+				<VIN>WAUBEAFMCKLOIUYTR</VIN>
+				<VehicleLicenseNo>SSDFSDWSXC</VehicleLicenseNo>
+				<BodyStyle>Wagon Four-Door</BodyStyle>
+				<PerformanceCode>Standard</PerformanceCode>
+				<EngineType>Turbo Engine</EngineType>
+				<EngineSize>2.0</EngineSize>
+				<EngineHorsePower>200</EngineHorsePower>
+				<Restraints>Driver and Front Passenger Front, Side, Head and Rear Head Airbags</Restraints>
+				<HasAntiTheftDevice>Yes</HasAntiTheftDevice>
+				<VehicleUse>Pleasure</VehicleUse>
+				<OwnedBy>Mary Scott</OwnedBy>
+				<EstimatedMileage>6999</EstimatedMileage>
+				<RegistrationStartDt>01/21/2012</RegistrationStartDt>
+				<RegistrationEndDt>01/21/2013</RegistrationEndDt>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>GarrageAddr</AddressTypeCd>
+					<AddressLine1>Apt 120</AddressLine1>
+					<AddressLine2>1200 Southwest Expressway</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.927048</Lat>
+					<Long>37.408188</Long>
+				</AddressInfo>
+			</VehicleInfo>
+			<CoverageInfo>
+				<CoverageId>COV-001</CoverageId>
+				<CoverageDescription>Bodily injury coverage, also called BI, is a type of insurance coverage that pays for bodily injury to people who are not specifically covered on the insurance policy
+				</CoverageDescription>
+				<CoverageType>Auto Liability Coverage</CoverageType>
+				<CoverageName>Bodily Injury Liability</CoverageName>
+				<CoverageLimit>10000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-002</CoverageId>
+				<CoverageDescription>Ccovers damaged property, and may include loss of use
+				</CoverageDescription>
+				<CoverageType>Auto Liability Coverage</CoverageType>
+				<CoverageName>Property Damage Liability</CoverageName>
+				<CoverageLimit>20000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-003</CoverageId>
+				<CoverageDescription>This auto insurance coverage pays the reasonable and necessary medical expenses for covered persons for treatment due to an auto accident.
+				</CoverageDescription>
+				<CoverageType>Personal Injury Protection</CoverageType>
+				<CoverageName>Personal Injury Protection</CoverageName>
+				<CoverageLimit>2000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-004</CoverageId>
+				<CoverageDescription>This auto insurance coverage is available in most states. It pays reasonable and necessary medical and funeral expenses for covered persons when those expenses are related to an auto accident.
+				</CoverageDescription>
+				<CoverageType>Medical Payments</CoverageType>
+				<CoverageName>Medical Payment</CoverageName>
+				<CoverageLimit>5000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-005</CoverageId>
+				<CoverageDescription>This auto insurance coverage helps pay for damage to a covered vehicle caused by.
+				</CoverageDescription>
+				<CoverageType>Collision</CoverageType>
+				<CoverageName>Collision</CoverageName>
+				<CoverageLimit>7500</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-006</CoverageId>
+				<CoverageDescription>This auto insurance coverage helps pay for loss of or damage to an insured vehicle, not caused by a collision or vehicle rollover.
+				</CoverageDescription>
+				<CoverageType>Comprehensive</CoverageType>
+				<CoverageName>Comprehensive</CoverageName>
+				<CoverageLimit>5000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<DriverInfo>
+				<DriverId>DR-0001</DriverId>
+				<DriverName>Hernandez Wright</DriverName>
+				<DriverLicenseNo>M333444F</DriverLicenseNo>
+				<RelationShipToInsured>Self</RelationShipToInsured>
+				<SafeDriverDiscount>0</SafeDriverDiscount>
+				<Occupation>Agricultraist</Occupation>
+				<BirthDate>01/01/1968</BirthDate>
+				<Age>54</Age>
+				<Gender>M</Gender>
+				<Operator>Self</Operator>
+				<IsPrimaryInsured>Yes</IsPrimaryInsured>
+				<Vehicles>V-011,V-012</Vehicles>
+				<Status>Active</Status>
+				<LicenseState>CA</LicenseState>
+			</DriverInfo>
+		</Policy>
+	</Claim>
+	<Claim>
+		<ClaimId>30008</ClaimId>
+		<ClaimNumber>CL-005225664</ClaimNumber>
+		<AtFault>false</AtFault>
+		<LossDt>$Date9</LossDt>
+		<Status>Assigned</Status>
+		<ReportedDt>$Date3</ReportedDt>
+		<ReportedBy>Campbell Evans</ReportedBy>
+		<LossLocationDescription>178th Street, Artesia, CA, United States
+		</LossLocationDescription>
+		<Comments>Accident Happened near the Southwest avenue</Comments>
+		<Policy>
+			<PolicyNumber>AU-00010009</PolicyNumber>
+			<AgentNumber>Andy-23</AgentNumber>
+			<PolicyType>Auto-1</PolicyType>
+			<PaymentPlan>Full Pay</PaymentPlan>
+			<Status>Active</Status>
+			<EffectiveDate>01/02/2012</EffectiveDate>
+			<ExpiryDate>01/02/2013</ExpiryDate>
+			<InsuredInfo>
+				<InsuredId>Ins-01</InsuredId>
+				<InsuredTypeCd>Primary</InsuredTypeCd>
+				<FirstName>Campbell</FirstName>
+				<LastName>Evans</LastName>
+				<HomePhone>201-233-2222</HomePhone>
+				<CellPhone>201-233-2222</CellPhone>
+				<Email>campbell.evans@gmail.com</Email>
+				<AddressInfo>
+					<AddressId>Addr-1</AddressId>
+					<AddressTypeCd>MailingAddr</AddressTypeCd>
+					<AddressLine1>Apt 61</AddressLine1>
+					<AddressLine2>1800 Stokes St,</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.961960</Lat>
+					<Long>37.422153</Long>
+				</AddressInfo>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>Billing Address</AddressTypeCd>
+					<AddressLine1>Apt 61</AddressLine1>
+					<AddressLine2>1800 Stokes St,</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.961960</Lat>
+					<Long>37.422153</Long>
+				</AddressInfo>
+			</InsuredInfo>
+			<LossHistoryInfo>
+				<LossHistoryId>LH-1</LossHistoryId>
+				<LossHistoryNumber>LH00345454</LossHistoryNumber>
+				<ClaimNumber>CL-032225653</ClaimNumber>
+				<StatusCd>Closed</StatusCd>
+				<SourceCd>PPLS</SourceCd>
+				<LossDt>01/21/2010</LossDt>
+				<LossCauseCd>Collision</LossCauseCd>
+				<LossAmount>1580</LossAmount>
+				<LossDescription>Back end collision, Rear light Broken during the accident
+				</LossDescription>
+				<PaidAmount>1300</PaidAmount>
+				<Comment>This Claim was raised after 10 days from the Loss date, and it was settled on 03/15/2010.</Comment>
+				<CarrierName>OKFB</CarrierName>
+			</LossHistoryInfo>
+			<LossHistoryInfo>
+				<LossHistoryId>LH-2</LossHistoryId>
+				<LossHistoryNumber>LH034541345</LossHistoryNumber>
+				<ClaimNumber>CL-0345541223</ClaimNumber>
+				<StatusCd>Closed</StatusCd>
+				<SourceCd>MMHC</SourceCd>
+				<LossDt>03/21/2012</LossDt>
+				<LossCauseCd>Collision</LossCauseCd>
+				<LossAmount>16570</LossAmount>
+				<LossDescription>The driver was at fault, Drunk and drove the car.
+				</LossDescription>
+				<PaidAmount>0</PaidAmount>
+				<Comment>This claim was closed and no money was settled as the driver was drunk</Comment>
+				<CarrierName>MMIC</CarrierName>
+			</LossHistoryInfo>
+			<VehicleInfo>
+				<VehicleId>V-013</VehicleId>
+				<Make>Toyota Corolla</Make>
+				<ModelYear>2010</ModelYear>
+				<Model>3.5 SL 4dr Sedan</Model>
+				<VIN>WAUBEAFMCKLOIUYTR</VIN>
+				<VehicleLicenseNo>SSDFSDWSXC</VehicleLicenseNo>
+				<BodyStyle>Wagon Four-Door</BodyStyle>
+				<PerformanceCode>Standard</PerformanceCode>
+				<EngineType>Turbo Engine</EngineType>
+				<EngineSize>2.0</EngineSize>
+				<EngineHorsePower>200</EngineHorsePower>
+				<Restraints>Driver and Front Passenger Front, Side, Head and Rear Head Airbags</Restraints>
+				<HasAntiTheftDevice>Yes</HasAntiTheftDevice>
+				<VehicleUse>Pleasure</VehicleUse>
+				<OwnedBy>Scott Turner</OwnedBy>
+				<EstimatedMileage>6999</EstimatedMileage>
+				<RegistrationStartDt>01/21/2012</RegistrationStartDt>
+				<RegistrationEndDt>01/21/2013</RegistrationEndDt>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>GarrageAddr</AddressTypeCd>
+					<AddressLine1>Apt 120</AddressLine1>
+					<AddressLine2>1200 Southwest Expressway</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.927048</Lat>
+					<Long>37.408188</Long>
+				</AddressInfo>
+			</VehicleInfo>
+			<VehicleInfo>
+				<VehicleId>V-014</VehicleId>
+				<Make>Nissan Altima</Make>
+				<ModelYear>2008</ModelYear>
+				<Model>3.5 SL 4dr Sedan</Model>
+				<VIN>WAUBEAFMCKLOIUYTR</VIN>
+				<VehicleLicenseNo>SSDFSDWSXC</VehicleLicenseNo>
+				<BodyStyle>Wagon Four-Door</BodyStyle>
+				<PerformanceCode>Standard</PerformanceCode>
+				<EngineType>Turbo Engine</EngineType>
+				<EngineSize>2.0</EngineSize>
+				<EngineHorsePower>200</EngineHorsePower>
+				<Restraints>Driver and Front Passenger Front, Side, Head and Rear Head Airbags</Restraints>
+				<HasAntiTheftDevice>Yes</HasAntiTheftDevice>
+				<VehicleUse>Pleasure</VehicleUse>
+				<OwnedBy>Mary Scott</OwnedBy>
+				<EstimatedMileage>6999</EstimatedMileage>
+				<RegistrationStartDt>01/21/2012</RegistrationStartDt>
+				<RegistrationEndDt>01/21/2013</RegistrationEndDt>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>GarrageAddr</AddressTypeCd>
+					<AddressLine1>Apt 120</AddressLine1>
+					<AddressLine2>1200 Southwest Expressway</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.927048</Lat>
+					<Long>37.408188</Long>
+				</AddressInfo>
+			</VehicleInfo>
+			<CoverageInfo>
+				<CoverageId>COV-001</CoverageId>
+				<CoverageDescription>Bodily injury coverage, also called BI, is a type of insurance coverage that pays for bodily injury to people who are not specifically covered on the insurance policy
+				</CoverageDescription>
+				<CoverageType>Auto Liability Coverage</CoverageType>
+				<CoverageName>Bodily Injury Liability</CoverageName>
+				<CoverageLimit>10000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-002</CoverageId>
+				<CoverageDescription>Ccovers damaged property, and may include loss of use
+				</CoverageDescription>
+				<CoverageType>Auto Liability Coverage</CoverageType>
+				<CoverageName>Property Damage Liability</CoverageName>
+				<CoverageLimit>20000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-003</CoverageId>
+				<CoverageDescription>This auto insurance coverage pays the reasonable and necessary medical expenses for covered persons for treatment due to an auto accident.
+				</CoverageDescription>
+				<CoverageType>Personal Injury Protection</CoverageType>
+				<CoverageName>Personal Injury Protection</CoverageName>
+				<CoverageLimit>2000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-004</CoverageId>
+				<CoverageDescription>This auto insurance coverage is available in most states. It pays reasonable and necessary medical and funeral expenses for covered persons when those expenses are related to an auto accident.
+				</CoverageDescription>
+				<CoverageType>Medical Payments</CoverageType>
+				<CoverageName>Medical Payment</CoverageName>
+				<CoverageLimit>5000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-005</CoverageId>
+				<CoverageDescription>This auto insurance coverage helps pay for damage to a covered vehicle caused by.
+				</CoverageDescription>
+				<CoverageType>Collision</CoverageType>
+				<CoverageName>Collision</CoverageName>
+				<CoverageLimit>7500</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-006</CoverageId>
+				<CoverageDescription>This auto insurance coverage helps pay for loss of or damage to an insured vehicle, not caused by a collision or vehicle rollover.
+				</CoverageDescription>
+				<CoverageType>Comprehensive</CoverageType>
+				<CoverageName>Comprehensive</CoverageName>
+				<CoverageLimit>5000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<DriverInfo>
+				<DriverId>DR-0001</DriverId>
+				<DriverName>Campbell Evans</DriverName>
+				<DriverLicenseNo>M333444F</DriverLicenseNo>
+				<RelationShipToInsured>Self</RelationShipToInsured>
+				<SafeDriverDiscount>0</SafeDriverDiscount>
+				<Occupation>Agricultraist</Occupation>
+				<BirthDate>01/01/1968</BirthDate>
+				<Age>54</Age>
+				<Gender>M</Gender>
+				<Operator>Self</Operator>
+				<IsPrimaryInsured>Yes</IsPrimaryInsured>
+				<Vehicles>V-013,V-014</Vehicles>
+				<Status>Active</Status>
+				<LicenseState>CA</LicenseState>
+			</DriverInfo>
+		</Policy>
+	</Claim>
+	<Claim>
+		<ClaimId>30009</ClaimId>
+		<ClaimNumber>CL-0765208921</ClaimNumber>
+		<AtFault>false</AtFault>
+		<LossDt>$Date10</LossDt>
+		<Status>Assigned</Status>
+		<ReportedDt>$Date4</ReportedDt>
+		<ReportedBy>Rivera Cooper</ReportedBy>
+		<LossLocationDescription>5851 Beach Dr.Long Beach, CA 90815
+		</LossLocationDescription>
+		<Comments>Accident Happened near the Southwest avenue</Comments>
+		<Policy>
+			<PolicyNumber>AU-000100010</PolicyNumber>
+			<AgentNumber>Andy-23</AgentNumber>
+			<PolicyType>Auto-1</PolicyType>
+			<PaymentPlan>Full Pay</PaymentPlan>
+			<Status>Active</Status>
+			<EffectiveDate>01/02/2012</EffectiveDate>
+			<ExpiryDate>01/02/2013</ExpiryDate>
+			<InsuredInfo>
+				<InsuredId>Ins-01</InsuredId>
+				<InsuredTypeCd>Primary</InsuredTypeCd>
+				<FirstName>Rivera</FirstName>
+				<LastName>Cooper</LastName>
+				<HomePhone>201-233-2222</HomePhone>
+				<CellPhone>201-233-2222</CellPhone>
+				<Email>rivera.cooper@gmail.com</Email>
+				<AddressInfo>
+					<AddressId>Addr-1</AddressId>
+					<AddressTypeCd>MailingAddr</AddressTypeCd>
+					<AddressLine1>Apt 61</AddressLine1>
+					<AddressLine2>1800 Stokes St,</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.961960</Lat>
+					<Long>37.422153</Long>
+				</AddressInfo>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>Billing Address</AddressTypeCd>
+					<AddressLine1>Apt 61</AddressLine1>
+					<AddressLine2>1800 Stokes St,</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.961960</Lat>
+					<Long>37.422153</Long>
+				</AddressInfo>
+			</InsuredInfo>
+			<LossHistoryInfo>
+				<LossHistoryId>LH-1</LossHistoryId>
+				<LossHistoryNumber>LH00345454</LossHistoryNumber>
+				<ClaimNumber>CL-032225653</ClaimNumber>
+				<StatusCd>Closed</StatusCd>
+				<SourceCd>PPLS</SourceCd>
+				<LossDt>01/21/2010</LossDt>
+				<LossCauseCd>Collision</LossCauseCd>
+				<LossAmount>1580</LossAmount>
+				<LossDescription>Back end collision, Rear light Broken during the accident
+				</LossDescription>
+				<PaidAmount>1300</PaidAmount>
+				<Comment>This Claim was raised after 10 days from the Loss date, and it was settled on 03/15/2010.</Comment>
+				<CarrierName>OKFB</CarrierName>
+			</LossHistoryInfo>
+			<LossHistoryInfo>
+				<LossHistoryId>LH-2</LossHistoryId>
+				<LossHistoryNumber>LH034541345</LossHistoryNumber>
+				<ClaimNumber>CL-0345541223</ClaimNumber>
+				<StatusCd>Closed</StatusCd>
+				<SourceCd>MMHC</SourceCd>
+				<LossDt>03/21/2012</LossDt>
+				<LossCauseCd>Collision</LossCauseCd>
+				<LossAmount>16570</LossAmount>
+				<LossDescription>The driver was at fault, Drunk and drove the car.
+				</LossDescription>
+				<PaidAmount>0</PaidAmount>
+				<Comment>This claim was closed and no money was settled as the driver was drunk</Comment>
+				<CarrierName>MMIC</CarrierName>
+			</LossHistoryInfo>
+			<VehicleInfo>
+				<VehicleId>V-015</VehicleId>
+				<Make>Toyota Corolla</Make>
+				<ModelYear>2010</ModelYear>
+				<Model>3.5 SL 4dr Sedan</Model>
+				<VIN>WAUBEAFMCKLOIUYTR</VIN>
+				<VehicleLicenseNo>SSDFSDWSXC</VehicleLicenseNo>
+				<BodyStyle>Wagon Four-Door</BodyStyle>
+				<PerformanceCode>Standard</PerformanceCode>
+				<EngineType>Turbo Engine</EngineType>
+				<EngineSize>2.0</EngineSize>
+				<EngineHorsePower>200</EngineHorsePower>
+				<Restraints>Driver and Front Passenger Front, Side, Head and Rear Head Airbags</Restraints>
+				<HasAntiTheftDevice>Yes</HasAntiTheftDevice>
+				<VehicleUse>Pleasure</VehicleUse>
+				<OwnedBy>Scott Turner</OwnedBy>
+				<EstimatedMileage>6999</EstimatedMileage>
+				<RegistrationStartDt>01/21/2012</RegistrationStartDt>
+				<RegistrationEndDt>01/21/2013</RegistrationEndDt>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>GarrageAddr</AddressTypeCd>
+					<AddressLine1>Apt 120</AddressLine1>
+					<AddressLine2>1200 Southwest Expressway</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.927048</Lat>
+					<Long>37.408188</Long>
+				</AddressInfo>
+			</VehicleInfo>
+			<VehicleInfo>
+				<VehicleId>V-016</VehicleId>
+				<Make>Nissan Altima</Make>
+				<ModelYear>2008</ModelYear>
+				<Model>3.5 SL 4dr Sedan</Model>
+				<VIN>WAUBEAFMCKLOIUYTR</VIN>
+				<VehicleLicenseNo>SSDFSDWSXC</VehicleLicenseNo>
+				<BodyStyle>Wagon Four-Door</BodyStyle>
+				<PerformanceCode>Standard</PerformanceCode>
+				<EngineType>Turbo Engine</EngineType>
+				<EngineSize>2.0</EngineSize>
+				<EngineHorsePower>200</EngineHorsePower>
+				<Restraints>Driver and Front Passenger Front, Side, Head and Rear Head Airbags</Restraints>
+				<HasAntiTheftDevice>Yes</HasAntiTheftDevice>
+				<VehicleUse>Pleasure</VehicleUse>
+				<OwnedBy>Mary Scott</OwnedBy>
+				<EstimatedMileage>6999</EstimatedMileage>
+				<RegistrationStartDt>01/21/2012</RegistrationStartDt>
+				<RegistrationEndDt>01/21/2013</RegistrationEndDt>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>GarrageAddr</AddressTypeCd>
+					<AddressLine1>Apt 120</AddressLine1>
+					<AddressLine2>1200 Southwest Expressway</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.927048</Lat>
+					<Long>37.408188</Long>
+				</AddressInfo>
+			</VehicleInfo>
+			<CoverageInfo>
+				<CoverageId>COV-001</CoverageId>
+				<CoverageDescription>Bodily injury coverage, also called BI, is a type of insurance coverage that pays for bodily injury to people who are not specifically covered on the insurance policy
+				</CoverageDescription>
+				<CoverageType>Auto Liability Coverage</CoverageType>
+				<CoverageName>Bodily Injury Liability</CoverageName>
+				<CoverageLimit>10000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-002</CoverageId>
+				<CoverageDescription>Ccovers damaged property, and may include loss of use
+				</CoverageDescription>
+				<CoverageType>Auto Liability Coverage</CoverageType>
+				<CoverageName>Property Damage Liability</CoverageName>
+				<CoverageLimit>20000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-003</CoverageId>
+				<CoverageDescription>This auto insurance coverage pays the reasonable and necessary medical expenses for covered persons for treatment due to an auto accident.
+				</CoverageDescription>
+				<CoverageType>Personal Injury Protection</CoverageType>
+				<CoverageName>Personal Injury Protection</CoverageName>
+				<CoverageLimit>2000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-004</CoverageId>
+				<CoverageDescription>This auto insurance coverage is available in most states. It pays reasonable and necessary medical and funeral expenses for covered persons when those expenses are related to an auto accident.
+				</CoverageDescription>
+				<CoverageType>Medical Payments</CoverageType>
+				<CoverageName>Medical Payment</CoverageName>
+				<CoverageLimit>5000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-005</CoverageId>
+				<CoverageDescription>This auto insurance coverage helps pay for damage to a covered vehicle caused by.
+				</CoverageDescription>
+				<CoverageType>Collision</CoverageType>
+				<CoverageName>Collision</CoverageName>
+				<CoverageLimit>7500</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-006</CoverageId>
+				<CoverageDescription>This auto insurance coverage helps pay for loss of or damage to an insured vehicle, not caused by a collision or vehicle rollover.
+				</CoverageDescription>
+				<CoverageType>Comprehensive</CoverageType>
+				<CoverageName>Comprehensive</CoverageName>
+				<CoverageLimit>5000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<DriverInfo>
+				<DriverId>DR-0001</DriverId>
+				<DriverName>Rivera Cooper</DriverName>
+				<DriverLicenseNo>M333444F</DriverLicenseNo>
+				<RelationShipToInsured>Self</RelationShipToInsured>
+				<SafeDriverDiscount>0</SafeDriverDiscount>
+				<Occupation>Agricultraist</Occupation>
+				<BirthDate>01/01/1968</BirthDate>
+				<Age>54</Age>
+				<Gender>M</Gender>
+				<Operator>Self</Operator>
+				<IsPrimaryInsured>Yes</IsPrimaryInsured>
+				<Vehicles>V-015,V-016</Vehicles>
+				<Status>Active</Status>
+				<LicenseState>CA</LicenseState>
+			</DriverInfo>
+		</Policy>
+	</Claim>
+	<Claim>
+		<ClaimId>30010</ClaimId>
+		<ClaimNumber>CL-342784591</ClaimNumber>
+		<AtFault>false</AtFault>
+		<LossDt>$Date7</LossDt>
+		<Status>Assigned</Status>
+		<ReportedDt>$Date2</ReportedDt>
+		<ReportedBy>Richardson Cox</ReportedBy>
+		<LossLocationDescription>1951 Holmby Avenue, Los Angeles, California
+		</LossLocationDescription>
+		<Comments>Accident Happened near the Southwest avenue</Comments>
+		<Policy>
+			<PolicyNumber>AU-000100011</PolicyNumber>
+			<AgentNumber>Andy-23</AgentNumber>
+			<PolicyType>Auto-1</PolicyType>
+			<PaymentPlan>Full Pay</PaymentPlan>
+			<Status>Active</Status>
+			<EffectiveDate>01/02/2012</EffectiveDate>
+			<ExpiryDate>01/02/2013</ExpiryDate>
+			<InsuredInfo>
+				<InsuredId>Ins-01</InsuredId>
+				<InsuredTypeCd>Primary</InsuredTypeCd>
+				<FirstName>Richardson</FirstName>
+				<LastName>Cox</LastName>
+				<HomePhone>201-233-2222</HomePhone>
+				<CellPhone>201-233-2222</CellPhone>
+				<Email>Richardson.Cox@gmail.com</Email>
+				<AddressInfo>
+					<AddressId>Addr-1</AddressId>
+					<AddressTypeCd>MailingAddr</AddressTypeCd>
+					<AddressLine1>Apt 61</AddressLine1>
+					<AddressLine2>1800 Stokes St,</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.961960</Lat>
+					<Long>37.422153</Long>
+				</AddressInfo>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>Billing Address</AddressTypeCd>
+					<AddressLine1>Apt 61</AddressLine1>
+					<AddressLine2>1800 Stokes St,</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.961960</Lat>
+					<Long>37.422153</Long>
+				</AddressInfo>
+			</InsuredInfo>
+			<LossHistoryInfo>
+				<LossHistoryId>LH-1</LossHistoryId>
+				<LossHistoryNumber>LH00345454</LossHistoryNumber>
+				<ClaimNumber>CL-032225653</ClaimNumber>
+				<StatusCd>Closed</StatusCd>
+				<SourceCd>PPLS</SourceCd>
+				<LossDt>01/21/2010</LossDt>
+				<LossCauseCd>Collision</LossCauseCd>
+				<LossAmount>1580</LossAmount>
+				<LossDescription>Back end collision, Rear light Broken during the accident
+				</LossDescription>
+				<PaidAmount>1300</PaidAmount>
+				<Comment>This Claim was raised after 10 days from the Loss date, and it was settled on 03/15/2010.</Comment>
+				<CarrierName>OKFB</CarrierName>
+			</LossHistoryInfo>
+			<LossHistoryInfo>
+				<LossHistoryId>LH-2</LossHistoryId>
+				<LossHistoryNumber>LH034541345</LossHistoryNumber>
+				<ClaimNumber>CL-0345541223</ClaimNumber>
+				<StatusCd>Closed</StatusCd>
+				<SourceCd>MMHC</SourceCd>
+				<LossDt>03/21/2012</LossDt>
+				<LossCauseCd>Collision</LossCauseCd>
+				<LossAmount>16570</LossAmount>
+				<LossDescription>The driver was at fault, Drunk and drove the car.
+				</LossDescription>
+				<PaidAmount>0</PaidAmount>
+				<Comment>This claim was closed and no money was settled as the driver was drunk</Comment>
+				<CarrierName>MMIC</CarrierName>
+			</LossHistoryInfo>
+			<VehicleInfo>
+				<VehicleId>V-017</VehicleId>
+				<Make>Toyota Corolla</Make>
+				<ModelYear>2010</ModelYear>
+				<Model>3.5 SL 4dr Sedan</Model>
+				<VIN>WAUBEAFMCKLOIUYTR</VIN>
+				<VehicleLicenseNo>SSDFSDWSXC</VehicleLicenseNo>
+				<BodyStyle>Wagon Four-Door</BodyStyle>
+				<PerformanceCode>Standard</PerformanceCode>
+				<EngineType>Turbo Engine</EngineType>
+				<EngineSize>2.0</EngineSize>
+				<EngineHorsePower>200</EngineHorsePower>
+				<Restraints>Driver and Front Passenger Front, Side, Head and Rear Head Airbags</Restraints>
+				<HasAntiTheftDevice>Yes</HasAntiTheftDevice>
+				<VehicleUse>Pleasure</VehicleUse>
+				<OwnedBy>Scott Turner</OwnedBy>
+				<EstimatedMileage>6999</EstimatedMileage>
+				<RegistrationStartDt>01/21/2012</RegistrationStartDt>
+				<RegistrationEndDt>01/21/2013</RegistrationEndDt>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>GarrageAddr</AddressTypeCd>
+					<AddressLine1>Apt 120</AddressLine1>
+					<AddressLine2>1200 Southwest Expressway</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.927048</Lat>
+					<Long>37.408188</Long>
+				</AddressInfo>
+			</VehicleInfo>
+			<VehicleInfo>
+				<VehicleId>V-018</VehicleId>
+				<Make>Nissan Altima</Make>
+				<ModelYear>2008</ModelYear>
+				<Model>3.5 SL 4dr Sedan</Model>
+				<VIN>WAUBEAFMCKLOIUYTR</VIN>
+				<VehicleLicenseNo>SSDFSDWSXC</VehicleLicenseNo>
+				<BodyStyle>Wagon Four-Door</BodyStyle>
+				<PerformanceCode>Standard</PerformanceCode>
+				<EngineType>Turbo Engine</EngineType>
+				<EngineSize>2.0</EngineSize>
+				<EngineHorsePower>200</EngineHorsePower>
+				<Restraints>Driver and Front Passenger Front, Side, Head and Rear Head Airbags</Restraints>
+				<HasAntiTheftDevice>Yes</HasAntiTheftDevice>
+				<VehicleUse>Pleasure</VehicleUse>
+				<OwnedBy>Mary Scott</OwnedBy>
+				<EstimatedMileage>6999</EstimatedMileage>
+				<RegistrationStartDt>01/21/2012</RegistrationStartDt>
+				<RegistrationEndDt>01/21/2013</RegistrationEndDt>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>GarrageAddr</AddressTypeCd>
+					<AddressLine1>Apt 120</AddressLine1>
+					<AddressLine2>1200 Southwest Expressway</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.927048</Lat>
+					<Long>37.408188</Long>
+				</AddressInfo>
+			</VehicleInfo>
+			<CoverageInfo>
+				<CoverageId>COV-001</CoverageId>
+				<CoverageDescription>Bodily injury coverage, also called BI, is a type of insurance coverage that pays for bodily injury to people who are not specifically covered on the insurance policy
+				</CoverageDescription>
+				<CoverageType>Auto Liability Coverage</CoverageType>
+				<CoverageName>Bodily Injury Liability</CoverageName>
+				<CoverageLimit>10000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-002</CoverageId>
+				<CoverageDescription>Ccovers damaged property, and may include loss of use
+				</CoverageDescription>
+				<CoverageType>Auto Liability Coverage</CoverageType>
+				<CoverageName>Property Damage Liability</CoverageName>
+				<CoverageLimit>20000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-003</CoverageId>
+				<CoverageDescription>This auto insurance coverage pays the reasonable and necessary medical expenses for covered persons for treatment due to an auto accident.
+				</CoverageDescription>
+				<CoverageType>Personal Injury Protection</CoverageType>
+				<CoverageName>Personal Injury Protection</CoverageName>
+				<CoverageLimit>2000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-004</CoverageId>
+				<CoverageDescription>This auto insurance coverage is available in most states. It pays reasonable and necessary medical and funeral expenses for covered persons when those expenses are related to an auto accident.
+				</CoverageDescription>
+				<CoverageType>Medical Payments</CoverageType>
+				<CoverageName>Medical Payment</CoverageName>
+				<CoverageLimit>5000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-005</CoverageId>
+				<CoverageDescription>This auto insurance coverage helps pay for damage to a covered vehicle caused by.
+				</CoverageDescription>
+				<CoverageType>Collision</CoverageType>
+				<CoverageName>Collision</CoverageName>
+				<CoverageLimit>7500</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-006</CoverageId>
+				<CoverageDescription>This auto insurance coverage helps pay for loss of or damage to an insured vehicle, not caused by a collision or vehicle rollover.
+				</CoverageDescription>
+				<CoverageType>Comprehensive</CoverageType>
+				<CoverageName>Comprehensive</CoverageName>
+				<CoverageLimit>5000</CoverageLimit>
+				<Status>Active</Status>
+			</CoverageInfo>
+			<DriverInfo>
+				<DriverId>DR-0001</DriverId>
+				<DriverName>Richardson Cox</DriverName>
+				<DriverLicenseNo>M333444F</DriverLicenseNo>
+				<RelationShipToInsured>Self</RelationShipToInsured>
+				<SafeDriverDiscount>0</SafeDriverDiscount>
+				<Occupation>Agricultraist</Occupation>
+				<BirthDate>01/01/1968</BirthDate>
+				<Age>54</Age>
+				<Gender>M</Gender>
+				<Operator>Self</Operator>
+				<IsPrimaryInsured>Yes</IsPrimaryInsured>
+				<Vehicles>V-017,V-018</Vehicles>
+				<Status>Active</Status>
+				<LicenseState>CA</LicenseState>
+			</DriverInfo>
+		</Policy>
+	</Claim>
+</GetClaimsListResponse>

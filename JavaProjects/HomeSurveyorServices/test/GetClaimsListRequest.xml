@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<GetClaimsListRequest>
+	<AuthenticationRequest>
+		<AccountId>iTCG</AccountId>
+		<UserId>cts</UserId>
+		<Password>123</Password>
+	</AuthenticationRequest>
+	<Status>Active</Status>
+	<!-- <ClaimSearchList>
+		<ClaimNumber>CL-0000124</ClaimNumber>
+	</ClaimSearchList> -->
+</GetClaimsListRequest>

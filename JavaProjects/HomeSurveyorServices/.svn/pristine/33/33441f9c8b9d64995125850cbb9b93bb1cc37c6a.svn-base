@@ -1,0 +1,89 @@
+/**
+ *
+ */
+package com.cts.homesurveyor.servlet;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import javax.sql.DataSource;
+
+/**
+ *
+ *
+ */
+//public class Dbconnector {	
+//
+//	String DATABASE_NAME = "jdbc:db2:DEMO";	
+//	Connection connection = null;
+//		
+//	public Connection getConnection() throws Exception{
+//		
+//		try {
+//			if (connection == null) {
+//				
+//				Context initContext = new InitialContext();
+//				Context envContext = (Context) initContext.lookup("java:/comp/env");
+//				DataSource ds = (DataSource) envContext.lookup("jdbc/DEMO");
+//				connection = ds.getConnection();
+//				//connection = DriverManager.getConnection(DATABASE_NAME);
+//				connection.setAutoCommit(true);
+//			}
+//		} catch (SQLException se) {		
+//			se.printStackTrace();
+//			throw se;
+//		} catch (Exception e) {			
+//			throw e;
+//		}
+//		return connection;
+//	}	
+//
+//	
+//	public void closeConnection() {
+//		try {
+//			if (connection != null) {
+//				connection.close();
+//			}
+//		} catch (SQLException e) {
+//			e.printStackTrace();
+//		}
+//	}
+//
+//}
+public class Dbconnector {
+
+    Connection connection = null;
+
+    public Connection getConnection() throws Exception {
+
+        try {
+            if (connection == null) {
+
+                Context initContext = new InitialContext();
+                Context envContext = (Context) initContext.lookup("java:/comp/env");
+                DataSource ds = (DataSource) envContext.lookup("jdbc/inextdb");
+                connection = ds.getConnection();
+                //connection = DriverManager.getConnection(DATABASE_NAME);
+                connection.setAutoCommit(true);
+            }
+        } catch (SQLException se) {
+            se.printStackTrace();
+            throw se;
+        } catch (Exception e) {
+            throw e;
+        }
+        return connection;
+    }
+
+    public void closeConnection() {
+        try {
+            if (connection != null) {
+                connection.close();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+}

@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<GetClaimsListResponse>
+	<Error />
+	<Claim>
+		<ClaimId>101</ClaimId>
+		<ClaimNumber>CL-000000124</ClaimNumber>
+		<AtFault>true</AtFault>
+		<LossDt>01/02/2013</LossDt>
+		<ReportedDt>01/06/2013</ReportedDt>
+		<ReportedBy>Jeya Balaji</ReportedBy>
+		<LossLocationDescription>Near the Trichy Bypass road in chennai
+		</LossLocationDescription>
+		<Comments>This Claim was reported last year, Please work on this ASAP</Comments>
+		<SurveyorId>SID-56735</SurveyorId>
+		<InsuredDamageEstimateAmount></InsuredDamageEstimateAmount>
+		<InsuredDamageEstimateDays></InsuredDamageEstimateDays>
+		<VehicleId>V-001</VehicleId>
+		<DriverId>DR-0001</DriverId>
+		<Policy>
+			<PolicyNumber>DW-0002221</PolicyNumber>
+			<AgentNumber>ANDREA-001</AgentNumber>
+			<PolicyType>Auto-1</PolicyType>
+			<PaymentPlan>5 months installment</PaymentPlan>
+			<Status>Active</Status>
+			<EffectiveDate>01/02/2010</EffectiveDate>
+			<ExpiryDate>01/02/2011</ExpiryDate>
+			<InsuredInfo>
+				<InsuredId>Ins-01</InsuredId>
+				<InsuredTypeCd>Primary</InsuredTypeCd>
+				<FirstName>Jeya</FirstName>
+				<LastName>Balaji</LastName>
+				<HomePhone>201-233-2222</HomePhone>
+				<CellPhone>201-233-2222</CellPhone>
+				<Email>jeyabalaji@gmail.com</Email>
+				<AddressInfo>
+					<AddressId>Addr-1</AddressId>
+					<AddressTypeCd>MailingAddr</AddressTypeCd>
+					<AddressLine1>1800 Stokes St, Apt 61</AddressLine1>
+					<AddressLine2>Address line 2</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.961960</Lat>
+					<Long>37.422153</Long>
+				</AddressInfo>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>Billing Address</AddressTypeCd>
+					<AddressLine1>1800 Stokes St, Apt 61</AddressLine1>
+					<AddressLine2>Address line 2</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.961960</Lat>
+					<Long>37.422153</Long>
+				</AddressInfo>
+			</InsuredInfo>
+			<InsuredInfo>
+				<InsuredId>Ins-02</InsuredId>
+				<InsuredTypeCd>Secondary</InsuredTypeCd>
+				<FirstName>Ayyanar</FirstName>
+				<LastName>Inbamohan</LastName>
+				<HomePhone>201-233-2222</HomePhone>
+				<CellPhone>201-233-2222</CellPhone>
+				<Email>inr.mohan@gmail.com</Email>
+				<AddressInfo>
+					<AddressId>Addr-1</AddressId>
+					<AddressTypeCd>MailingAddr</AddressTypeCd>
+					<AddressLine1>1800 Stokes St, Apt 61</AddressLine1>
+					<AddressLine2>Address line 2</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.961960</Lat>
+					<Long>37.422153</Long>
+				</AddressInfo>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>Billing Address</AddressTypeCd>
+					<AddressLine1>1800 Stokes St, Apt 61</AddressLine1>
+					<AddressLine2>Address line 2</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.961960</Lat>
+					<Long>37.422153</Long>
+				</AddressInfo>
+			</InsuredInfo>
+			<LossHistoryInfo>
+				<LossHistoryId>LH-1</LossHistoryId>
+				<LossHistoryNumber>LH000001</LossHistoryNumber>
+				<ClaimNumber>CL-000001223</ClaimNumber>
+				<StatusCd>Closed</StatusCd>
+				<SourceCd>PPLS</SourceCd>
+				<LossDt>01/21/2010</LossDt>
+				<LossCauseCd>Collision</LossCauseCd>
+				<LossAmount>1580</LossAmount>
+				<LossDescription>Back end Collission, Rear light Broken
+				</LossDescription>
+				<PaidAmount>1300</PaidAmount>
+				<Comment>This Claim was raised after 10 days from the Loss</Comment>
+				<CarrierName>OKFB</CarrierName>
+			</LossHistoryInfo>
+			<LossHistoryInfo>
+				<LossHistoryId>LH-2</LossHistoryId>
+				<LossHistoryNumber>LH000001</LossHistoryNumber>
+				<ClaimNumber>CL-000001223</ClaimNumber>
+				<StatusCd>Closed</StatusCd>
+				<SourceCd>PPLS</SourceCd>
+				<LossDt>01/21/2010</LossDt>
+				<LossCauseCd>Collision</LossCauseCd>
+				<LossAmount>1580</LossAmount>
+				<LossDescription>Back end Collission, Rear light Broken
+				</LossDescription>
+				<PaidAmount>1300</PaidAmount>
+				<Comment>This Claim was raised after 10 days from the Loss</Comment>
+				<CarrierName>OKFB</CarrierName>
+			</LossHistoryInfo>
+			<VehicleInfo>
+				<VehicleId>V-001</VehicleId>
+				<Make>AUDI</Make>
+				<ModelYear>2012</ModelYear>
+				<Model>A3 2.0T PREMIUM</Model>
+				<VIN>WAUBEAFMCKLOIUYTR</VIN>
+				<VehicleLicenseNo>SSDFSDWSXC</VehicleLicenseNo>
+				<BodyStyle>Wagon Four-Door</BodyStyle>
+				<PerformanceCode>Standard</PerformanceCode>
+				<EngineType>Turbo Engine</EngineType>
+				<EngineSize>2.0</EngineSize>
+				<EngineHorsePower>200</EngineHorsePower>
+				<Restraints>Driver and Front Passenger Front, Side, Head and Rear
+					Head Airbags</Restraints>
+				<HasAntiTheftDevice>Yes</HasAntiTheftDevice>
+				<VehicleUse>Pleasure</VehicleUse>
+				<OwnedBy>Jonathan</OwnedBy>
+				<EstimatedMileage>6999</EstimatedMileage>
+				<RegistrationStartDt>01/21/2012</RegistrationStartDt>
+				<RegistrationEndDt>01/21/2013</RegistrationEndDt>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>GarrageAddr</AddressTypeCd>
+					<AddressLine1>1200 Southwest Expressway</AddressLine1>
+					<AddressLine2>Address line 2</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.927048</Lat>
+					<Long>37.408188</Long>
+				</AddressInfo>
+			</VehicleInfo>
+			<VehicleInfo>
+				<VehicleId>V-002</VehicleId>
+				<Make>Ferrary</Make>
+				<ModelYear>2012</ModelYear>
+				<Model>A3 2.0T PREMIUM</Model>
+				<VIN>WAUBEAFMCKLOIUYTR</VIN>
+				<VehicleLicenseNo>SSDFSDWSXC</VehicleLicenseNo>
+				<BodyStyle>Wagon Four-Door</BodyStyle>
+				<PerformanceCode>Standard</PerformanceCode>
+				<EngineType>Turbo Engine</EngineType>
+				<EngineSize>2.0</EngineSize>
+				<EngineHorsePower>200</EngineHorsePower>
+				<Restraints>Driver and Front Passenger Front, Side, Head and Rear
+					Head Airbags</Restraints>
+				<HasAntiTheftDevice>Yes</HasAntiTheftDevice>
+				<VehicleUse>Pleasure</VehicleUse>
+				<OwnedBy>Jonathan</OwnedBy>
+				<EstimatedMileage>6999</EstimatedMileage>
+				<RegistrationStartDt>01/21/2012</RegistrationStartDt>
+				<RegistrationEndDt>01/21/2013</RegistrationEndDt>
+				<AddressInfo>
+					<AddressId>Addr-2</AddressId>
+					<AddressTypeCd>GarrageAddr</AddressTypeCd>
+					<AddressLine1>1200 Southwest Expressway</AddressLine1>
+					<AddressLine2>Address line 2</AddressLine2>
+					<City>SanJose</City>
+					<State>CA</State>
+					<Zip>21030</Zip>
+					<Lat>-121.927048</Lat>
+					<Long>37.408188</Long>
+				</AddressInfo>
+			</VehicleInfo>
+			<CoverageInfo>
+				<CoverageId>COV-001</CoverageId>
+				<CoverageDescription>Bodily Injury</CoverageDescription>
+				<CoverageType>coverage type</CoverageType>
+				<CoverageName>Bodily Injury</CoverageName>
+				<CoverageLimit>25000</CoverageLimit>
+				<Status>Coverage status</Status>
+			</CoverageInfo>
+			<CoverageInfo>
+				<CoverageId>COV-002</CoverageId>
+				<CoverageDescription>Bodily Injury</CoverageDescription>
+				<CoverageType>coverage type</CoverageType>
+				<CoverageName>Bodily Injury</CoverageName>
+				<CoverageLimit>25000</CoverageLimit>
+				<Status>Coverage status</Status>
+			</CoverageInfo>
+			<DriverInfo>
+				<DriverId>DR-0001</DriverId>
+				<DriverName>Alan</DriverName>
+				<DriverLicenseNo>DE45234534</DriverLicenseNo>
+				<RelationShipToInsured>Self</RelationShipToInsured>
+				<SafeDriverDiscount>0</SafeDriverDiscount>
+				<Occupation>Software Engineer</Occupation>
+				<BirthDate>01/01/1968</BirthDate>
+				<Age>33</Age>
+				<Gender>M</Gender>
+				<Operator>Self</Operator>
+				<Status>Active</Status>
+				<LicenseState>CA</LicenseState>
+			</DriverInfo>
+			<DriverInfo>
+				<DriverId>DR-0002</DriverId>
+				<DriverName>Balaji</DriverName>
+				<DriverLicenseNo>DE45234534</DriverLicenseNo>
+				<RelationShipToInsured>Self</RelationShipToInsured>
+				<SafeDriverDiscount>0</SafeDriverDiscount>
+				<Occupation>Software Engineer</Occupation>
+				<BirthDate>01/01/1968</BirthDate>
+				<Age>33</Age>
+				<Gender>M</Gender>
+				<Operator>Self</Operator>
+				<Status>Active</Status>
+				<LicenseState>CA</LicenseState>
+			</DriverInfo>
+			<DriverInfo>
+				<DriverId>DR-0003</DriverId>
+				<DriverName>Jeya</DriverName>
+				<DriverLicenseNo>DE45234534</DriverLicenseNo>
+				<RelationShipToInsured>Self</RelationShipToInsured>
+				<SafeDriverDiscount>0</SafeDriverDiscount>
+				<Occupation>Software Engineer</Occupation>
+				<BirthDate>01/01/1968</BirthDate>
+				<Age>33</Age>
+				<Gender>M</Gender>
+				<Operator>Self</Operator>
+				<Status>Active</Status>
+				<LicenseState>CA</LicenseState>
+			</DriverInfo>
+		</Policy>
+	</Claim>
+</GetClaimsListResponse>

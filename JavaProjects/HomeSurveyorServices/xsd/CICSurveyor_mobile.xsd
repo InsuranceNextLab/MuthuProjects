@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<!-- Start: Root Elements -->
+	<xsd:element name="AuthenticationRequest">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="AccountId" type="xsd:string" />
+				<xsd:element name="UserId" type="xsd:string" />
+				<xsd:element name="Password" type="xsd:string" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="AuthenticationResponse">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="IsValidUser" type="xsd:boolean" />
+				<xsd:element name="UserRole" type="xsd:string" />
+				<xsd:element ref="Authority" minOccurs="0" maxOccurs="1" />
+				<xsd:element ref="Error" minOccurs="0" maxOccurs="1" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="GetClaimsListRequest">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="AuthenticationRequest" minOccurs="1"
+					maxOccurs="1" />
+				<xsd:element ref="ClaimSearchList" minOccurs="1"
+					maxOccurs="1" />
+				<xsd:element name="Status" type="xsd:string" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="GetClaimsListResponse">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="Claim" minOccurs="0" maxOccurs="unbounded" />
+				<xsd:element ref="Error" minOccurs="0" maxOccurs="1" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<!-- End: Root Elements -->
+	<xsd:element name="Claim">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="ClaimId" type="xsd:string" />
+				<xsd:element name="SurveyorId" type="xsd:string" />
+				<xsd:element name="ClaimNumber" type="xsd:string" />
+				<xsd:element name="AtFault" type="xsd:boolean" />
+				<xsd:element name="InsuredDamageEstimate" type="xsd:decimal" />
+				<xsd:element name="LossDt" type="xsd:string" />
+				<xsd:element name="ReportedDt" type="xsd:string" />
+				<xsd:element name="ReportedBy" type="xsd:string" />
+				<xsd:element name="LossLocationDescription" type="xsd:string" />
+				<xsd:element name="Comments" type="xsd:string" />
+				<xsd:element ref="Policy" minOccurs="0" maxOccurs="1" />
+				<xsd:element ref="InjuryInfo" minOccurs="0" maxOccurs="unbounded" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Policy">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="PolicyId" type="xsd:string" />
+				<xsd:element name="PolicyNumber" type="xsd:string" />
+				<xsd:element name="EffectiveDate" type="xsd:string" />
+				<xsd:element name="ExpiryDate" type="xsd:string" />
+				<xsd:element name="AgentNumber" type="xsd:string" />
+				<xsd:element name="PolicyType" type="xsd:string" />
+				<xsd:element name="PaymentPlan" type="xsd:string" />
+				<xsd:element name="ReportedBy" type="xsd:string" />
+				<xsd:element name="Status" type="xsd:string" />
+				<xsd:element name="Comments" type="xsd:string" />
+				<xsd:element ref="InsuredInfo" minOccurs="0" maxOccurs="unbounded" />
+				<xsd:element ref="VehicleInfo" minOccurs="0" maxOccurs="unbounded" />
+				<xsd:element ref="DriverInfo" minOccurs="0" maxOccurs="unbounded" />
+				<xsd:element ref="CoverageInfo" minOccurs="0" maxOccurs="unbounded" />
+				<xsd:element ref="LossHistoryInfo" minOccurs="0"
+					maxOccurs="unbounded" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ClaimSearchList">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="ClaimNumber" type="xsd:string" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Error">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="ErrorMessage" type="xsd:string" />
+				<xsd:element name="ErrorCode" type="xsd:string" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Authority">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="PolicyViewAuthority" type="xsd:boolean" />
+				<xsd:element name="ClaimEditAuthority" type="xsd:boolean" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="AddressInfo">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="AddressId" type="xsd:string" />
+				<xsd:element name="AddressTypeCd" type="xsd:string" />
+				<xsd:element name="AddressLine1" type="xsd:string" />
+				<xsd:element name="AddressLine2" type="xsd:string" />
+				<xsd:element name="City" type="xsd:string" />
+				<xsd:element name="State" type="xsd:string" />
+				<xsd:element name="Zip" type="xsd:string" />
+				<xsd:element name="Lat" type="xsd:string" />
+				<xsd:element name="Long" type="xsd:string" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="InjuryInfo">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="InjuryId" type="xsd:string" />
+				<xsd:element name="Description" type="xsd:string" />
+				<xsd:element name="MajorTrauma" type="xsd:string" />
+				<xsd:element name="PolicyNumber" type="xsd:string" />
+				<xsd:element name="Comments" type="xsd:string" />
+				<xsd:element name="BodyParts" type="xsd:string" />
+				<xsd:element ref="AddressInfo" minOccurs="0" maxOccurs="1" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="VehicleInfo">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="VehicleId" type="xsd:string" />
+				<xsd:element name="Make" type="xsd:string" />
+				<xsd:element name="ModelYear" type="xsd:string" />
+				<xsd:element name="Model" type="xsd:string" />
+				<xsd:element name="VIN" type="xsd:string" />
+				<xsd:element name="VehicleLicenseNo" type="xsd:string" />
+				<xsd:element name="BodyStyle" type="xsd:string" />
+				<xsd:element name="PerformanceCode" type="xsd:string" />
+				<xsd:element name="EngineType" type="xsd:string" />
+				<xsd:element name="EngineSize" type="xsd:string" />
+				<xsd:element name="EngineHorsePower" type="xsd:string" />
+				<xsd:element name="Restraints" type="xsd:string" />
+				<xsd:element name="RatingSymbol" type="xsd:string" />
+				<xsd:element name="HasAntiTheftDevice" type="xsd:boolean" />
+				<xsd:element name="VehicleUse" type="xsd:string" />
+				<xsd:element name="OwnedBy" type="xsd:string" />
+				<xsd:element name="EstimatedMileage" type="xsd:string" />
+				<xsd:element name="RegistrationStartDt" type="xsd:string" />
+				<xsd:element name="RegistrationEndDt" type="xsd:string" />
+				<xsd:element ref="AddressInfo" minOccurs="0" maxOccurs="1" />
+				<xsd:element ref="CoverageInfo" minOccurs="0" maxOccurs="unbounded" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DriverInfo">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="DriverId" type="xsd:string" />
+				<xsd:element name="DriverName" type="xsd:string" />
+				<xsd:element name="DriverLicenseNo" type="xsd:string" />
+				<xsd:element name="RelationShipToInsured" type="xsd:string" />
+				<xsd:element name="SafeDriverDiscount" type="xsd:string" />
+				<xsd:element name="Occupation" type="xsd:string" />
+				<xsd:element name="BirthDate" type="xsd:string" />
+				<xsd:element name="Age" type="xsd:string" />
+				<xsd:element name="Gender" type="xsd:string" />
+				<xsd:element name="Operator" type="xsd:string" />
+				<xsd:element name="Status" type="xsd:string" />
+				<xsd:element name="LicenseState" type="xsd:string" />
+				<xsd:element ref="CoverageInfo" minOccurs="0" maxOccurs="unbounded" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="CoverageInfo">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="CoverageId" type="xsd:string" />
+				<xsd:element name="CoverageDescription" type="xsd:string" />
+				<xsd:element name="CoverageType" type="xsd:string" />
+				<xsd:element name="CoverageName" type="xsd:string" />
+				<xsd:element name="CoverageLimit" type="xsd:string" />
+				<xsd:element name="Status" type="xsd:string" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="InsuredInfo">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="InsuredId" type="xsd:string" />
+				<xsd:element name="InsuredTypeCd" type="xsd:string" />
+				<xsd:element name="FirstName" type="xsd:string" />
+				<xsd:element name="LastName" type="xsd:string" />
+				<xsd:element name="HomePhone" type="xsd:string" />
+				<xsd:element name="CellPhone" type="xsd:string" />
+				<xsd:element name="Email" type="xsd:string" />
+				<xsd:element ref="AddressInfo" minOccurs="0" maxOccurs="unbounded" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="LossHistoryInfo">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="LossHistoryId" type="xsd:string" />
+				<xsd:element name="LossHistoryNumber" type="xsd:string" />
+				<xsd:element name="ClaimNumber" type="xsd:string" />
+				<xsd:element name="StatusCd" type="xsd:string" />
+				<xsd:element name="SourceCd" type="xsd:string" />
+				<xsd:element name="LossDt" type="xsd:string" />
+				<xsd:element name="LossCauseCd" type="xsd:string" />
+				<xsd:element name="LossAmount" type="xsd:string" />
+				<xsd:element name="LossDescription" type="xsd:string" />
+				<xsd:element name="PaidAmount" type="xsd:string" />
+				<xsd:element name="Comment" type="xsd:string" />
+				<xsd:element name="CarrierName" type="xsd:string" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

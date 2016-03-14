@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<AuthenticationRequest>
+	<AccountId>iTCG</AccountId>
+	<UserId>cts</UserId>
+	<Password>123</Password>
+</AuthenticationRequest>

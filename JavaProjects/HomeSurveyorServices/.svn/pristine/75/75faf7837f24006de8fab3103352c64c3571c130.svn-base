@@ -1,0 +1,123 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.cts.homesurveyor.servlet;
+
+import com.cts.homesurveyor.delegate.ClaimsBusinessDelegate;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.StringReader;
+import java.util.HashMap;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
+import org.xml.sax.InputSource;
+
+/**
+ *
+ * @author 367025
+ */
+public class UpdateClaimDetailsServlet extends HttpServlet {
+    
+    private static final long serialVersionUID = 1L;
+    DocumentBuilder builder;
+    Document document;
+    private Java2MySql dbfunction;
+    
+    public UpdateClaimDetailsServlet() {
+        super();
+    }
+
+    // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
+    /**
+     * Handles the HTTP
+     * <code>GET</code> method.
+     *
+     * @param request servlet request
+     * @param response servlet response
+     * @throws ServletException if a servlet-specific error occurs
+     * @throws IOException if an I/O error occurs
+     */
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        doPost(request, response);
+    }
+
+    /**
+     * Handles the HTTP
+     * <code>POST</code> method.
+     *
+     * @param request servlet request
+     * @param response servlet response
+     * @throws ServletException if a servlet-specific error occurs
+     * @throws IOException if an I/O error occurs
+     */
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        System.out.print("MUTHU TEST WELCOME");
+        response.setContentType("text/xml");
+        PrintWriter out = response.getWriter();
+        dbfunction = new Java2MySql();
+        String requestXML = request.getParameter("RequestXML");
+        //String requestXML = "<?xml version='1.0' encoding='UTF-8' standalone='yes' ?><UpdateClaimRequest><Claim><ClaimId>30005</ClaimId><ClaimNumber>CL-0083334334</ClaimNumber><PolicyNo>AU-00010006</PolicyNo><LossDt>5/11/2014</LossDt><ReportedDt>5/19/2014</ReportedDt><ReportedBy>Will Yen</ReportedBy><LossLocationDescription>1800 Stokes St, Apt 61, SanJose, CA 95126</LossLocationDescription><Comments>1800 Stokes St, Apt 61, SanJose, CA 95126</Comments><Status>Assigned</Status></Claim></UpdateClaimRequest>";
+        System.out.print(requestXML);
+        try {
+            DocumentBuilderFactory domFactory = DocumentBuilderFactory.newInstance();
+            domFactory.setNamespaceAware(true);
+            builder = domFactory.newDocumentBuilder();
+            document = builder.parse(new InputSource(new StringReader(requestXML)));
+            String rootNode = document.getDocumentElement().getNodeName();
+            NodeList bookslist = document.getElementsByTagName(rootNode);
+            String claim_id = (String) ((Element) bookslist.item(0)).getElementsByTagName("ClaimId").
+                    item(0).getChildNodes().item(0).getNodeValue();
+            String Claim_number = (String) ((Element) bookslist.item(0)).getElementsByTagName("ClaimNumber").
+                    item(0).getChildNodes().item(0).getNodeValue();
+            String Policy_number = (String) ((Element) bookslist.item(0)).getElementsByTagName("PolicyNo").
+                    item(0).getChildNodes().item(0).getNodeValue();
+            String LossDt = (String) ((Element) bookslist.item(0)).getElementsByTagName("LossDt").
+                    item(0).getChildNodes().item(0).getNodeValue();
+            String ReportedDt = (String) ((Element) bookslist.item(0)).getElementsByTagName("ReportedDt").
+                    item(0).getChildNodes().item(0).getNodeValue();
+            String ReportedBy = (String) ((Element) bookslist.item(0)).getElementsByTagName("ReportedBy").
+                    item(0).getChildNodes().item(0).getNodeValue();
+            String LossLocationDescription = (String) ((Element) bookslist.item(0)).getElementsByTagName("LossLocationDescription").
+                    item(0).getChildNodes().item(0).getNodeValue();
+            String Comments = (String) ((Element) bookslist.item(0)).getElementsByTagName("Comments").
+                    item(0).getChildNodes().item(0).getNodeValue();
+            String Status = (String) ((Element) bookslist.item(0)).getElementsByTagName("Status").
+                    item(0).getChildNodes().item(0).getNodeValue();
+            
+            HashMap<String, String> updatedetails = new HashMap<String, String>();
+            updatedetails.put("ClaimId", claim_id + "");
+            updatedetails.put("claimstatus", Status);
+            updatedetails.put("LossDt", LossDt);
+            updatedetails.put("ReportedDt", ReportedDt);
+            updatedetails.put("ReportedBy", ReportedBy);
+            updatedetails.put("LossLocationDescription", LossLocationDescription);
+            updatedetails.put("Comments", "Accident Happened near the Express avenue and the car was driven to the Insured home");
+            updatedetails.put("Claim_number", Claim_number);
+            updatedetails.put("Policy_number", Policy_number);
+            int claim_last_id = dbfunction.getLastClaimId();
+            dbfunction.deleteLastRecord(claim_last_id);
+            int last_id = dbfunction.AddClaimDetails(updatedetails);
+            int policy_primaryId = dbfunction.getLastPolicyId();
+            dbfunction.UpdatePolicyId(last_id, policy_primaryId);
+            ClaimsBusinessDelegate claimsBusinessDelegate = new ClaimsBusinessDelegate();
+            String responseXML = claimsBusinessDelegate.updateClaim(requestXML);
+            out.print(responseXML);
+            out.flush();
+            out.close();
+        } catch (Exception e) {
+        }
+    }
+}
